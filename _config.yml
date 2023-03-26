@@ -84,7 +84,7 @@ author:
   avatar           : "profile.png"
   bio              : "Master Student in Data Science, currently Research Intern in Natural Language Processing"
   location         : "Nancy, France"
-  employer         : "LORIA (Laboratoire Lorrain de Recherche en Informatique et ses Applications)"
+  employer         : "LORIA"
   pubmed           : 
   googlescholar    : 
   email            :
@@ -176,16 +176,16 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
