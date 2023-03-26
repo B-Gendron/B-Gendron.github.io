@@ -22,7 +22,7 @@ My main research interests revolve around **natural language processing**. Typic
 
 ### Data science frameworks I use
 
-<img src="/images/frameworks.png" alt="frameworks" width="300"/>
+<img src="/images/frameworks.png" alt="frameworks" width="250"/>
 
 ### Tools
 
