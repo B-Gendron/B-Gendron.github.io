@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Research Intern in Natural Language Processing"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master student at the École des Mines de Nancy, currently doing a double degree at the University of Luxembourg for a Master in Data Science. I am interested in the development of machine learning models for knowledge extraction and natural language processing, as well as in the applications of Data Science in life sciences and medicine. I recently joined the SyNaLP team at LORIA (Laboratoire Lorrain de Recherche en Informatique et ses Applications) as a **NLP research intern**.  
+# NLP research intern @ [LORIA](https://www.loria.fr/en/)
+
+I am a Master student at [École des Mines de Nancy](https://mines-nancy.univ-lorraine.fr/#), currently doing a double degree at the University of Luxembourg for a [Master in Data Science](https://wwwen.uni.lu/studies/fstm/master_of_data_science/). I am interested in the development of machine learning models for knowledge extraction and natural language processing, as well as in the applications of Data Science in life sciences and medicine. I recently joined the [SyNaLP](https://synalp.gitlabpages.inria.fr/synalp-website/) team at [LORIA](https://www.loria.fr/en) (Laboratoire Lorrain de Recherche en Informatique et ses Applications) as a **NLP research intern**.  
 
 My main research interests revolve around **natural language processing**. Typically, I am currently working on:
 - understanding the language-agnostic and language-specific aspects of multilingual language models
@@ -20,7 +22,7 @@ My main research interests revolve around **natural language processing**. Typic
 
 ### Data science frameworks I use
 
-<img src="/images/frameworks.png" alt="frameworks" width="400"/>
+<img src="/images/frameworks.png" alt="frameworks" width="300"/>
 
 ### Tools
 
