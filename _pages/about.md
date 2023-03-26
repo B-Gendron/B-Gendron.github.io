@@ -1,14 +1,43 @@
 ---
 permalink: /
-title: "Reseach Intern in Natural Language Processing"
+title: "Research Intern in Natural Language Processing"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+ 
+I am a Master student at the École des Mines de Nancy, currently doing a double degree at the University of Luxembourg for a Master in Data Science. I am interested in the development of machine learning models for knowledge extraction, as well as in the applications of Data Science in life sciences and medicine. I recently joined the SyNaLP team at LORIA (Laboratoire Lorrain de Recherche en Informatique et ses Applications) as a **research intern**.  
 
-WIP.
+My main research interests at the moment revolve around **natural language processing**. Typically, I am currently working on:
+- understanding the language-agnostic and language-specific aspects of multilingual language models
+- using meta-learning methods for emotion prediction in a conversational context
+
+---
+
+### Languages 
+<img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/python/python-original.svg"/>
+<img align="left" alt="R" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg"/>
+<img align="left" alt="matlab" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/matlab/matlab-original.svg"/>
+<img align="left" alt="julia" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/julia/julia-original.svg"/>
+<img align="left" alt="Bash" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/bash/bash-original.svg" />
+ <br />
+ 
+### Data science frameworks 
+<img align="left" alt="Sklearn" width="30px" style="padding-right:10px;" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"/>
+<img align="left" alt="Tensorflow" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/tensorflow/tensorflow-original.svg"/>
+<img align="left" alt="Pytorch" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/pytorch/pytorch-original.svg"/>
+ <br />
+
+### Tools
+<img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-original.svg" />
+<img align="left" alt="Docker" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/docker/docker-original.svg" />
+<img align="left" alt="vscode" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/vscode/vscode-original.svg"/>
+<img align="left" alt="vscode" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/jupyter/jupyter-original.svg"/>
+<img align="left" alt="rstudio" width="30px" style="padding-right:10px;" src="https://www.comparasoftware.com/wp-content/uploads/2018/07/logorstudio.png"/>
+
+</p>
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 

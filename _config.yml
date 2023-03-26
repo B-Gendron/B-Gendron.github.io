@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Barbara's Homepage"
 title_separator          : "-"
 name                     : &name "Barbara Gendron"
-description              : &description "Master Student in Data Science, currently Reseach Intern @ LORIA, Nancy, France"
+description              : &description "Master Student in Data Science and NLP Research Intern"
 url                      : https://B-Gendron.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "B-Gendron/B-Gendron.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Barbara Gendron"
   avatar           : "profile.png"
-  bio              : "Master Student in Data Science, currently Research Intern in Natural Language Processing"
+  bio              : "Master Student in Data Science and NLP Research Intern"
   location         : "Nancy, France"
   employer         : "LORIA"
   pubmed           : 
