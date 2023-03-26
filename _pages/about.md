@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Master Student in Data Science, currently Reseach Intern in Natural Language Processing @ LORIA, Nancy, France"
+title: "Reseach Intern in Natural Language Processing"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
