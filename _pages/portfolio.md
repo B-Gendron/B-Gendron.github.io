@@ -3,9 +3,6 @@ layout: archive
 title: "📁 My projects"
 permalink: /portfolio/
 author_profile: true
-redirect_from: 
-  - "/portfolio/"
-  - "/portfolio.html"
 ---
 
 ## Master 1 research project in Natural Language Processing
