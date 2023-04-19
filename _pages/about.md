@@ -16,7 +16,7 @@ I am a Master student at École des Mines de Nancy, currently doing a double deg
 My main research interests revolve around **Natural Language Processing**. I am currently working on understanding the language-agnostic and language-specific aspects of multilingual language models, as the continuation of a Master 1 research project. Then, my Master Thesis focuses on using meta-learning methods for emotion prediction in a conversational context. This research internship is conduced under the supervision of [Gaël Guibon](https://gguibon.github.io/).
 
 ### Programming languages
-<table align="center" style="border-collapse: collapse; border: none;">
+<table align="center" style="border-collapse: collapse; border: none;font-size:14px">
   <tr style="border: none;">
     <td style="border: none;">
     <div style="text-align: center;">
