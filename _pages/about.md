@@ -16,16 +16,75 @@ I am a Master student at École des Mines de Nancy, currently doing a double deg
 My main research interests revolve around **Natural Language Processing**. I am currently working on understanding the language-agnostic and language-specific aspects of multilingual language models, as the continuation of a Master 1 research project. Then, my Master Thesis focuses on using meta-learning methods for emotion prediction in a conversational context. This research internship is conduced under the supervision of [Gaël Guibon](https://gguibon.github.io/).
 
 ### Programming languages
-
-<img src="/images/languages.png" alt="languages" width="400"/>
+<table align="center">
+  <tr>
+    <td>
+        <img width="50" height="50" src="https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-png-transparent.png"/>
+         <br/><p align="center">Python</p>
+    </td>
+    <td>
+        <img width="60" height="50" src="https://workingnation.com/wp-content/uploads/2018/05/R_logo.svg_.png"/>
+        <br/><p align="center"> R</p>
+    </td>
+    <td>
+        <img width="55" height="50" src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png"/>
+        <br/> <p align="center">MATLAB</p>
+    </td>
+    <td>
+        <img width="50" height="50" src="https://yt3.ggpht.com/a/AATXAJxc2yxAKTkjfbIR6OBPE58utow9Y2VqLILQvA=s900-c-k-c0xffffffff-no-rj-mo"/>
+        <br/><p align="center"> Julia</p>
+    </td>
+    <td>
+        <img width="50" height="50" src="https://img2.freepng.es/20180808/ytw/kisspng-bash-shell-script-bourne-shell-scripting-language-create-and-delete-files-and-folders-in-bash-from-5b6ab0e6d589e2.2952756215337187588747.jpg"/>
+        <br/><p align="center"> Bash</p>
+    </td>
+  </tr>
+</table>
 
 ### Data science frameworks
-
-<img src="/images/frameworks.png" alt="frameworks" width="250"/>
+<table align="center">
+  <tr>
+    <td>
+        <img width="80" height="50" src="http://amueller.github.io/sklearn_014_015_pydata/sklearn-logo.png"/>
+         <br/><p align="center">Scikit-learn</p>
+    </td>
+    <td>
+        <img width="50" height="50" src="https://miro.medium.com/v2/resize:fit:5000/1*8AaAYxLb-VOgGUW8V8JXQA.png"/>
+        <br/><p align="center"> PyTorch</p>
+    </td>
+    <td>
+        <img width="63" height="50" src="tensorflow.png"/>
+        <br/><p align="center"> Tensorflow</p>
+    </td>
+  </tr>
+</table>
 
 ### Tools
+<table align="center">
+  <tr>
+    <td>
+        <img width="50" height="50" src="https://iconape.com/wp-content/png_logo_vector/git-icon.png"/>
+         <br/><p align="center">Git</p>
+    </td>
+    <td>
+        <img width="50" height="50" src="https://iconape.com/wp-content/files/fr/370801/svg/docker-icon-logo-icon-png-svg.png"/>
+        <br/><p align="center"> Docker</p>
+    </td>
+    <td>
+        <img width="50" height="50" src="https://mobilemancerblog.blob.core.windows.net/blog/2020/08/vs-code-logo-transp.png"/>
+        <br/> <p align="center">VSCode</p>
+    </td>
+    <td>
+        <img width="50" height="50" src="https://pbs.twimg.com/profile_images/954072623410917376/fGBUdNf_.jpg"/>
+        <br/><p align="center"> Jupyter</p>
+    </td>
+    <td>
+        <img width="50" height="50" src="https://dl2.macupdate.com/images/icons256/50318.png?d=1516370391"/>
+        <br/><p align="center"> RStudio</p>
+    </td>
+  </tr>
+</table>
 
-<img src="/images/tools.png" alt="tools" width="400"/>
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
