@@ -68,6 +68,12 @@ My main research interests revolve around **Natural Language Processing**. I am 
     </td>
     <td style="border: none;">
     <div style="text-align: center;">
+        <img class="center" width="63" height="50" src="https://pandas.pydata.org/static/img/pandas_mark.svg"/>
+        <br/><p align="center"> Pandas</p>
+    </div>
+    </td>
+    <td style="border: none;">
+    <div style="text-align: center;">
         <img class="center" width="63" height="50" src="https://i1.wp.com/albertfattal.com/wp-content/uploads/2018/03/Tensorflow_logo.svg.png?ssl=1"/>
         <br/><p align="center"> Tensorflow</p>
     </div>
