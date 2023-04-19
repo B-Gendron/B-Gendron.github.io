@@ -45,8 +45,10 @@ My main research interests revolve around **Natural Language Processing**. I am 
 <table align="center">
   <tr>
     <td>
+    <div style="text-align: center;">
         <img class="center" width="80" height="50" src="http://amueller.github.io/sklearn_014_015_pydata/sklearn-logo.png"/>
          <br/><p align="center">Scikit-learn</p>
+    </div>
     </td>
     <td>
         <img class="center" width="50" height="50" src="https://miro.medium.com/v2/resize:fit:5000/1*8AaAYxLb-VOgGUW8V8JXQA.png"/>
