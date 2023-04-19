@@ -16,73 +16,97 @@ I am a Master student at École des Mines de Nancy, currently doing a double deg
 My main research interests revolve around **Natural Language Processing**. I am currently working on understanding the language-agnostic and language-specific aspects of multilingual language models, as the continuation of a Master 1 research project. Then, my Master Thesis focuses on using meta-learning methods for emotion prediction in a conversational context. This research internship is conduced under the supervision of [Gaël Guibon](https://gguibon.github.io/).
 
 ### Programming languages
-<table align="center">
-  <tr>
-    <td>
+<table align="center" style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td style="border: none;">
+    <div style="text-align: center;">
         <img class="center" width="50" height="50" src="https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-png-transparent.png"/>
          <br/><p align="center">Python</p>
+    </div>
     </td>
-    <td>
+    <td style="border: none;">
+    <div style="text-align: center;">
         <img class="center" width="60" height="50" src="https://workingnation.com/wp-content/uploads/2018/05/R_logo.svg_.png"/>
         <br/><p align="center"> R</p>
+    </div>
     </td>
-    <td>
+    <td style="border: none;">
+    <div style="text-align: center;">
         <img class="center" width="55" height="50" src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png"/>
         <br/> <p align="center">MATLAB</p>
+    </div>
     </td>
-    <td>
+    <td style="border: none;">
+    <div style="text-align: center;">
         <img class="center" width="50" height="50" src="https://yt3.ggpht.com/a/AATXAJxc2yxAKTkjfbIR6OBPE58utow9Y2VqLILQvA=s900-c-k-c0xffffffff-no-rj-mo"/>
         <br/><p align="center"> Julia</p>
+    </div>
     </td>
-    <td>
+    <td style="border: none;">
+    <div style="text-align: center;">
         <img class="center" width="50" height="50" src="https://img2.freepng.es/20180808/ytw/kisspng-bash-shell-script-bourne-shell-scripting-language-create-and-delete-files-and-folders-in-bash-from-5b6ab0e6d589e2.2952756215337187588747.jpg"/>
         <br/><p align="center"> Bash</p>
+    </div>
     </td>
   </tr>
 </table>
 
 ### Data science frameworks
 <table align="center">
-  <tr>
-    <td>
+  <tr style="border: none;">
+    <td style="border: none;">
     <div style="text-align: center;">
         <img class="center" width="80" height="50" src="http://amueller.github.io/sklearn_014_015_pydata/sklearn-logo.png"/>
          <br/><p align="center">Scikit-learn</p>
     </div>
     </td>
-    <td>
+    <td style="border: none;">
+    <div style="text-align: center;">
         <img class="center" width="50" height="50" src="https://miro.medium.com/v2/resize:fit:5000/1*8AaAYxLb-VOgGUW8V8JXQA.png"/>
         <br/><p align="center"> PyTorch</p>
+    </div>
     </td>
-    <td>
+    <td style="border: none;">
+    <div style="text-align: center;">
         <img class="center" width="63" height="50" src="https://i1.wp.com/albertfattal.com/wp-content/uploads/2018/03/Tensorflow_logo.svg.png?ssl=1"/>
         <br/><p align="center"> Tensorflow</p>
+    </div>
     </td>
   </tr>
 </table>
 
 ### Tools
 <table align="center">
-  <tr>
-    <td>
+  <tr style="border: none;">
+    <td style="border: none;">
+      <div style="text-align: center;">
         <img class="center" width="50" height="50" src="https://iconape.com/wp-content/png_logo_vector/git-icon.png"/>
          <br/><p align="center">Git</p>
+      </div>
     </td>
-    <td>
+    <td style="border: none;">
+    <div style="text-align: center;">
         <img class="center" width="50" height="50" src="https://iconape.com/wp-content/files/fr/370801/svg/docker-icon-logo-icon-png-svg.png"/>
         <br/><p align="center"> Docker</p>
+    </div>
     </td>
-    <td>
+    <td style="border: none;">
+    <div style="text-align: center;">
         <img class="center" width="50" height="50" src="https://mobilemancerblog.blob.core.windows.net/blog/2020/08/vs-code-logo-transp.png"/>
         <br/> <p align="center">VSCode</p>
+    </div>
     </td>
-    <td>
+    <td style="border: none;">
+    <div style="text-align: center;">
         <img class="center" width="50" height="50" src="https://pbs.twimg.com/profile_images/954072623410917376/fGBUdNf_.jpg"/>
         <br/><p align="center"> Jupyter</p>
+    </div>
     </td>
-    <td>
+    <td style="border: none;">
+    <div style="text-align: center;">
         <img class="center" width="50" height="50" src="https://dl2.macupdate.com/images/icons256/50318.png?d=1516370391"/>
         <br/><p align="center"> RStudio</p>
+    </div>
     </td>
   </tr>
 </table>
