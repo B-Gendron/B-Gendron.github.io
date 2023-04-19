@@ -52,7 +52,7 @@ My main research interests revolve around **Natural Language Processing**. I am 
 </table>
 
 ### Data science frameworks
-<table align="center">
+<table align="center" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
     <td style="border: none;">
     <div style="text-align: center;">
@@ -76,7 +76,7 @@ My main research interests revolve around **Natural Language Processing**. I am 
 </table>
 
 ### Tools
-<table align="center">
+<table align="center" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
     <td style="border: none;">
       <div style="text-align: center;">
