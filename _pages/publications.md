@@ -17,7 +17,7 @@ author_profile: false
 
 ## 2023
 
-- <html> <font color=gray> [To be published] </font> </html> Blivet et al Participation de l’équipe TTGV à DEFT 2023 : Réponse automatique à des QCM issus d’examens en pharmacie. Actes de Atelier DÉfi Fouille de Textes (DEFT) (DEFT’2023).  
+- <nobr><font color=gray> [To be published] </font></nobr> Blivet et al Participation de l’équipe TTGV à DEFT 2023 : Réponse automatique à des QCM issus d’examens en pharmacie. Actes de Atelier DÉfi Fouille de Textes (DEFT) (DEFT’2023).  
       _Keywords: multilabel classification, pre-trained models, health data_
 
 <!-- - <font color=gray> [To be published] </font>  F. Gaschi, I. El Baamrani, B. Gendron, P. Rastin, Y. Toussaint. CoSwitchMap : Using Code-Switching to Learn an Unsupervised Bilingual Word Embedding. Submitted to 2023 Student Research Workshop of the Association for Computational Linguistics.
