@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Data Analysis"
 collection: teaching
 ---

@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Introduction to Deep Learning"
 collection: teaching
 ---
