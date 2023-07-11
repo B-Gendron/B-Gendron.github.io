@@ -1,11 +1,15 @@
 ---
 layout: archive
-title: "Master 1 research project in Natural Language Processing"
+title: "Master Thesis"
 collection: portfolio
 ---
 
-## Unsupervised alignment for bio-medical data
-_Since 2022_  
-_Supervision: École des Mines de Nancy & LORIA_
+## Meta-Learning for Emotion Detection in Conversational Context
+_From March 2023 to August 2023_  
+_Supervision: University of Luxembourg, LORIA (Nancy, France) by [Gaël Guibon](https://gguibon.github.io/)_
 
-Multilingual information retrieval in bio-medical context, leading to the writing of a survey on multilingual language models properties. In this project I had to get familiar with supervised and unsupervised word alignment methods in a multilingual context, along with some knowlegde about Transformer-based multilingual models such as mBERT or XLM-R. The aim of this work was to describe and discuss both language-agnostic and language-specific properties of multilingual words representations. 
+In this work, we use a deep learning-based meta-learning model to predict emotions in conversations. For this purpose, we have built utterance representations that take into account their conversational context. By adding such information, we aim to ensure the relevance of predictions, as well as good generalization to previously unseen dialogues and emotions.  
+
+The main goal is to use deep learning models based on meta learners to produce accurate emotion predictions in user generated conversations. At the best of our knowledge, the latest methods that use meta-learning to do Emotion Recognition in Conversation (ERC) do not integrate the conversational context. The goal of this Master Thesis is therefore to adapt existing methods, not only metric-based meta-learning approaches, but also all kinds of meta-learning schemes. The first step is to review some existing meta-learning approaches and then continue to look for a good method to integrate the conversational context into a meta-learning framework.
+
+From a technical point of view, the aim is to develop and test alternative approaches that have not been previously considered, making this a research assignment with development phases. It therefore consists in numerous explorations and modifications of deep learning models. The final model will not necessarily have to obtain the best results, since the goal is to provide a baseline for meta-learning on ERC.
