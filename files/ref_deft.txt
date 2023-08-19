@@ -1,0 +1,14 @@
+@inproceedings{Blivet-Degrutere-Gendron-Renault-Siouffi-Gaudray-Bouju-Cerisara-Flamein-Guibon-Labeau-Rousseau:CORIA-TALN:2023,
+    author = {Blivet, Andr\'ea and Degrut\`ere, Sol\`ene and Gendron, Barbara and Renault, Aur\'elien and Siouffi, Cyrille and Gaudray Bouju, Vanessa and Cerisara, Christophe and Flamein, H\'el\`ene and Guibon, Ga\"el and Labeau, Matthieu and Rousseau, Tom},
+    title = "Participation de l'\'equipe TTGV \`a DEFT 2023\textasciitilde : R\'eponse automatique \`a des QCM issus d'examens en pharmacie",
+    booktitle = "Actes de CORIA-TALN 2023. Actes du D\'efi Fouille de Textes@TALN2023",
+    month = "6",
+    year = "2023",
+    address = "Paris, France",
+    publisher = "Association pour le Traitement Automatique des Langues",
+    pages = "23-38",
+    note = "",
+    abstract = "Cet article pr\'esente l'approche de l'\'equipe TTGV dans le cadre de sa participation aux deux t\^aches propos\'ees lors du DEFT 2023 : l'identification du nombre de r\'eponses suppos\'ement justes \`a un QCM et la pr\'ediction de l'ensemble de r\'eponses correctes parmi les cinq propos\'ees pour une question donn\'ee. Cet article pr\'esente les diff\'erentes m\'ethodologies mises en oeuvre, explorant ainsi un large \'eventail d'approches et de techniques pour aborder dans un premier temps la distinction entre les questions appelant une seule ou plusieurs r\'eponses avant de s'interroger sur l'identification des r\'eponses correctes. Nous d\'etaillerons les diff\'erentes m\'ethodes utilis\'ees, en mettant en exergue leurs avantages et leurs limites respectives. Ensuite, nous pr\'esenterons les r\'esultats obtenus pour chaque approche. Enfin, nous discuterons des limitations intrins\`eques aux t\^aches elles-m\^emes ainsi qu'aux approches envisag\'ees dans cette contribution.",
+    keywords = "classification, multiclasse, multi\'etiquette, approches g\'en\'eratives",
+    url = "http://talnarchives.atala.org/ateliers/2023/DEFT/480090.pdf"
+}

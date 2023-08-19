@@ -83,8 +83,8 @@ author:
   name             : "Barbara Gendron"
   avatar           : "profile.png"
   bio              : "Master Student in Data Science and NLP Research Intern"
-  location         : "Nancy, France"
-  employer         : "LORIA"
+  location         : 
+  employer         : "LORIA (Nancy, France)"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=dwV_4qAAAAAJ&hl=fr&oi=ao"
   email            : "barbara.gendron@hotmail.fr"
