@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Master 1 research project in Natural Language Processing"
+title: "Unsupervised alignment for bio-medical data"
 collection: portfolio
 ---
 
-## Unsupervised alignment for bio-medical data
+_Master 1 research project_
 _Since 2022_  
 _Supervision: École des Mines de Nancy & LORIA_
 

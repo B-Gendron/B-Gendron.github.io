@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Master 2 project in Network Analysis for Life Sciences"
+title: "Single-cell RNA sequencing of iPSC neuronal differentiation unfolds the effects of PINK1 mutation in Parkinson's Disease"
 collection: portfolio
 ---
 
-## Single-cell RNA sequencing of iPSC neuronal differentiation unfolds the effects of PINK1 mutation in Parkinson's Disease
+_Master 2 project - Network Analysis for Life Sciences_
 _From September 2022 to January 2023_  
 _Supervision: University of Luxembourg, LCSB (Luxembourg Centre for Systems Biomedicine)_
 
