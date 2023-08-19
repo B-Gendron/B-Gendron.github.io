@@ -4,7 +4,7 @@ title: "Single-cell RNA sequencing of iPSC neuronal differentiation unfolds the 
 collection: portfolio
 ---
 
-_Master 2 project - Network Analysis for Life Sciences_
+_Master 2 project - Network Analysis for Life Sciences_  
 _From September 2022 to January 2023_  
 _Supervision: University of Luxembourg, LCSB (Luxembourg Centre for Systems Biomedicine)_
 

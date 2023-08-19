@@ -5,7 +5,7 @@ collection: portfolio
 ---
 
 _Master Thesis_  
-_From March August 2023_  
+_From March to August 2023_  
 _Supervision: University of Luxembourg, LORIA (Nancy, France) by [Gaël Guibon](https://gguibon.github.io/)_
 
 > <img align="center" width="35" height="20" src="https://logos-marques.com/wp-content/uploads/2021/03/GitHub-Embleme.png"/>  All the code for this project is publicly available. Feel free to explore [the Git repository](https://github.com/B-Gendron/meta_dyda)!
