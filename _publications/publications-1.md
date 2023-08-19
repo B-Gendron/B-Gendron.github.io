@@ -6,10 +6,9 @@ collection: publications
 
 _Blivet et al. 2023_  
 Conference paper - CORIA-TALN'2023  
-<button name="PDF" src="http://talnarchives.atala.org/ateliers/2023/DEFT/480090.pdf">PDF</button> <button name="Cite" src="https://B-Gendron.github.io/files/ref_deft.txt">Cite</button>
-<button name="Abstract" src="http://talnarchives.atala.org/ateliers/2023/DEFT/480090.html">Abstract</button>  
-
-<form action="https://stackoverflow.com/" method="get" target="_blank"><button type="submit">Click me</button></form>
+<form action="http://talnarchives.atala.org/ateliers/2023/DEFT/480090.pdf" method="get" target="_blank"><button type="submit">PDF</button></form>
+<form action="https://B-Gendron.github.io/files/ref_deft.txt" method="get" target="_blank"><button type="submit">Cite</button></form>
+<form action="http://talnarchives.atala.org/ateliers/2023/DEFT/480090.html" method="get" target="_blank"><button type="submit">Abstract</button></form>
 
 
 ## Abstract
