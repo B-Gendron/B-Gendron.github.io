@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : 
+title                    : "PhD student @ LORIA"
 title_separator          : "-"
 name                     : &name "Barbara Gendron"
-description              : &description "Master Student in Data Science and NLP Research Intern"
+description              : &description "PhD student @ LORIA"
 url                      : https://B-Gendron.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "B-Gendron/B-Gendron.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Barbara Gendron"
   avatar           : "profile.png"
-  bio              : "PhD student in NLP"
+  bio              : "1st year PhD student in Natural Language Processing"
   location         : 
   employer         : "LORIA (Nancy, France)"
   pubmed           : 
