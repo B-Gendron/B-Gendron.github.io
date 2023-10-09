@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "👋 About me"
+title: "👋 Barbara Gendron"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -9,11 +9,13 @@ redirect_from:
   - /about.html
 ---
 
-## NLP research intern @ LORIA
+## PhD student @ LORIA, Nancy
 
-I am a Master student at École des Mines de Nancy, currently doing a double degree at the University of Luxembourg for a Master in Data Science. I am interested in the development of machine learning models for knowledge extraction and natural language processing, as well as in the applications of Data Science in life sciences and medicine. I recently joined the [SyNaLP](https://synalp.gitlabpages.inria.fr/synalp-website/) team at [LORIA](https://www.loria.fr/en) (Laboratoire Lorrain de Recherche en Informatique et ses Applications) as a **NLP research intern**.  
+I am a first year PhD student working in both [K]() and [SyNaLP](https://synalp.gitlabpages.inria.fr/synalp-website/) teams at [LORIA](https://www.loria.fr/en), under the supervision of [Mathieu d'Aquin](https://mdaquin.github.io/) and [Gaël Guibon](https://gguibon.github.io/). I work on improving conversational models based on Large Language Models (LLMs) through the building of a conversation-dedicated ontology.
 
-My main research interests revolve around **Natural Language Processing**. I am currently working on understanding the language-agnostic and language-specific aspects of multilingual language models, as the continuation of a Master 1 research project. Then, my Master Thesis focuses on using meta-learning methods for emotion prediction in a conversational context. This research internship is conduced under the supervision of [Gaël Guibon](https://gguibon.github.io/).
+I graduated from École des Mines de Nancy (French engineering school, Master level) and I hold a Master's degree in Data Science from University of Luxembourg.  
+
+My main research interests revolve around **Natural Language Processing**. I am interested in the development of machine learning models for knowledge extraction and natural language processing, as well as in the applications of Data Science in life sciences and medicine. As an example of my previous research projects, I worked on meta-learning methods for emotion prediction in conversational context during my [Master Thesis](https://B-Gendron.github.io/portfolio/portfolio-1/).
 
 ### Programming languages
 <table align="center" style="border-collapse: collapse; border: none;font-size:14px">

@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Barbara's Homepage"
+title                    : 
 title_separator          : "-"
 name                     : &name "Barbara Gendron"
 description              : &description "Master Student in Data Science and NLP Research Intern"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Barbara Gendron"
   avatar           : "profile.png"
-  bio              : "Master Student in Data Science and NLP Research Intern"
+  bio              : "PhD student in NLP"
   location         : 
   employer         : "LORIA (Nancy, France)"
   pubmed           : 
