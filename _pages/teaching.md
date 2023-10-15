@@ -5,14 +5,14 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## École Nationale Supérieure des Mines de Nancy
+ ## <img src="../images/Logo_Mines_Nancy.png" width="40" height="25"/>  École Nationale Supérieure des Mines de Nancy
 
 
 - **Data Analysis with R**  
 _Since September 2023_  
 _Course directors: [Sandie Ferrigno](https://iecl.univ-lorraine.fr/membre-iecl/ferrigno-sandie-2/) and Yannick Toussaint_  
-Teaching assistant for practical sessions. This course is part of the Master 1 common core.  
-Notions of inferential statistics, linear regression, principal components analysis, simple and multiple correspondance analysis, agglomerative hierarchical clustering, discriminative models, association rules.
+Teaching assistant for practical sessions. This course is part of the Master 1 common core. Notions of inferential statistics, linear regression, principal components analysis, simple and multiple correspondance analysis, agglomerative hierarchical clustering, discriminative models, association rules.
+
 <!-- _September - November 2023_   -->
 
 <!-- - **Introduction to Machine Learning**   
