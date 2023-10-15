@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
- ## <img src="../images/Logo_Mines_Nancy.png" width="40" height="25"/>  École Nationale Supérieure des Mines de Nancy
+ ## <img src="../images/Logo_Mines_Nancy.png" width="40" height="25"/> École Nationale Supérieure des Mines de Nancy
 
 
 - **Data Analysis with R**  
