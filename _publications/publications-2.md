@@ -7,6 +7,12 @@ collection: publications
 _Gaschi et al. 2023_  
 Workshop paper - MRL@EMNLP2023  
 
+<td>
+    <nobr>
+<form style="float: left; width=150px" action="https://aclanthology.org/2023.mrl-1.16.pdf" method="get" target="_blank"><button type="submit">PDF</button></form> 
+<form style="float: left; width=150px" action="https://aclanthology.org/2023.mrl-1.16/" method="get" target="_blank"><button type="submit">Cite</button></form>
+    </nobr>
+</td>
 
 ## Abstract
 

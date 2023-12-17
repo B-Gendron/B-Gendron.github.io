@@ -7,7 +7,8 @@ author_profile: true
 
 ## 2023
 
-- **[To appear]** Felix Gaschi, Ilias El Baamrani, Barbara Gendron, Parisa Rastin, Yannick Toussaint. 2023. [Code-switching as a cross-lingual Training Signal: an Example with Unsupervised Bilingual Embedding.](https://B-Gendron.github.io/publications/publications-2/) 3rd Workshop on Multi-lingual Representation Learning (MRL). Association for Computational Linguistics.  
+- Felix Gaschi, Ilias El-Baamrani, Barbara Gendron, Parisa Rastin, and Yannick Toussaint. 2023. [Code-switching as a cross-lingual Training Signal: an Example with Unsupervised Bilingual Embedding.](https://B-Gendron.github.io/publications/publications-2/) In Proceedings of the 3rd Workshop on Multi-lingual Representation Learning (MRL), pages 208–217, Singapore. Association for Computational Linguistics.
+
 <!-- <span style="color:darkblue">*Keywords: code-switching, word embeddings, multilingual alignment, unsupervised mapping.* </span> -->
 
 - Blivet et al. [Participation de l’équipe TTGV à DEFT 2023 : Réponse automatique à des QCM issus d’examens en pharmacie.](https://B-Gendron.github.io/publications/publications-1/) Actes de Atelier DÉfi Fouille de Textes (DEFT) (DEFT’2023).
