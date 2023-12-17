@@ -7,10 +7,31 @@ collection: publications
 _Blivet et al. 2023_  
 Conference paper - CORIA-TALN'2023  
 
+<style>
+    form button {
+        background-color: #4CAF50; /* Green background color */
+        color: white; /* White text color */
+        padding: 10px 15px; /* Padding inside the button */
+        border: none; /* No border */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer; /* Cursor style on hover */
+    }
+
+    /* Style for the second button */
+    form:nth-child(2) button {
+        background-color: #008CBA; /* Blue background color */
+    }
+
+     /* Style for the third button */
+    form:nth-child(3) button {
+        background-color: #A32CC4; /* Purple background color */
+    }
+</style>
+
 <td>
     <nobr>
-<form style="float: left; width=150px" action="http://talnarchives.atala.org/ateliers/2023/DEFT/480090.pdf" method="get" target="_blank"><button type="submit">PDF</button></form> 
-<form style="float: left; width=150px" action="https://B-Gendron.github.io/files/ref_deft.txt" method="get" target="_blank"><button type="submit">Cite</button></form>
+<form style="float: left; width=150px; margin-right: 10px" action="http://talnarchives.atala.org/ateliers/2023/DEFT/480090.pdf" method="get" target="_blank"><button type="submit">PDF</button></form> 
+<form style="float: left; width=150px; margin-right: 10px" action="https://B-Gendron.github.io/files/ref_deft.txt" method="get" target="_blank"><button type="submit">Cite</button></form>
 <form style="float: none; width=150px" action="http://talnarchives.atala.org/ateliers/2023/DEFT/480090.html" method="get" target="_blank"><button type="submit">Abstract</button></form>
     </nobr>
 </td>
