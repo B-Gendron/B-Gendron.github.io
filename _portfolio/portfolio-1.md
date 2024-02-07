@@ -6,7 +6,7 @@ collection: portfolio
 
 _Master Thesis_  
 _From March to August 2023_  
-_Supervision: University of Luxembourg, LORIA (Nancy, France) by [Gaël Guibon](https://gguibon.github.io/)_
+_Supervision: University of Luxembourg, LORIA (Nancy, France) by [Gaël Guibon](https://gguibon.github.io/)_  
 
 <style>
     form button {
