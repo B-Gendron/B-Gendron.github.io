@@ -8,6 +8,8 @@ _Master Thesis_
 _From March to August 2023_  
 _Supervision: University of Luxembourg, LORIA (Nancy, France) by [Gaël Guibon](https://gguibon.github.io/)_  
 
+
+
 <style>
     form button {
         background-color: #4CAF50; /* Green background color */
@@ -22,14 +24,16 @@ _Supervision: University of Luxembourg, LORIA (Nancy, France) by [Gaël Guibon](
     form:nth-child(2) button {
         background-color: #008CBA; /* Blue background color */
     }
-</style>
+</style> 
 
 <td>
     <nobr>
 <form style="float: left; width=150px; margin-right: 10px" action="https://B-Gendron.github.io/files/Master_thesis.pdf" method="get" target="_blank"><button type="submit">PDF</button></form> 
 <form style="float: left; width=150px; margin-right: 10px" action="https://B-Gendron.github.io/files/ref_mt.txt" method="get" target="_blank"><button type="submit">Cite</button></form>
     </nobr>
-</td>
+</td>  
+
+<br>
 
 ## Abstract
 <!-- > <img align="center" width="35" height="20" src="https://logos-marques.com/wp-content/uploads/2021/03/GitHub-Embleme.png"/>  All the code for this project is publicly available. Feel free to explore [the Git repository](https://github.com/B-Gendron/meta_dyda)! -->
