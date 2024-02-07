@@ -27,10 +27,11 @@ _Supervision: University of Luxembourg, LORIA (Nancy, France) by [Gaël Guibon](
 <td>
     <nobr>
 <form style="float: left; width=150px; margin-right: 10px" action="https://B-Gendron.github.io/files/Master_thesis.pdf" method="get" target="_blank"><button type="submit">PDF</button></form> 
-<form style="float: left; width=150px; margin-right: 10px" action="https://B-Gendron.github.io/files/ref_deft.txt" method="get" target="_blank"><button type="submit">Cite</button></form>
+<form style="float: left; width=150px; margin-right: 10px" action="https://B-Gendron.github.io/files/ref_mt.txt" method="get" target="_blank"><button type="submit">Cite</button></form>
     </nobr>
 </td>
 
+## Abstract
 <!-- > <img align="center" width="35" height="20" src="https://logos-marques.com/wp-content/uploads/2021/03/GitHub-Embleme.png"/>  All the code for this project is publicly available. Feel free to explore [the Git repository](https://github.com/B-Gendron/meta_dyda)! -->
  
 In this work, we use a deep learning-based meta-learning model to predict emotions in conversations. For this purpose, we have built utterance representations that take into account their conversational context. By adding such information, we aim to ensure the relevance of predictions, as well as good generalization to previously unseen dialogues and emotions.  
