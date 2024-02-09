@@ -18,12 +18,16 @@ Teaching assistant for practical sessions. This course is part of the Master 1 c
 
 
 - **Introduction to Machine Learning**   
-_Since November 2023_  
+_November 2023 - January 2024_  
 
 _Course director: [Frédéric Sur](https://members.loria.fr/FSur/index.html)_  
 Teaching assistant for practical sessions. This course is part of the Master 1 common core. Key principles of machine learning. Linear, ridge and lasso regression, $k$ nearest neighbours, $k$ means algorithm, introduction to basic neural networks architecture. 
 
-<!-- _November 2023 - January 2024_   -->
-<!-- - **Introduction to Deep Learning**   
-_March - May 2024_  
-_Course director: [Parisa Rastin](https://sites.google.com/site/parisarastinresearch/home)_ -->
+- **Introduction to Deep Learning**   
+_Since February 2024_  
+
+_Course directors: Parisa Rastin and Guénaël Cabanes_  
+Teaching assistant for practical sessions. Master 1 level class from _Industrial Engineering and Applied Mathematics_ course track. Introduction to neural network implementation using Keras. MLP classifiers, CNN, RNN, LSTM and Transformers.
+
+
+<!-- _March - May 2024_   -->
