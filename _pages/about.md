@@ -46,7 +46,7 @@ My main research interests revolve around **Natural Language Processing**. I am 
     </td>
     <td style="border: none;">
     <div style="text-align: center;">
-        <img class="center" width="50" height="50" src="https://img2.freepng.es/20180808/ytw/kisspng-bash-shell-script-bourne-shell-scripting-language-create-and-delete-files-and-folders-in-bash-from-5b6ab0e6d589e2.2952756215337187588747.jpg"/>
+        <img class="center" width="50" height="50" src="../images/bash_logo.png"/>
         <br/><p align="center"> Bash</p>
     </div>
     </td>
@@ -112,7 +112,7 @@ My main research interests revolve around **Natural Language Processing**. I am 
     </td>
     <td style="border: none;">
     <div style="text-align: center;">
-        <img class="center" width="50" height="50" src="https://dl2.macupdate.com/images/icons256/50318.png?d=1516370391"/>
+        <img class="center" width="50" height="50" src="https://educe-ubc.github.io/images/rstudio_logo.png"/>
         <br/><p align="center"> RStudio</p>
     </div>
     </td>
