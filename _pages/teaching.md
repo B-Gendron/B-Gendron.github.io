@@ -13,7 +13,7 @@ author_profile: true
 - **Data Analysis with R**  
 _September - November 2023_  
 
-_Course directors: [Sandie Ferrigno](https://iecl.univ-lorraine.fr/membre-iecl/ferrigno-sandie-2/) and Yannick Toussaint_  
+_Course directors: [Sandie Ferrigno](https://iecl.univ-lorraine.fr/membre-iecl/ferrigno-sandie-2/) and [Yannick Toussaint](https://scholar.google.com/citations?user=NYl9HMoAAAAJ)_  
 Teaching assistant for practical sessions. This course is part of the Master 1 common core. Notions of inferential statistics, linear regression, principal components analysis, simple and multiple correspondance analysis, agglomerative hierarchical clustering, discriminative models, association rules.
 
 
@@ -26,7 +26,7 @@ Teaching assistant for practical sessions. This course is part of the Master 1 c
 - **Introduction to Deep Learning**   
 _Since February 2024_  
 
-_Course directors: Parisa Rastin and Guénaël Cabanes_  
+_Course directors: [Parisa Rastin](https://sites.google.com/site/parisarastinresearch/home) and [Guénaël Cabanes](https://sites.google.com/site/guenaelcabanes/home)_  
 Teaching assistant for practical sessions. Master 1 level class from _Industrial Engineering and Applied Mathematics_ course track. Introduction to neural network implementation using Keras. MLP classifiers, CNN, RNN, LSTM and Transformers.
 
 
