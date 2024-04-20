@@ -7,7 +7,7 @@ author_profile: true
 
 ## 2024
 
-- *(preprint)* Barbara Gendron, Gaël Guibon. 2024. [Context-Aware Siamese Networks for Efficient Emotion Recognition in Conversation.](https://arxiv.org/abs/2404.11141) 
+- *(preprint)* Barbara Gendron, Gaël Guibon. 2024. [Context-Aware Siamese Networks for Efficient Emotion Recognition in Conversation.](https://B-Gendron.github.io/publications/publications-3/) 
 
 ## 2023
 
