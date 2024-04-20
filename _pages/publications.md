@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
+## 2024
+
+- *(preprint)* Barbara Gendron, Gaël Guibon. 2024. [Context-Aware Siamese Networks for Efficient Emotion Recognition in Conversation.](https://arxiv.org/abs/2404.11141) 
+
 ## 2023
 
 - Felix Gaschi, Ilias El-Baamrani, Barbara Gendron, Parisa Rastin, and Yannick Toussaint. 2023. [Code-switching as a cross-lingual Training Signal: an Example with Unsupervised Bilingual Embedding.](https://B-Gendron.github.io/publications/publications-2/) In Proceedings of the 3rd Workshop on Multi-lingual Representation Learning (MRL), pages 208–217, Singapore. Association for Computational Linguistics.

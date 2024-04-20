@@ -1,0 +1,8 @@
+@misc{gendron2024contextaware,
+      title={Context-Aware Siamese Networks for Efficient Emotion Recognition in Conversation}, 
+      author={Barbara Gendron and Gaël Guibon},
+      year={2024},
+      eprint={2404.11141},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
