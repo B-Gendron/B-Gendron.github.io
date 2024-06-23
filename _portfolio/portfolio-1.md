@@ -4,7 +4,7 @@ title: "Meta-Learning for Emotion Detection in Conversational Context"
 collection: portfolio
 ---
 
-_Master Thesis_  
+**Master Thesis**  
 _From March to August 2023_  
 _Supervision: University of Luxembourg, LORIA (Nancy, France) by [Gaël Guibon](https://gguibon.github.io/)_  
 
