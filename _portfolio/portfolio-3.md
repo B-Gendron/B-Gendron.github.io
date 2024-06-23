@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: "Unsupervised alignment for bio-medical data"
+title: "Single-cell RNA sequencing of iPSC neuronal differentiation unfolds the effects of PINK1 mutation in Parkinson's Disease"
 collection: portfolio
 ---
 
-**Master 1 research project**  
-_From November 2021 to July 2022_    
-_Supervision: École des Mines de Nancy & LORIA by Félix Gaschi, Parisa Rastin and Yannick Toussaint._ 
+**Master 2 project - Network Analysis for Life Sciences**  
+_From September 2022 to January 2023_  
+_Supervision: University of Luxembourg, LCSB (Luxembourg Centre for Systems Biomedicine) by Corrado Ameli and Alexander Skupin._
 
-Multilingual information retrieval in bio-medical context, leading to the writing of a survey on multilingual language models properties. In this project I had to get familiar with supervised and unsupervised word alignment methods in a multilingual context, along with some knowlegde about Transformer-based multilingual models such as mBERT or XLM-R. The aim of this work was to describe and discuss both language-agnostic and language-specific properties of multilingual words representations. 
+Implementation of a data-driven approach to analyse gene counts from single-cell analysis in order to describe the impact of a specific mutation on the development of Parkinson's Disease. The main tool used in this project was `Seurat` object from the R library which allow to perform quality control, filtering, visualization and clustering on the data.

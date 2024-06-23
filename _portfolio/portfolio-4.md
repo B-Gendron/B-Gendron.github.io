@@ -1,12 +1,11 @@
 ---
 layout: archive
-title: "Transparent Music Generation"
+title: "Unsupervised alignment for bio-medical data"
 collection: portfolio
 ---
 
-**ISWS 2024 research project**  
-_International Semantic Web Research Summer School_  
-_June 9-15, Bertinoro, Italy_  
-_Supervision: Valentina Presutti_  
+**Master 1 research project**  
+_From November 2021 to July 2022_    
+_Supervision: École des Mines de Nancy & LORIA by Félix Gaschi, Parisa Rastin and Yannick Toussaint._ 
 
-The advancement of generative artificial intelligence (AI) has introduced significant challenges in music rights management, particularly concerning the unauthorized use of existing musical works as training data. This paper addresses the critical issue of music source detection in AI-generated compositions, aiming to safeguard the intellectual property of artists, especially independent and less-known ones. We propose a novel pipeline that utilizes semantic music representations, specifically leveraging the ChoCo knowledge graph. Our methodology employs Tonal Pitch Step Distance (TPSD) to transform chord sequences into numeric representations, enabling key-independent comparisons. Key identification and chord estimation tools further refine the accuracy of detecting similarities between AI-generated music and existing compositions. To scale our approach, we implement k-means clustering on music sources, adapting sequence lengths for compatibility. Our research contributes a framework for automated music source detection, emphasizing technical challenges and future directions such as leveraging ontologies to enhance detection accuracy and support legal frameworks like the AI Act's transparency mandates.
+Multilingual information retrieval in bio-medical context, leading to the writing of a survey on multilingual language models properties. In this project I had to get familiar with supervised and unsupervised word alignment methods in a multilingual context, along with some knowlegde about Transformer-based multilingual models such as mBERT or XLM-R. The aim of this work was to describe and discuss both language-agnostic and language-specific properties of multilingual words representations. 
