@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Context-Aware Siamese Networks for Efficient Emotion Recognition in Conversation"
+title: "SEC: Context-Aware Metric Learning for Efficient Emotion Recognition in Conversation"
 collection: publications
 ---
 
