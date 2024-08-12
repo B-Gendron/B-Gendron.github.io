@@ -30,9 +30,9 @@ Preprint
 
 <td>
     <nobr>
-<form style="float: left; width=150px; margin-right: 10px" action="https://arxiv.org/pdf/2404.11141.pdf" method="get" target="_blank"><button type="submit">PDF</button></form> 
+<form style="float: left; width=150px; margin-right: 10px" action="https://aclanthology.org/2024.wassa-1.2.pdf" method="get" target="_blank"><button type="submit">PDF</button></form> 
 <form style="float: left; width=150px; margin-right: 10px" action="https://B-Gendron.github.io/files/ref_pp_erc.txt" method="get" target="_blank"><button type="submit">Cite</button></form>
-<form style="float: none; width=150px" action="https://arxiv.org/abs/2404.11141" method="get" target="_blank"><button type="submit">View on ArXiv</button></form>
+<form style="float: none; width=150px" action="https://aclanthology.org/2024.wassa-1.2/" method="get" target="_blank"><button type="submit">View on ACL Anthology</button></form>
     </nobr>
 </td>
 
