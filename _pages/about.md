@@ -11,7 +11,7 @@ redirect_from:
 
 ## PhD student @ LORIA, Nancy
 
-I am a first year PhD student working in both [K](https://k.loria.fr/) and [SyNaLP](https://synalp.gitlabpages.inria.fr/synalp-website/) teams at [LORIA](https://www.loria.fr/en), under the supervision of [Mathieu d'Aquin](https://mdaquin.github.io/) and [Gaël Guibon](https://gguibon.github.io/). I work on improving conversational models based on Large Language Models (LLMs) through the building of a conversation-dedicated ontology.
+I am a second year PhD student working in both [K](https://k.loria.fr/) and [SyNaLP](https://synalp.gitlabpages.inria.fr/synalp-website/) teams at [LORIA](https://www.loria.fr/en), under the supervision of [Mathieu d'Aquin](https://mdaquin.github.io/) and [Gaël Guibon](https://gguibon.github.io/). I work on improving conversational models based on Large Language Models (LLMs) through the building of a conversation-dedicated ontology.
 
 I graduated from École des Mines de Nancy (French engineering school, Master level) and I hold a Master's degree in Data Science from University of Luxembourg.  
 
