@@ -26,16 +26,28 @@
   
       nav {
         z-index: 10;
-      }
-  
-      a {
-        text-decoration: none;
-        color: #4a2d84; /* Dark purple link color */
+        background-color: #dcd0ff; /* Light purple background for nav */
+        
+        /* Style buttons within nav */
+        button {
+          background-color: #dcd0ff; /* Light purple background for button */
+          border: none; /* Remove default border */
+          cursor: pointer; /* Change cursor to pointer */
+          padding: 0.5em; /* Add padding to button */
+        }
+        
+        /* Optional: style links within nav */
+        a {
+          text-decoration: none;
+          color: #4a2d84; /* Dark purple link color */
+          padding: 0.5em; /* Add padding for clickable area */
+        }
       }
     }
   }
   
   .masthead__menu {
+    background-color: #dcd0ff; /* Light purple background for menu */
   
     ul {
       margin: 0;
@@ -53,6 +65,19 @@
     &--lg {
       padding-right: 2em;
       font-weight: 700;
+    }
+  
+    /* Optional: add background color for each menu item */
+    a {
+      display: block; /* Make anchor tags block-level for full-width clickable area */
+      padding: 0.5em; /* Add padding */
+      background-color: #dcd0ff; /* Light purple background for each item */
+      color: #4a2d84; /* Dark purple text color */
+      transition: background-color 0.3s; /* Smooth background transition on hover */
+  
+      &:hover {
+        background-color: #b8a3e0; /* Slightly darker purple on hover for effect */
+      }
     }
   }
   
