@@ -7,7 +7,7 @@ author_profile: true
 
 ## 2024
 
-- *(accepted at WASSA@ACL 2024)* Barbara Gendron, Gaël Guibon. 2024. [SEC: Context-Aware Metric Learning for Efficient Emotion Recognition in Conversation](https://B-Gendron.github.io/publications/publications-3/) 
+- Barbara Gendron and Gaël Guibon. 2024. [SEC: Context-Aware Metric Learning for Efficient Emotion Recognition in Conversation](https://B-Gendron.github.io/publications/publications-3/). In Proceedings of the 14th Workshop on Computational Approaches to Subjectivity, Sentiment, & Social Media Analysis, pages 11–22, Bangkok, Thailand. Association for Computational Linguistics.
     - French version published at JEP-TALN 2024: [SEC: contexte émotionnel phrastique intégré pour la reconnaissance émotionnelle efficiente dans la conversation](https://B-Gendron.github.io/publications/publications-4/)
 
 ## 2023
