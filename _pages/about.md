@@ -15,7 +15,7 @@ I am a second year PhD student working in both [K](https://k.loria.fr/) and [SyN
 
 I graduated from École des Mines de Nancy (French engineering school, Master level) and I hold a Master's degree in Data Science from University of Luxembourg.  
 
-My main research interests revolve around **Natural Language Processing**. I am interested in the development of machine learning models for knowledge extraction and natural language processing, as well as in the applications of Data Science in life sciences and medicine. As an example of my previous research projects, I worked on meta-learning methods for emotion prediction in conversational context during my [Master Thesis](https://B-Gendron.github.io/portfolio/portfolio-1/).
+My main research interests revolve around **Natural Language Processing**. I am interested in the development of machine learning models for knowledge extraction and natural language processing, as well as in the applications of Data Science in life sciences and medicine. As an example of my previous research projects, I worked on meta-learning methods for emotion prediction in conversational context during my [Master Thesis](https://B-Gendron.github.io/projects/projects-1/).
 
 ### Programming languages
 <table align="center" style="border-collapse: collapse; border: none;font-size:14px">
@@ -120,7 +120,7 @@ My main research interests revolve around **Natural Language Processing**. I am 
 </table>
 
 
-<!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+<!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, projects, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 A data-driven personal website
 ======
@@ -139,7 +139,7 @@ Getting started
 
 Site-wide configuration
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a project or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
 Create content & metadata
 ------

@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Unsupervised alignment for bio-medical data"
-collection: portfolio
+collection: projects
 ---
 
 **Master 1 research project**  

@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Single-cell RNA sequencing of iPSC neuronal differentiation unfolds the effects of PINK1 mutation in Parkinson's Disease"
-collection: portfolio
+collection: projects
 ---
 
 **Master 2 project - Network Analysis for Life Sciences**  

@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Meta-Learning for Emotion Detection in Conversational Context"
-collection: portfolio
+collection: projects
 ---
 
 **Master Thesis**  

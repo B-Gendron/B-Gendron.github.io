@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Transparent Music Generation"
-collection: portfolio
+collection: projects
 ---
 
 **ISWS 2024 research project**  
