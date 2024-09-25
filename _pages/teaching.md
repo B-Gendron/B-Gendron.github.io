@@ -12,6 +12,7 @@ author_profile: true
 
 - **Data Analysis with R**  
 _September - November 2023_  
+_September - November 2024_  
 
 _Course directors: [Sandie Ferrigno](https://iecl.univ-lorraine.fr/membre-iecl/ferrigno-sandie-2/) and [Yannick Toussaint](https://scholar.google.com/citations?user=NYl9HMoAAAAJ)_  
 Teaching assistant for practical sessions. This course is part of the Master 1 common core. Notions of inferential statistics, linear regression, principal components analysis, simple and multiple correspondance analysis, agglomerative hierarchical clustering, discriminative models, association rules.
