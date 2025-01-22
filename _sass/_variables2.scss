@@ -1,0 +1,112 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+/*
+   Typography
+   ========================================================================== */
+
+   $doc-font-size              : 17;
+
+   /* paragraph indention */
+   $paragraph-indent           : false; // true, false
+   $indent-var                 : 1.5em;
+   
+   /* system typefaces */
+   $serif                      : "Merriweather", Georgia, Times, serif;
+   $sans-serif                 : "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+   $monospace                  : "Fira Code", Monaco, Consolas, "Lucida Console", monospace;
+   
+   /* sans serif typefaces */
+   $sans-serif-narrow          : "Inter", $sans-serif;
+   
+   /* global font families */
+   $global-font-family         : $sans-serif;
+   $header-font-family         : "Playfair Display", $serif;
+   $caption-font-family        : "Merriweather", $serif;
+   
+   /* type scale */
+   $type-size-1                : 2.25em;  // ~36px
+   $type-size-2                : 1.875em; // ~30px
+   $type-size-3                : 1.5em;   // ~24px
+   $type-size-4                : 1.25em;  // ~20px
+   $type-size-5                : 1em;     // ~16px
+   $type-size-6                : 0.875em; // ~14px
+   $type-size-7                : 0.75em;  // ~12px
+   
+   
+   /*
+      Colors
+      ========================================================================== */
+   
+   $gray                       : #6c757d; // Neutral gray
+   $dark-gray                  : #495057;
+   $darker-gray                : #343a40;
+   $light-gray                 : #f8f9fa;
+   $lighter-gray               : #e9ecef;
+   
+   $body-color                 : #ffffff;
+   $background-color           : #fefefe; // Subtle background
+   $code-background-color      : #f5f5f5;
+   $code-background-color-dark : $light-gray;
+   $text-color                 : $dark-gray;
+   $border-color               : $lighter-gray;
+   
+   $primary-color              : #91a7ff; // Pastel blue
+   $secondary-color            : #bde0fe; // Light pastel blue
+   $accent-color               : #ffcad4; // Soft pastel pink
+   $success-color              : #a8dadc; // Mint green
+   $warning-color              : #ffd166; // Pastel yellow
+   $danger-color               : #f4a261; // Soft coral
+   $info-color                 : #6c91bf; // Muted pastel purple
+   
+   /* links */
+   $link-color                 : $primary-color;
+   $link-color-hover           : darken($primary-color, 10%);
+   $link-color-visited         : lighten($primary-color, 10%);
+   $masthead-link-color        : $secondary-color;
+   $masthead-link-color-hover  : darken($secondary-color, 10%);
+   
+   
+   /*
+      Breakpoints
+      ========================================================================== */
+   
+   @include breakpoint-set("to ems", true);
+   
+   $small                      : 600px !default;
+   $medium                     : 768px !default;
+   $medium-wide                : 1024px !default;
+   $large                      : 1280px !default;
+   $x-large                    : 1440px !default;
+   
+   /*
+      Grid
+      ========================================================================== */
+   
+   $right-sidebar-width-narrow : 0px;
+   $right-sidebar-width        : 250px; // Added for right sidebar
+   $right-sidebar-width-wide   : 300px;
+   
+   $susy: (
+     columns: 12,
+     column-width: 100px,
+     gutters: 1/4,
+     math: fluid,
+     output: float,
+     gutter-position: after,
+     container: $large,
+     global-box-sizing: border-box,
+   );
+   
+   
+   /*
+      Other
+      ========================================================================== */
+   
+   $border-radius              : 6px; // Modern rounded edges
+   $box-shadow                 : 0 2px 8px rgba(0, 0, 0, 0.1); // Softer shadows
+   $navicon-width              : 30px;
+   $navicon-height             : 4px;
+   $global-transition          : all 0.3s ease-in-out; // Slightly smoother transitions
+   
