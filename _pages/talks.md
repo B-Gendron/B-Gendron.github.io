@@ -52,7 +52,7 @@ author_profile: true
 ## Seminar talks
 
 - <div class="talk-container">
-    <p><i>Mastering Large Language Models: Efficient Techniques for Fine-Tuning</i>. Tutorial for [DeepLorIA](https://deeploria.netlify.app/) Network. January 15th 2025. Laboratoire Lorrain de Recherche en Informatique et ses Applications (LORIA), Nancy, France.</p>
+    <p><i>Mastering Large Language Models: Efficient Techniques for Fine-Tuning. Tutorial for <a href="https://deeploria.netlify.app/">DeepLorIA</a> Network. January 15th 2025. Laboratoire Lorrain de Recherche en Informatique et ses Applications (LORIA), Nancy, France.</p>
     <div class="button-container">
         <form action="https://github.com/B-Gendron/tutorial-deeploria" method="get" target="_blank">
             <button type="submit">Tutorial material</button>
