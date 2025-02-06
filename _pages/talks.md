@@ -42,7 +42,7 @@ author_profile: true
         </nobr>
     </td>
 
-- <div style="display: flex; flex-direction: column; max-width: 500px;">
+- <div style="display: flex; flex-direction: column">
     <p style="margin-bottom: 10px;">
         <i>Code-Switching as a Cross-Lingual Training Signal: Example with Unsupervised Bilingual Embedding</i>.  
         Paper presentation at SyNaLP seminar. October 24th 2024. LORIA, Nancy, France.
