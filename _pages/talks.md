@@ -28,9 +28,10 @@ author_profile: true
 - _ChatGPT : du fonctionnement aux usages._ Talk as part of the discussion "Intérêts et dangers des OpenAI, comment progresser à l'université avec ChatGPT ?" hosted by S. Ferey, Faculté de Droit, Sciences Économiques et Gestion de Nancy, 21 September 2023.  
     <td>
         <nobr>
-    <form style="float: none; width=150px; margin-right: 10px; margin-top: 5px" action="https://drive.google.com/file/d/19kZ_4UT4ei-NLnZlEwnvWbfP2nGsgAXz/view?usp=drive_link" method="get" target="_blank"><button type="submit">Slides</button></form>  
+    <form style="float: none; width=150px; margin-right: 10px; margin-bottom: 20px; margin-top: 5px" action="https://drive.google.com/file/d/19kZ_4UT4ei-NLnZlEwnvWbfP2nGsgAXz/view?usp=drive_link
+    " method="get" target="_blank"><button type="submit">Slides (in French)</button></form>    
         </nobr>
-    </td>   
+    </td> 
 
 ## Seminar talks
 
@@ -41,13 +42,20 @@ author_profile: true
         </nobr>
     </td>
 
-- _Code-Switching as a Cross-Lingual Training Signal: Example with Unsupervised Bilingual Embedding_. Paper presentation at SyNaLP seminar. October 24th 2024. LORIA, Nancy, France.  
-    <td>
-        <nobr>
-    <form style="float: left; width=150px; margin-right: 10px; margin-top: 5px" action="https://github.com/B-Gendron/coswitchmap/tree/main" method="get" target="_blank"><button type="submit">Slides</button></form>  
-    <form style="float: none; width=150px; margin-right: 10px; margin-top: 5px" action="https://b-gendron.github.io/publications/publications-2/" method="get" target="_blank"><button type="submit">Paper</button></form>  
-        </nobr>
-    </td>  
+- <div style="display: flex; flex-direction: column; max-width: 500px;">
+    <p style="margin-bottom: 10px;">
+        <i>Code-Switching as a Cross-Lingual Training Signal: Example with Unsupervised Bilingual Embedding</i>.  
+        Paper presentation at SyNaLP seminar. October 24th 2024. LORIA, Nancy, France.
+    </p>
+    <div style="display: flex; gap: 10px; margin-left: 0px;">
+        <form action="https://github.com/B-Gendron/coswitchmap/tree/main" method="get" target="_blank">
+            <button type="submit">Slides</button>
+        </form>
+        <form action="https://b-gendron.github.io/publications/publications-2/" method="get" target="_blank">
+            <button type="submit">Paper</button>
+        </form>
+    </div>
+  </div>
 
 
 ## Conference talks
