@@ -38,7 +38,9 @@ author_profile: true
 
 ## Outreach talks
 
-- Intervention [CHICHE](https://chiche-snt.fr/) "1 scientifique, 1 classe" auprès des 2nde spécialité Sciences Numérique et Technologie. 11 Avril 2024. Lycée Jean Lurçat, Vosges, France.
+- Intervention [CHICHE](https://chiche-snt.fr/) "1 scientifique, 1 classe" auprès des 2nde spécialité Sciences Numérique et Technologie. 03 Avril 2025. Lycée Jean-Victor Poncelet, Saint-Avold (Moselle), France.
+
+- Intervention [CHICHE](https://chiche-snt.fr/) "1 scientifique, 1 classe" auprès des 2nde spécialité Sciences Numérique et Technologie. 11 Avril 2024. Lycée Jean Lurçat, Bruyères (Vosges), France.
 
 - <div class="talk-container">
     <p><i>ChatGPT : du fonctionnement aux usages.</i> Talk as part of the discussion "Intérêts et dangers des OpenAI, comment progresser à l'université avec ChatGPT ?" hosted by S. Ferey, Faculté de Droit, Sciences Économiques et Gestion de Nancy, 21 September 2023. Nancy, France.</p>
@@ -75,19 +77,10 @@ author_profile: true
 ## Conference talks
 
 - <div class="talk-container">
-    <p><i>Controlled Conversational Models through Conversation-Dedicated Ontology</i>. Poster presentation at <a href="https://2024.semanticwebschool.org/">ISWS 2024</a> Research Summer School. June 10th 2024, Bertinoro, Italy.</p>
+    <p><i>Towards Ontology-Based Descriptions of Conversations with Qualitatively-Defined Concepts</i>. Oral presentation at <a href="https://toth.condillac.org/">TOTh 2025</a> hosted by Université Savoie Mont Blanc, Chambéry, France. June 6th 2025.</p>
     <div class="button-container">
-        <form action="https://github.com/B-Gendron/isws-poster" method="get" target="_blank">
-            <button type="submit">Poster</button>
-        </form>
-    </div>
-  </div>
-
-- <div class="talk-container">
-    <p><i>SEC : contexte émotionnel phrastique intégré pour la reconnaissance émotionnelle efficiente dans la conversation</i>. Oral presentation at <a href="https://jep-taln2024.sciencesconf.org/resource/page/id/4">JEP-TALN 2024</a>. July 9th 2024, Toulouse, France.</p>
-    <div class="button-container">
-        <form action="https://github.com/B-Gendron/taln-sec" method="get" target="_blank">
-            <button type="submit">Slides (in French)</button>
+        <form action="https://B-Gendron.github.io/files/Gendron_TOTh_noAppendix.pdf" method="get" target="_blank">
+            <button type="submit">Slides</button>
         </form>
     </div>
   </div>
@@ -103,3 +96,24 @@ author_profile: true
         </form>
     </div>
   </div>
+
+- <div class="talk-container">
+    <p><i>SEC : contexte émotionnel phrastique intégré pour la reconnaissance émotionnelle efficiente dans la conversation</i>. Oral presentation at <a href="https://jep-taln2024.sciencesconf.org/resource/page/id/4">JEP-TALN 2024</a>. July 9th 2024, Toulouse, France.</p>
+    <div class="button-container">
+        <form action="https://github.com/B-Gendron/taln-sec" method="get" target="_blank">
+            <button type="submit">Slides (in French)</button>
+        </form>
+    </div>
+  </div>
+
+- <div class="talk-container">
+    <p><i>Controlled Conversational Models through Conversation-Dedicated Ontology</i>. Poster presentation at <a href="https://2024.semanticwebschool.org/">ISWS 2024</a> Research Summer School. June 10th 2024, Bertinoro, Italy.</p>
+    <div class="button-container">
+        <form action="https://github.com/B-Gendron/isws-poster" method="get" target="_blank">
+            <button type="submit">Poster</button>
+        </form>
+    </div>
+  </div>
+
+
+
