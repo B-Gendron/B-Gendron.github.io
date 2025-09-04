@@ -4,7 +4,7 @@ title: "Towards Ontology-Based Descriptions of Conversations with Qualitatively-
 collection: publications
 ---
 
-_Gendron & al. 2025_
+_Gendron & al., 2025_
     
 To be published in the Proceedings of the 19th International Conference TOTh – Terminology & Ontology: Theories and applications, Chambéry (France), June 2025.
 
@@ -31,8 +31,8 @@ To be published in the Proceedings of the 19th International Conference TOTh –
 
 <td>
     <nobr>
-<form style="float: left; width=150px; margin-right: 10px" action="" method="get" target="_blank"><button type="submit">View of HAL</button></form> 
-<form style="float: none; width=150px; margin-right: 10px" action="" method="get" target="_blank"><button type="submit">Cite</button></form>
+<form style="float: left; width=150px; margin-right: 10px" action="https://hal.science/view/index/docid/5240495" method="get" target="_blank"><button type="submit">View on HAL</button></form> 
+<form style="float: none; width=150px; margin-right: 10px" action="https://hal.science/view/index/docid/5240495" method="get" target="_blank"><button type="submit">Cite</button></form>
     </nobr>
 </td>
 
