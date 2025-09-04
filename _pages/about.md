@@ -11,113 +11,98 @@ redirect_from:
 
 ## PhD student @ LORIA, Nancy
 
-I am a second year PhD student working in both [K](https://k.loria.fr/) and [SyNaLP](https://synalp.gitlabpages.inria.fr/synalp-website/) teams at [LORIA](https://www.loria.fr/en), under the supervision of [Mathieu d'Aquin](https://mdaquin.github.io/) and [Gaël Guibon](https://gguibon.github.io/). I work on improving conversational models based on Large Language Models (LLMs) through the building of a conversation-dedicated ontology.
+I am a thrid-year PhD student working in [MosAIk](site-23068d.gitlabpages.inria.fr) team at [LORIA](https://www.loria.fr/en), under the supervision of [Mathieu d'Aquin](https://mdaquin.github.io/) and [Gaël Guibon](https://gguibon.github.io/). I work on improving conversational models based on Large Language Models (LLMs) through the building of a conversation-dedicated ontology.
 
 I graduated from École des Mines de Nancy (French engineering school, Master level) and I hold a Master's degree in Data Science from University of Luxembourg.  
 
 My main research interests revolve around **Natural Language Processing**. I am interested in the development of machine learning models for knowledge extraction and natural language processing, as well as in the applications of Data Science in life sciences and medicine. As an example of my previous research projects, I worked on meta-learning methods for emotion prediction in conversational context during my [Master Thesis](https://B-Gendron.github.io/projects/projects-1/).
 
-### Programming languages
-<table align="center" style="border-collapse: collapse; border: none;font-size:14px">
-  <tr style="border: none;">
-    <td style="border: none;">
-    <div style="text-align: center;">
-        <img class="center" width="50" height="50" src="https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-png-transparent.png"/>
-         <br/><p align="center">Python</p>
-    </div>
-    </td>
-    <td style="border: none;">
-    <div style="text-align: center;">
-        <img class="center" width="60" height="50" src="https://workingnation.com/wp-content/uploads/2018/05/R_logo.svg_.png"/>
-        <br/><p align="center"> R</p>
-    </div>
-    </td>
-    <td style="border: none;">
-    <div style="text-align: center;">
-        <img class="center" width="55" height="50" src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png"/>
-        <br/> <p align="center">MATLAB</p>
-    </div>
-    </td>
-    <td style="border: none;">
-    <div style="text-align: center;">
-        <img class="center" width="50" height="50" src="https://yt3.ggpht.com/a/AATXAJxc2yxAKTkjfbIR6OBPE58utow9Y2VqLILQvA=s900-c-k-c0xffffffff-no-rj-mo"/>
-        <br/><p align="center"> Julia</p>
-    </div>
-    </td>
-    <td style="border: none;">
-    <div style="text-align: center;">
-        <img class="center" width="50" height="50" src="../images/bash_logo.png"/>
-        <br/><p align="center"> Bash</p>
-    </div>
-    </td>
-  </tr>
-</table>
 
-### Data science frameworks
-<table align="center" style="border-collapse: collapse; border: none;">
+<h3>Programming Languages</h3>
+<table align="center" style="border-collapse: collapse; border: none; font-size:14px;">
   <tr style="border: none;">
-    <td style="border: none;">
-    <div style="text-align: center;">
-        <img class="center" width="80" height="50" src="http://amueller.github.io/sklearn_014_015_pydata/sklearn-logo.png"/>
-         <br/><p align="center">Scikit-learn</p>
-    </div>
-    </td>
-    <td style="border: none;">
-    <div style="text-align: center;">
-        <img class="center" width="50" height="50" src="https://miro.medium.com/v2/resize:fit:5000/1*8AaAYxLb-VOgGUW8V8JXQA.png"/>
-        <br/><p align="center"> PyTorch</p>
-    </div>
-    </td>
-    <td style="border: none;">
-    <div style="text-align: center;">
-        <img class="center" width="63" height="50" src="https://pandas.pydata.org/static/img/pandas_mark.svg"/>
-        <br/><p align="center"> Pandas</p>
-    </div>
-    </td>
-    <td style="border: none;">
-    <div style="text-align: center;">
-        <img class="center" width="63" height="50" src="https://i1.wp.com/albertfattal.com/wp-content/uploads/2018/03/Tensorflow_logo.svg.png?ssl=1"/>
-        <br/><p align="center"> Tensorflow</p>
-    </div>
-    </td>
-  </tr>
-</table>
-
-### Tools
-<table align="center" style="border-collapse: collapse; border: none;">
-  <tr style="border: none;">
-    <td style="border: none;">
+    <td style="border: none; padding: 15px;">
       <div style="text-align: center;">
-        <img class="center" width="50" height="50" src="https://iconape.com/wp-content/png_logo_vector/git-icon.png"/>
-         <br/><p align="center">Git</p>
+        <img class="center" width="50" height="50" src="https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-png-transparent.png"/>
+        <br/><p align="center">Python</p>
       </div>
     </td>
-    <td style="border: none;">
-    <div style="text-align: center;">
-        <img class="center" width="50" height="50" src="https://iconape.com/wp-content/files/fr/370801/svg/docker-icon-logo-icon-png-svg.png"/>
-        <br/><p align="center"> Docker</p>
-    </div>
+    <td style="border: none; padding: 15px;">
+      <div style="text-align: center;">
+        <img class="center" width="60" height="50" src="https://workingnation.com/wp-content/uploads/2018/05/R_logo.svg_.png"/>
+        <br/><p align="center">R</p>
+      </div>
     </td>
-    <td style="border: none;">
-    <div style="text-align: center;">
-        <img class="center" width="50" height="50" src="https://mobilemancerblog.blob.core.windows.net/blog/2020/08/vs-code-logo-transp.png"/>
-        <br/> <p align="center">VSCode</p>
-    </div>
+    <td style="border: none; padding: 15px;">
+      <div style="text-align: center;">
+        <img class="center" width="55" height="50" src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png"/>
+        <br/><p align="center">MATLAB</p>
+      </div>
     </td>
-    <td style="border: none;">
-    <div style="text-align: center;">
-        <img class="center" width="50" height="50" src="https://pbs.twimg.com/profile_images/954072623410917376/fGBUdNf_.jpg"/>
-        <br/><p align="center"> Jupyter</p>
-    </div>
+    <td style="border: none; padding: 15px;">
+      <div style="text-align: center;">
+        <img class="center" width="50" height="50" src="https://yt3.ggpht.com/a/AATXAJxc2yxAKTkjfbIR6OBPE58utow9Y2VqLILQvA=s900-c-k-c0xffffffff-no-rj-mo"/>
+        <br/><p align="center">Julia</p>
+      </div>
     </td>
-    <td style="border: none;">
-    <div style="text-align: center;">
-        <img class="center" width="50" height="50" src="https://educe-ubc.github.io/images/rstudio_logo.png"/>
-        <br/><p align="center"> RStudio</p>
-    </div>
+    <td style="border: none; padding: 15px;">
+      <div style="text-align: center;">
+        <img class="center" width="50" height="50" src="../images/bash_logo.png"/>
+        <br/><p align="center">Bash</p>
+      </div>
+    </td>
+    <td style="border: none; padding: 15px;">
+      <div style="text-align: center;">
+        <img class="center" width="50" height="50" src="https://cdn.iconscout.com/icon/free/png-256/free-java-60-1174953.png"/>
+        <br/><p align="center">Java</p>
+      </div>
+    </td>
+    <td style="border: none; padding: 15px;">
+      <div style="text-align: center;">
+        <img class="center" width="50" height="50" src="https://cdn.iconscout.com/icon/free/png-256/free-javascript-2752148-2284965.png"/>
+        <br/><p align="center">JavaScript</p>
+      </div>
     </td>
   </tr>
 </table>
+
+<!-- Data Science Frameworks -->
+<h3>Data Science Frameworks</h3>
+<table align="center" style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td style="border: none; padding: 15px;">
+      <div style="text-align: center;">
+        <img class="center" width="80" height="50" src="http://amueller.github.io/sklearn_014_015_pydata/sklearn-logo.png"/>
+        <br/><p align="center">Scikit-learn</p>
+      </div>
+    </td>
+    <td style="border: none; padding: 15px;">
+      <div style="text-align: center;">
+        <img class="center" width="50" height="50" src="https://miro.medium.com/v2/resize:fit:5000/1*8AaAYxLb-VOgGUW8V8JXQA.png"/>
+        <br/><p align="center">PyTorch</p>
+      </div>
+    </td>
+    <td style="border: none; padding: 15px;">
+      <div style="text-align: center;">
+        <img class="center" width="63" height="50" src="https://pandas.pydata.org/static/img/pandas_mark.svg"/>
+        <br/><p align="center">Pandas</p>
+      </div>
+    </td>
+    <td style="border: none; padding: 15px;">
+      <div style="text-align: center;">
+        <img class="center" width="63" height="50" src="https://i1.wp.com/albertfattal.com/wp-content/uploads/2018/03/Tensorflow_logo.svg.png?ssl=1"/>
+        <br/><p align="center">TensorFlow</p>
+      </div>
+    </td>
+    <td style="border: none; padding: 15px;">
+      <div style="text-align: center;">
+        <img class="center" width="65" height="50" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg"/>
+        <br/><p align="center">HuggingFace</p>
+      </div>
+    </td>
+  </tr>
+</table>
+
 
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, projects, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
