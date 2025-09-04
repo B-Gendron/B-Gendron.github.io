@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
+## 2025
+
+- Barbara Gendron, Gaël Guibon, Mathieu D’aquin. [Towards Ontology-Based Descriptions of Conversations with Qualitatively-Defined Concepts](https://B-Gendron.github.io/publications/publications-5/). In Proceedings of the 19th International Conference TOTh – Terminology & Ontology: Theories and applications, Chambéry (France), June 2025.
+
 ## 2024
 
 - Barbara Gendron and Gaël Guibon. 2024. [SEC: Context-Aware Metric Learning for Efficient Emotion Recognition in Conversation](https://B-Gendron.github.io/publications/publications-3/). In Proceedings of the 14th Workshop on Computational Approaches to Subjectivity, Sentiment, & Social Media Analysis, pages 11–22, Bangkok, Thailand. Association for Computational Linguistics.
