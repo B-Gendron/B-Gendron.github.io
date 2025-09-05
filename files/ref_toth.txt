@@ -1,0 +1,12 @@
+@unpublished{gendron:hal-05240495,
+  TITLE = {{Towards Ontology-Based Descriptions of Conversations with Qualitatively-Defined Concepts}},
+  AUTHOR = {Gendron, Barbara and Guibon, Ga{\"e}l and D'aquin, Mathieu},
+  URL = {https://hal.science/hal-05240495},
+  NOTE = {Accepted at TOTh 2025 (Terminology \& Ontology: Theories and applications)},
+  YEAR = {2025},
+  MONTH = Feb,
+  KEYWORDS = {hybrid artificial intelligence ; controlled generation ; large language models ; conversation modeling ; ontologies},
+  PDF = {https://hal.science/hal-05240495v1/file/TOTH_extended_abstract.pdf},
+  HAL_ID = {hal-05240495},
+  HAL_VERSION = {v1},
+}
