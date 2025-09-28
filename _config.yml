@@ -230,15 +230,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # projects
   - scope:
       path: ""
