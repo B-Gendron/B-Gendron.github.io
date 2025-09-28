@@ -18,5 +18,5 @@ main:
   - title: "Software"
     url: /software/
     
-  # - title: "Guide"
-  #   url: /markdown/
+  - title: "Posts"
+    url: /posts/
