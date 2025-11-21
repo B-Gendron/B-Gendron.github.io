@@ -54,6 +54,15 @@ author_profile: true
 ## Seminar talks
 
 - <div class="talk-container">
+    <p><i>Towards Hybrid Conversational AI: How to Combine Deep Learning and Symbolic Approaches?</i> Talk for "Cognition et Langage" Seminar of the Institut du Digital, Management et Cognition (IDMC), Nancy, France.</p>
+    <div class="button-container">
+        <form action="https://github.com/B-Gendron/idmc-seminar" method="get" target="_blank">
+            <button type="submit">Slides</button>
+        </form>
+    </div>
+  </div>
+
+- <div class="talk-container">
     <p><i>Mastering Large Language Models: Efficient Techniques for Fine-Tuning.</i> Tutorial for <a href="https://deeploria.netlify.app/">DeepLorIA</a> Network. January 15th 2025. Laboratoire Lorrain de Recherche en Informatique et ses Applications (LORIA), Nancy, France.</p>
     <div class="button-container">
         <form action="https://github.com/B-Gendron/tutorial-deeploria" method="get" target="_blank">
