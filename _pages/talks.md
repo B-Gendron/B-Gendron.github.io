@@ -56,7 +56,7 @@ author_profile: true
 - <div class="talk-container">
     <p><i>Towards Hybrid Conversational AI: How to Combine Deep Learning and Symbolic Approaches?</i> Talk for "Cognition et Langage" Seminar of the Institut du Digital, Management et Cognition (IDMC), Nancy, France.</p>
     <div class="button-container">
-        <form action="https://github.com/B-Gendron/idmc-seminar" method="get" target="_blank">
+        <form action="https://github.com/B-Gendron/idmc-seminar/blob/main/presentation.pdf" method="get" target="_blank">
             <button type="submit">Slides</button>
         </form>
     </div>
