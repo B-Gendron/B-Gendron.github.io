@@ -11,7 +11,7 @@ redirect_from:
 
 ## PhD student @ LORIA, Nancy
 
-I am a thrid-year PhD student working in [MosAIk](site-23068d.gitlabpages.inria.fr) team at [LORIA](https://www.loria.fr/en), under the supervision of [Mathieu d'Aquin](https://mdaquin.github.io/) and [Gaël Guibon](https://gguibon.github.io/). I work on improving conversational models based on Large Language Models (LLMs) through the building of a conversation-dedicated ontology.
+I am a third-year PhD student working in [MosAIk](site-23068d.gitlabpages.inria.fr) team at [LORIA](https://www.loria.fr/en), under the supervision of [Mathieu d'Aquin](https://mdaquin.github.io/) and [Gaël Guibon](https://gguibon.github.io/). I work on improving conversational models based on Large Language Models (LLMs) through the building of a conversation-dedicated ontology.
 
 I graduated from École des Mines de Nancy (French engineering school, Master level) and I hold a Master's degree in Data Science from University of Luxembourg.  
 
