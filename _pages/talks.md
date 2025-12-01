@@ -128,7 +128,7 @@ author_profile: true
             </form>
         </div>
     </div>
-    <div class="talk-logo"><img src="../images/acl_wassa.pdf"></div>
+    <div class="talk-logo"><img src="../images/acl_wassa.png"></div>
   </div>
 
 - <div class="talk-container">
