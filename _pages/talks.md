@@ -65,6 +65,13 @@ author_profile: true
 
 - <div class="talk-container">
     <div class="talk-text">
+        <p><i>Conversational Control of LLMs Driven by Ontological Definitions: Ontology Design and Fine-Tuning Approaches</i> Talk for <a href="https://site-23068d.gitlabpages.inria.fr/seminars/2025-12-08-PhD-day.html">MosAIk PhD Day</a>. December 8th 2025. Laboratoire Lorrain de Recherche en Informatique et ses Applications (LORIA), Nancy, France.</p>
+    </div>
+    <div class="talk-logo"><img src="../images/loria.jpg"></div>
+  </div>
+
+- <div class="talk-container">
+    <div class="talk-text">
         <p><i>Towards Hybrid Conversational AI: How to Combine Deep Learning and Symbolic Approaches?</i> Talk for "Cognition et Langage" Seminar of the Institut du Digital, Management et Cognition (IDMC), Nancy, France.</p>
         <div class="button-container">
             <form action="https://github.com/B-Gendron/idmc-seminar/blob/main/presentation.pdf" method="get" target="_blank">
