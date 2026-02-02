@@ -64,11 +64,34 @@ author_profile: true
 ## Seminar talks
 
 - <div class="talk-container">
-    <div class="talk-text">
-        <p><i>Conversational Control of LLMs Driven by Ontological Definitions: Ontology Design and Fine-Tuning Approaches</i> Talk for <a href="https://site-23068d.gitlabpages.inria.fr/seminars/2025-12-08-PhD-day.html">MosAIk PhD Day</a>. December 8th 2025. Laboratoire Lorrain de Recherche en Informatique et ses Applications (LORIA), Nancy, France.</p>
-    </div>
-    <div class="talk-logo"><img src="../images/loria.jpg"></div>
+  <div class="talk-text">
+    <p>
+      <i>Conversational Control of LLMs Driven by Ontological Definitions: Ontology Design and Fine-Tuning Approaches</i>
+    </p>
+    <ul>
+      <li>
+        Talk for
+        <a href="https://site-23068d.gitlabpages.inria.fr/seminars/2025-12-08-PhD-day.html">
+          MosAIk PhD Day
+        </a>.
+        December 8th 2025.
+        Laboratoire Lorrain de Recherche en Informatique et ses Applications (LORIA),
+        Nancy, France.
+      </li>
+      <li>
+        Talk for
+        <a href="...">LIPN Seminar</a>.
+        February 2nd 2026.
+        LIPN, Université Sorbonne Paris-Nord,
+        Villetaneuse, France.
+      </li>
+    </ul>
   </div>
+
+  <div class="talk-logo">
+    <img src="../images/loria.jpg">
+  </div>
+</div>
 
 - <div class="talk-container">
     <div class="talk-text">
