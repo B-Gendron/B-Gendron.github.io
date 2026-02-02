@@ -41,6 +41,17 @@ author_profile: true
         gap: 10px;
         margin-top: 5px;
     }
+    .talk-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem; /* espace entre les logos */
+    }
+
+    .talk-logo img {
+    max-width: 120px; /* à ajuster selon ton design */
+    height: auto;
+    }
 </style>
 
 ## Outreach talks
