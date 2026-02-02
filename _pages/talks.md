@@ -91,7 +91,6 @@ author_profile: true
   <div class="talk-logo">
     <img src="../images/loria.jpg">
   </div>
-</div>
 
 - <div class="talk-container">
     <div class="talk-text">
