@@ -90,6 +90,7 @@ author_profile: true
 
   <div class="talk-logo">
     <img src="../images/loria.jpg">
+    <img src="../images/lipn.png" alt="LIPN logo">
   </div>
 
 - <div class="talk-container">
