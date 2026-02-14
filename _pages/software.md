@@ -19,12 +19,19 @@ author_profile: true
         gap: 10px;
         margin-top: 5px;
     }
+
+    figure figcaption {
+        font-family: inherit;
+        font-size: 1em;
+        font-style: normal;
+        color: inherit;
+    }
 </style>
 
 ## ZSS: Zotero Similarity Selection
 
 <div class="button-container">
-    <form action="https://drive.google.com/file/d/19kZ_4UT4ei-NLnZlEwnvWbfP2nGsgAXz/view?usp=drive_link" method="get" target="_blank">
+    <form action="https://github.com/B-Gendron/zotero-similarity-selection/tree/main" method="get" target="_blank">
         <button type="submit">View on GitHub</button>
     </form>
 </div>
@@ -33,7 +40,8 @@ ZSS is a research support tool that helps scholars efficiently filter relevant p
 
 <figure style="text-align: center;">
     <img src="../images/zss-demo-1.png" style="width:80%;">
-    <figcaption>
+    <figcaption style="font-family: inherit; font-size: 1em; font-style: normal; color: inherit;">
+
         <strong>Figure 1.</strong> ZSS interface for uploading a Zotero CSV export and defining the research scope description used for semantic similarity comparison.
     </figcaption>
 </figure>
@@ -42,7 +50,8 @@ The filtered results can be exported as a CSV file and converted to BibTeX for r
 
 <figure style="text-align: center;">
     <img src="../images/zss-demo-2.png" style="width:80%;">
-    <figcaption>
+    <figcaption style="font-family: inherit; font-size: 1em; font-style: normal; color: inherit;">
+
         <strong>Figure 2.</strong> Results dashboard showing corpus statistics, similarity threshold, and the distribution of similarity scores.
     </figcaption>
 </figure>
