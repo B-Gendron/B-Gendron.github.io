@@ -9,7 +9,7 @@ author_profile: true
 
 {% for post in site.softwares %}
   <div>
-    <img src="../images/zss-logo-2.png" style="width:80%;">
+    <img src="../images/zss-logo-2.png" style="width:30%;">
   </div>
   {% include archive-single.html type="grid" %}
 {% endfor %}
