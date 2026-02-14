@@ -54,7 +54,7 @@ collection: softwares
 ZSS is a research support tool that helps scholars efficiently filter relevant papers from large Zotero libraries by computing semantic similarity using state-of-the-art sentence embeddings. Given a CSV export of a Zotero library, the tool compares paper titles and abstracts against a user-defined description of the research scope and automatically selects the most relevant entries.
 
 <figure style="text-align: center;">
-    <img src="../images/zss-demo-1.png" style="width:80%;">
+    <img src="../../images/zss-demo-1.png" style="width:80%;">
     <figcaption style="font-family: inherit; font-size: 1em; font-style: normal; color: inherit;">
 
         <strong>Figure 1.</strong> ZSS interface for uploading a Zotero CSV export and defining the research scope description used for semantic similarity comparison.
@@ -64,7 +64,7 @@ ZSS is a research support tool that helps scholars efficiently filter relevant p
 The filtered results can be exported as a CSV file and converted to BibTeX for re-importing into Zotero. The results page provides insights about the selection process, including a similarity distribution histogram to visualize how papers are distributed across similarity scores and where the threshold is.
 
 <figure style="text-align: center;">
-    <img src="../images/zss-demo-2.png" style="width:80%;">
+    <img src="../../images/zss-demo-2.png" style="width:80%;">
     <figcaption style="font-family: inherit; font-size: 1em; font-style: normal; color: inherit;">
 
         <strong>Figure 2.</strong> Results dashboard showing corpus statistics, similarity threshold, and the distribution of similarity scores.
