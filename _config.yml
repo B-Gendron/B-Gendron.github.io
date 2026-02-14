@@ -189,7 +189,7 @@ collections:
     permalink: /:collection/:path/
   softwares:
     output: true
-    permalink: /softwares/:path/
+    permalink: /:collection/:path/
 
 
 # Defaults
