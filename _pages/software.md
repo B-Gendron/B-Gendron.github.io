@@ -7,12 +7,19 @@ author_profile: true
 
 {% include base_path %}
 
+<div class="software-grid">
 {% for post in site.softwares %}
-  <div>
-    <img src="../images/zss-logo-2.png" style="width:30%;">
-  </div>
-  {% include archive-single.html type="grid" %}
+  <a href="{{ post.url | relative_url }}" class="software-card">
+    
+    <img src="/images/zss-logo-2.png" alt="{{ post.title }}">
+
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.excerpt }}</p>
+
+  </a>
 {% endfor %}
+</div>
+
 
 <!-- ---
 layout: archive
