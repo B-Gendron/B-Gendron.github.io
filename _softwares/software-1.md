@@ -1,8 +1,9 @@
 ---
+layout: archive
 title: "ZSS: Zotero Similarity Selection"
 excerpt: "A semantic similarity tool for filtering large Zotero libraries using sentence embeddings."
 header:
-  teaser: /images/zss-logo-2.png
+  teaser: ../images/zss-logo-2.png
 collection: softwares
 ---
 
