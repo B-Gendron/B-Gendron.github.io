@@ -5,9 +5,11 @@ permalink: /software/
 author_profile: true
 ---
 
-{% include collection.html collection="softwares" type="grid" %}
+{% include base_path %}
 
-
+{% for post in site.softwares %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
 
 <!-- ---
 layout: archive
