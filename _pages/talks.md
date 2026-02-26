@@ -75,6 +75,18 @@ author_profile: true
 ## Seminar talks
 
 - <div class="talk-container">
+    <div class="talk-text">
+        <p><i>Bridging Symbolic Knowledge and Neural Text Generation: Ontology-Driven Conversational Control of LLMs</i> Talk at the Institute for Data, Process and Knowledge Management, WU University of Economics and Business, Vienna, Austria.</p>
+        <div class="button-container">
+            <form action="https://b-gendron.github.io/publications/publications-6/" method="get" target="_blank">
+                <button type="submit">Abstract</button>
+            </form>
+        </div>
+    </div>
+    <div class="talk-logo"><img src="../images/wu-logo.jpg"></div>
+  </div>
+
+- <div class="talk-container">
   <div class="talk-text">
     <p>
       <i>Conversational Control of LLMs Driven by Ontological Definitions: Ontology Design and Fine-Tuning Approaches</i>
@@ -90,8 +102,7 @@ author_profile: true
         Nancy, France.
       </li>
       <li>
-        Talk for
-        <a href="...">LIPN Seminar</a>.
+        Talk for LIPN Seminar.
         February 2nd 2026.
         LIPN, Université Sorbonne Paris-Nord,
         Villetaneuse, France.
