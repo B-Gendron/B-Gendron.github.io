@@ -1,0 +1,7 @@
+@inproceedings{gendron2026conversational,
+  title={Conversational Control with Ontologies for Large Language Models: A Lightweight Framework for Constrained Generation},
+  author={Gendron, Barbara and Guibon, Ga{\"e}l and D’aquin, Mathieu},
+  booktitle={KG--LLM@ LREC 2026-Knowledge Graphs and Large Language Models},
+  pages={pages--20},
+  year={2026}
+}

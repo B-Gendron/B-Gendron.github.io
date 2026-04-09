@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
+## 2026
+
+- Barbara Gendron, Gaël Guibon, Mathieu d'Aquin. [Conversational Control with Ontologies for Large Language Models: A Lightweight Framework for Constrained Generation](https://B-Gendron.github.io/publications/publications-7/). In Knowledge Graphs and Large Language Models Workshop @ LREC 2026, Palma de Mallorca (Spain), May 2026.
+
 ## 2025
 
 - Barbara Gendron, Gaël Guibon, Mathieu D’aquin. [Towards Ontology-Based Descriptions of Conversations with Qualitatively-Defined Concepts](https://B-Gendron.github.io/publications/publications-5/). In Proceedings of the 19th International Conference TOTh – Terminology & Ontology: Theories and applications, Chambéry (France), June 2025.
