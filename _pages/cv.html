@@ -7,7 +7,32 @@ author_profile: true
 
 {% include base_path %}
 
+<div class="cv-section">
 
-{% for post in site.projects %}
-  {% include archive-single.html %}
-{% endfor %}
+  <h2>Download my CV</h2>
+
+  <div class="cv-buttons">
+    <a href="/files/Gendron_Barbara_resume.pdf" class="btn btn--primary" download>
+      📄 Classical CV (English)
+    </a>
+    <a href="/files/barbara_gendron_cv_fr.pdf" class="btn btn--primary" download>
+      📄 Academic CV (French)
+    </a>
+    <a href="/files/barbara_gendron_cv_en.pdf" class="btn btn--primary" download>
+      📄 Academic CV (English)
+    </a>
+  </div>
+
+  <h2>Preview — Academic CV (English)</h2>
+
+  <iframe
+    src="/files/barbara_gendron_cv_en.pdf"
+    width="100%"
+    height="900px"
+    style="border: 1px solid #ddd; border-radius: 4px;">
+    <p>Your browser does not support PDF preview.
+       <a href="/files/barbara_gendron_cv_en.pdf">Download it here.</a>
+    </p>
+  </iframe>
+
+</div>
