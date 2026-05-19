@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "CV"
-    url: /files/Gendron_Barbara_resume.pdf
+    url: /cv/
 
   - title: "Projects"
     url: /projects/
