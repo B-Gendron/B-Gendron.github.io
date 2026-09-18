@@ -79,7 +79,7 @@ author_profile: true
   
   The evaluation is intended to complement the technical experiments with observations from actual users. In particular, it helps investigate whether the constraints introduced at the modelling level translate into differences that are meaningful at the level of interaction.
   
-<h3>About the research</h3>
+<h2>About the research</h2>
   
   This work is conducted by **Barbara Gendron** as part of her PhD at LORIA, Université de Lorraine, entitled *Controlled Conversational Models through Conversation-Dedicated Ontology*.
   
@@ -87,7 +87,7 @@ author_profile: true
   
   For more information about my research and publications, please visit my [academic website](https://b-gendron.github.io/).
   
-<h3>Taking part in the study</h3>
+<h2>Taking part in the study</h2>
   
   The evaluation is designed for people who are interested in conversational AI and would like to contribute to research on more controlled language models. No particular expertise in artificial intelligence is required. The annotation instructions provide the information needed to carry out the evaluation.
   
@@ -146,7 +146,7 @@ author_profile: true
   
   Cette évaluation vient compléter les expériences techniques par des observations issues d’interactions avec de véritables utilisateurs. Elle permet notamment d’étudier dans quelle mesure les contraintes introduites au niveau de la modélisation se traduisent par des différences qui ont une importance réelle dans l’interaction.  
   
-<h3>À propos de la recherche</h3>
+<h2>À propos de la recherche</h2>
   
   Ce travail est réalisé par **Barbara Gendron** dans le cadre de ma thèse de doctorat au LORIA, Université de Lorraine, intitulée *Controlled Conversational Models through Conversation-Dedicated Ontology*.
   
@@ -154,7 +154,7 @@ author_profile: true
   
   Pour plus d’informations sur mes travaux de recherche et mes publications, vous pouvez consulter mon [site académique](https://b-gendron.github.io/).  
   
-<h3>Participer à l'étude</h3>
+<h2>Participer à l'étude</h2>
   
   Cette évaluation s’adresse aux personnes qui souhaitent contribuer à des recherches sur les systèmes conversationnels et sur le contrôle des modèles de langage. Il n’est pas nécessaire d’avoir une expertise particulière en intelligence artificielle. Les consignes d’annotation fournissent les informations nécessaires pour réaliser l’évaluation.
   
