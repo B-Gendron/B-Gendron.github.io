@@ -14,7 +14,7 @@ author_profile: true
 
   This page hosts a human evaluation study for the conversational agent I built during my PhD at LORIA, *Controlled Conversational Models through Conversation-Dedicated Ontology*, supervised by **Mathieu d'Aquin** (LORIA, CNRS) and **Gaël Guibon** (LIPN, Université Sorbonne Paris Nord).
 
-The idea: use an ontology — an explicit set of conversational rules — to make a language model's behaviour more predictable, instead of relying only on what it picked up implicitly. The prototype simulates a job interview across five stages:
+The idea: guide the model with a conversation strategy defined from formal concepts and rules, giving a set of explicit constraints laid on top of a language model to make its behaviour more predictable and relevant to the use-case. The prototype simulates a job interview across five stages:
 
 <style>
 .phase {
@@ -60,7 +60,7 @@ Questions, or want to take part? [Get in touch](mailto:barbara.gendron@loria.fr)
 
   Cette page présente une étude d'évaluation humaine pour l'agent conversationnel développé pendant ma thèse au LORIA, *Controlled Conversational Models through Conversation-Dedicated Ontology*, encadrée par **Mathieu d'Aquin** (LORIA, CNRS) et **Gaël Guibon** (LIPN, Université Sorbonne Paris Nord).
 
-L'idée : utiliser une ontologie — un ensemble explicite de règles conversationnelles — pour rendre le comportement d'un modèle de langage plus prévisible, plutôt que de dépendre uniquement de ce qu'il a appris implicitement. Le prototype simule un entretien d'embauche en cinq étapes :
+L'idée : guider le modèle par une stratégie conversationnelle définie à partir de concepts et de règles formalisés, apportant un ensemble de contraintes explicites posées sur un modèle de langage afin de rendre son comportement plus prévisible et plus pertinent pour le cas d'usage. Le prototype simule un entretien d'embauche en cinq étapes :
 
 <div class="phase phase1"><strong>Phase 1 — Accueil et discussion informelle</strong><span class="phase-turns">2 tours</span></div>
 
