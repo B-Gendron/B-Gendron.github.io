@@ -21,40 +21,56 @@ author_profile: true
   The conversational agent used in this experiment is a prototype built to study this approach in practice. The conversation follows a predefined structure, moving through several stages of a job interview:
   
   <style>
-  .phase {
-    padding: 0.8em 1em;
-    margin: 0.6em 0;
-    border-radius: 6px;
-    color: white;
-  }
-  
-  .phase1 { background-color: #667eea; }
-  .phase2 { background-color: #48bb78; }
-  .phase3 { background-color: #f6ad55; }
-  .phase4 { background-color: #ed64a6; }
-  .phase5 { background-color: #9f7aea; }
+    .phase {
+      padding: 0.8em 1em;
+      margin: 0.6em 0;
+      border-radius: 6px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .phase1 { background-color: #667eea; }
+    .phase2 { background-color: #48bb78; }
+    .phase3 { background-color: #f6ad55; }
+    .phase4 { background-color: #ed64a6; }
+    .phase5 { background-color: #9f7aea; }
+
+    .phase-turns {
+      font-style: italic;
+      font-size: 0.85em;
+      opacity: 0.9;
+      white-space: nowrap;
+      margin-left: 1em;
+    }
   </style>
   
   <div class="phase phase1">
   <strong>Phase 1 — Greetings and small talk</strong>
+  <span class="phase-turns">2 turns</span>
   </div>
-  
+
   <div class="phase phase2">
   <strong>Phase 2 — Background and experience</strong>
+  <span class="phase-turns">3 turns</span>
   </div>
-  
+
   <div class="phase phase3">
   <strong>Phase 3 — Technical discussion</strong>
+  <span class="phase-turns">3 turns</span>
   </div>
-  
+
   <div class="phase phase4">
   <strong>Phase 4 — Short debate</strong>
+  <span class="phase-turns">2 turns</span>
   </div>
-  
+
   <div class="phase phase5">
   <strong>Phase 5 — Summary and send-off</strong>
+  <span class="phase-turns">2 turns</span>
   </div>
-  
+
   At each stage, the agent is expected to produce responses with particular characteristics. These include the intended level of language, the polarity of the response, its emotional load, and its compatibility with the current stage of the conversation.
   
   The purpose of the human evaluation is to examine whether these constraints actually lead to differences that can be perceived by people interacting with the system. Participants are therefore shown two possible responses to the same conversational context and asked to select the one that best fits the expected behaviour. The two responses come from different versions of the model, but their origin is not disclosed during the evaluation.
@@ -99,22 +115,27 @@ author_profile: true
   
   <div class="phase phase1">
   <strong>Phase 1 — Accueil et discussion informelle</strong>
+  <span class="phase-turns">2 tours</span>
   </div>
-  
+
   <div class="phase phase2">
   <strong>Phase 2 — Parcours et expérience</strong>
+  <span class="phase-turns">3 tours</span>
   </div>
-  
+
   <div class="phase phase3">
   <strong>Phase 3 — Discussion technique</strong>
+  <span class="phase-turns">3 tours</span>
   </div>
-  
+
   <div class="phase phase4">
   <strong>Phase 4 — Court débat</strong>
+  <span class="phase-turns">2 tours</span>
   </div>
-  
+
   <div class="phase phase5">
   <strong>Phase 5 — Conclusion et prise de congé</strong>
+  <span class="phase-turns">2 tours</span>
   </div>
   
   À chaque étape, l’agent doit produire des réponses présentant certaines caractéristiques. Celles-ci concernent notamment le niveau de langue attendu, la polarité de la réponse, sa charge émotionnelle et sa compatibilité avec l’étape actuelle de la conversation.
