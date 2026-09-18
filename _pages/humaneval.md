@@ -144,7 +144,7 @@ author_profile: true
   
   Les participants peuvent également signaler certaines incohérences lorsqu’une réponse ne semble pas correspondre à la conversation en cours. Il peut par exemple s’agir d’un agent qui reste dans une étape précédente de la conversation, qui oublie une information importante donnée plus tôt, qui se contredit, ou encore qui produit une réponse qui n’a pas de sens dans le contexte.
   
-  Cette évaluation vient compléter les expériences techniques par des observations issues d’interactions avec de véritables utilisateurs. Elle permet notamment d’étudier dans quelle mesure les contraintes introduites au niveau de la modélisation se traduisent par des différences qui ont une importance réelle dans l’interaction.
+  Cette évaluation vient compléter les expériences techniques par des observations issues d’interactions avec de véritables utilisateurs. Elle permet notamment d’étudier dans quelle mesure les contraintes introduites au niveau de la modélisation se traduisent par des différences qui ont une importance réelle dans l’interaction.  
   
   ### À propos de la recherche
   
@@ -152,7 +152,7 @@ author_profile: true
   
   Je travaille sous la direction de **Mathieu d'Aquin** (LORIA, Université de Lorraine, CNRS) et de **Gaël Guibon** (LIPN, Université Sorbonne Paris Nord).
   
-  Pour plus d’informations sur mes travaux de recherche et mes publications, vous pouvez consulter mon [site académique](https://b-gendron.github.io/).
+  Pour plus d’informations sur mes travaux de recherche et mes publications, vous pouvez consulter mon [site académique](https://b-gendron.github.io/).  
   
   ### Participer à l’étude
   
