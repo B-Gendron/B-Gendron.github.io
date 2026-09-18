@@ -46,14 +46,13 @@ The idea: use an ontology — an explicit set of conversational rules — to mak
 
 At each stage, the model is expected to respect constraints on language level, polarity, emotional tone, and fit with the current stage.
 
-<h3>Taking part</h3>
+<h2>Taking part</h2>
 
 For each context, you'll see two possible responses and pick the one that fits best. You can also flag inconsistencies — the agent stuck in the wrong stage, contradicting itself, or forgetting something said earlier. No AI background needed, just read the guide first:
 
 * [Annotator guide — English (PDF)](/files/annotator-guide-en.pdf)
-* [Guide d'annotation — Français (PDF)](/files/annotator-guide-fr.pdf)
 
-Questions, or want to take part? [Get in touch](mailto:YOUR_EMAIL@example.com).
+Questions, or want to take part? [Get in touch](mailto:barbara.gendron@loria.fr).
 
 </div>
 
@@ -75,14 +74,13 @@ L'idée : utiliser une ontologie — un ensemble explicite de règles conversati
 
 À chaque étape, le modèle doit respecter des contraintes de niveau de langue, de polarité, de charge émotionnelle et de cohérence avec l'étape en cours.
 
-<h3>Participer</h3>
+<h2>Participer</h2>
 
-Pour chaque contexte, vous verrez deux réponses possibles et choisirez celle qui correspond le mieux. Vous pouvez aussi signaler des incohérences — l'agent resté bloqué dans une étape précédente, qui se contredit, ou qui oublie une information donnée plus tôt. Aucune expertise en IA n'est nécessaire, il suffit de lire le guide d'abord :
+Pour chaque contexte, vous verrez deux réponses possibles et choisirez celle qui correspond le mieux. Vous pouvez aussi signaler des incohérences — l'agent resté bloqué dans une étape précédente, qui se contredit, ou qui oublie une information donnée plus tôt. Aucune expertise en IA n'est nécessaire, il suffit de lire le guide de l'annotateur :
 
-* [Guide d'annotation — Français (PDF)](/files/annotator-guide-fr.pdf)
-* [Annotator guide — English (PDF)](/files/annotator-guide-en.pdf)
+* [Guide de l'annotateur — Français (PDF)](/files/annotator-guide-fr.pdf)
 
-Des questions, envie de participer ? [Contactez-moi](mailto:YOUR_EMAIL@example.com).
+Des questions, envie de participer ? [Contactez-moi](mailto:barbara.gendron@loria.fr).
 
 </div>
 
