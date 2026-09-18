@@ -190,9 +190,6 @@ collections:
   softwares:
     output: true
     permalink: /:collection/:path/
-  humaneval:
-    output: true
-    permalink: /:collection/:path/
 
 
 # Defaults
