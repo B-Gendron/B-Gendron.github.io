@@ -12,161 +12,77 @@ author_profile: true
 
 <div id="content-en" class="lang-content" markdown="1">
 
-  This study is part of my PhD research at **LORIA**, entitled *Controlled Conversational Models through Conversation-Dedicated Ontology*.
+  This page hosts a human evaluation study for the conversational agent I built during my PhD at LORIA, *Controlled Conversational Models through Conversation-Dedicated Ontology*, supervised by **Mathieu d'Aquin** (LORIA, CNRS) and **Gaël Guibon** (LIPN, Université Sorbonne Paris Nord).
 
-  The general objective of this research is to explore how we can make the behaviour of conversational language models more predictable and controllable. Large language models are very good at producing fluent and contextually appropriate text, but their behaviour can still be difficult to control precisely, especially when a conversation is expected to follow a particular structure or set of constraints.
-  
-  My approach is to use an ontology as an explicit representation of conversational knowledge and rules. These rules can then be used during generation to guide the behaviour of a language model. Rather than relying only on what the model has learned implicitly, the idea is to make some aspects of the desired conversational behaviour explicit and enforceable.
-  
-  The conversational agent used in this experiment is a prototype built to study this approach in practice. The conversation follows a predefined structure, moving through several stages of a job interview:
-  
-  <style>
-    .phase {
-      padding: 0.8em 1em;
-      margin: 0.6em 0;
-      border-radius: 6px;
-      color: white;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+The idea: use an ontology — an explicit set of conversational rules — to make a language model's behaviour more predictable, instead of relying only on what it picked up implicitly. The prototype simulates a job interview across five stages:
 
-    .phase1 { background-color: #667eea; }
-    .phase2 { background-color: #48bb78; }
-    .phase3 { background-color: #f6ad55; }
-    .phase4 { background-color: #ed64a6; }
-    .phase5 { background-color: #9f7aea; }
+<style>
+.phase {
+  padding: 0.8em 1em;
+  margin: 0.6em 0;
+  border-radius: 6px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phase1 { background-color: #667eea; }
+.phase2 { background-color: #48bb78; }
+.phase3 { background-color: #f6ad55; }
+.phase4 { background-color: #ed64a6; }
+.phase5 { background-color: #9f7aea; }
+.phase-turns { font-style: italic; font-size: 0.85em; opacity: 0.9; white-space: nowrap; margin-left: 1em; }
+</style>
 
-    .phase-turns {
-      font-style: italic;
-      font-size: 0.85em;
-      opacity: 0.9;
-      white-space: nowrap;
-      margin-left: 1em;
-    }
-  </style>
-  
-  <div class="phase phase1">
-  <strong>Phase 1 — Greetings and small talk</strong>
-  <span class="phase-turns">2 turns</span>
-  </div>
+<div class="phase phase1"><strong>Phase 1 — Greetings and small talk</strong><span class="phase-turns">2 turns</span></div>
 
-  <div class="phase phase2">
-  <strong>Phase 2 — Background and experience</strong>
-  <span class="phase-turns">3 turns</span>
-  </div>
+<div class="phase phase2"><strong>Phase 2 — Background and experience</strong><span class="phase-turns">3 turns</span></div>
 
-  <div class="phase phase3">
-  <strong>Phase 3 — Technical discussion</strong>
-  <span class="phase-turns">3 turns</span>
-  </div>
+<div class="phase phase3"><strong>Phase 3 — Technical discussion</strong><span class="phase-turns">3 turns</span></div>
 
-  <div class="phase phase4">
-  <strong>Phase 4 — Short debate</strong>
-  <span class="phase-turns">2 turns</span>
-  </div>
+<div class="phase phase4"><strong>Phase 4 — Short debate</strong><span class="phase-turns">2 turns</span></div>
 
-  <div class="phase phase5">
-  <strong>Phase 5 — Summary and send-off</strong>
-  <span class="phase-turns">2 turns</span>
-  </div>
+<div class="phase phase5"><strong>Phase 5 — Summary and send-off</strong><span class="phase-turns">2 turns</span></div>
 
-  At each stage, the agent is expected to produce responses with particular characteristics. These include the intended level of language, the polarity of the response, its emotional load, and its compatibility with the current stage of the conversation.
-  
-  The purpose of the human evaluation is to examine whether these constraints actually lead to differences that can be perceived by people interacting with the system. Participants are therefore shown two possible responses to the same conversational context and asked to select the one that best fits the expected behaviour. The two responses come from different versions of the model, but their origin is not disclosed during the evaluation.
-  
-  Participants can also report inconsistencies when a response does not seem to fit the ongoing conversation. For example, the agent may appear to remain in the wrong conversational phase, forget information that was established earlier, contradict itself, or simply produce a response that does not make sense in context.
-  
-  The evaluation is intended to complement the technical experiments with observations from actual users. In particular, it helps investigate whether the constraints introduced at the modelling level translate into differences that are meaningful at the level of interaction.
-  
-<h2>About the research</h2>
-  
-  This work is conducted by **Barbara Gendron** as part of her PhD at LORIA, Université de Lorraine, entitled *Controlled Conversational Models through Conversation-Dedicated Ontology*.
-  
-  I work under the supervision of **Mathieu d'Aquin** (LORIA, Université de Lorraine, CNRS) and **Gaël Guibon** (LIPN, Université Sorbonne Paris Nord).
-  
-  For more information about my research and publications, please visit my [academic website](https://b-gendron.github.io/).
-  
-<h2>Taking part in the study</h2>
-  
-  The evaluation is designed for people who are interested in conversational AI and would like to contribute to research on more controlled language models. No particular expertise in artificial intelligence is required. The annotation instructions provide the information needed to carry out the evaluation.
-  
-  Before starting, please read the annotator guide:
-  
-  * [Annotator Guide — English (PDF)](../files/annotator-guide-en.pdf)
-  
-  If you would like to participate in the experiment, have questions about the evaluation, or would like more information about the research, please get in touch:
-  
-  **Barbara Gendron**  
-  PhD researcher, LORIA / Université de Lorraine  
-  [Contact me](mailto:barbara dot gendron at loria dot fr)
+At each stage, the model is expected to respect constraints on language level, polarity, emotional tone, and fit with the current stage.
+
+<h3>Taking part</h3>
+
+For each context, you'll see two possible responses and pick the one that fits best. You can also flag inconsistencies — the agent stuck in the wrong stage, contradicting itself, or forgetting something said earlier. No AI background needed, just read the guide first:
+
+* [Annotator guide — English (PDF)](/files/annotator-guide-en.pdf)
+* [Guide d'annotation — Français (PDF)](/files/annotator-guide-fr.pdf)
+
+Questions, or want to take part? [Get in touch](mailto:YOUR_EMAIL@example.com).
 
 </div>
 
 <div id="content-fr" class="lang-content" markdown="1" style="display:none;">
 
-  Cette étude s’inscrit dans le cadre de ma thèse de doctorat menée au **LORIA**, intitulée *Controlled Conversational Models through Conversation-Dedicated Ontology*.
-  
-  L’objectif général de ce travail est d’étudier comment rendre le comportement des modèles de langage conversationnels plus prévisible et plus contrôlable. Les grands modèles de langage sont capables de produire des textes très fluides et généralement adaptés au contexte, mais leur comportement reste parfois difficile à contrôler précisément, notamment lorsqu’une conversation doit suivre une structure ou respecter certaines contraintes.
-  
-  Mon approche consiste à utiliser une ontologie comme représentation explicite de connaissances et de règles conversationnelles. Ces règles peuvent ensuite être utilisées pendant la génération afin de guider le comportement du modèle de langage. L’idée est ainsi de ne pas dépendre uniquement de ce que le modèle a appris implicitement, mais de rendre certains aspects du comportement conversationnel souhaité explicites et contrôlables.
-  
-  L’agent conversationnel utilisé dans cette expérience est un prototype permettant d’étudier cette approche dans une situation concrète. La conversation suit une structure prédéfinie inspirée d’un entretien d’embauche, avec plusieurs étapes :
-  
-  <div class="phase phase1">
-  <strong>Phase 1 — Accueil et discussion informelle</strong>
-  <span class="phase-turns">2 tours</span>
-  </div>
+  Cette page présente une étude d'évaluation humaine pour l'agent conversationnel développé pendant ma thèse au LORIA, *Controlled Conversational Models through Conversation-Dedicated Ontology*, encadrée par **Mathieu d'Aquin** (LORIA, CNRS) et **Gaël Guibon** (LIPN, Université Sorbonne Paris Nord).
 
-  <div class="phase phase2">
-  <strong>Phase 2 — Parcours et expérience</strong>
-  <span class="phase-turns">3 tours</span>
-  </div>
+L'idée : utiliser une ontologie — un ensemble explicite de règles conversationnelles — pour rendre le comportement d'un modèle de langage plus prévisible, plutôt que de dépendre uniquement de ce qu'il a appris implicitement. Le prototype simule un entretien d'embauche en cinq étapes :
 
-  <div class="phase phase3">
-  <strong>Phase 3 — Discussion technique</strong>
-  <span class="phase-turns">3 tours</span>
-  </div>
+<div class="phase phase1"><strong>Phase 1 — Accueil et discussion informelle</strong><span class="phase-turns">2 tours</span></div>
 
-  <div class="phase phase4">
-  <strong>Phase 4 — Court débat</strong>
-  <span class="phase-turns">2 tours</span>
-  </div>
+<div class="phase phase2"><strong>Phase 2 — Parcours et expérience</strong><span class="phase-turns">3 tours</span></div>
 
-  <div class="phase phase5">
-  <strong>Phase 5 — Conclusion et prise de congé</strong>
-  <span class="phase-turns">2 tours</span>
-  </div>
-  
-  À chaque étape, l’agent doit produire des réponses présentant certaines caractéristiques. Celles-ci concernent notamment le niveau de langue attendu, la polarité de la réponse, sa charge émotionnelle et sa compatibilité avec l’étape actuelle de la conversation.
-  
-  L’objectif de l’évaluation humaine est de déterminer si les contraintes appliquées au modèle entraînent effectivement des différences perceptibles lors de l’interaction. Au cours de l’expérience, deux réponses possibles sont présentées aux participants pour un même contexte conversationnel. Ils doivent sélectionner celle qui correspond le mieux au comportement attendu. Les deux réponses proviennent de versions différentes du modèle, mais leur origine n’est pas indiquée pendant l’évaluation.
-  
-  Les participants peuvent également signaler certaines incohérences lorsqu’une réponse ne semble pas correspondre à la conversation en cours. Il peut par exemple s’agir d’un agent qui reste dans une étape précédente de la conversation, qui oublie une information importante donnée plus tôt, qui se contredit, ou encore qui produit une réponse qui n’a pas de sens dans le contexte.
-  
-  Cette évaluation vient compléter les expériences techniques par des observations issues d’interactions avec de véritables utilisateurs. Elle permet notamment d’étudier dans quelle mesure les contraintes introduites au niveau de la modélisation se traduisent par des différences qui ont une importance réelle dans l’interaction.  
-  
-<h2>À propos de la recherche</h2>
-  
-  Ce travail est réalisé par **Barbara Gendron** dans le cadre de ma thèse de doctorat au LORIA, Université de Lorraine, intitulée *Controlled Conversational Models through Conversation-Dedicated Ontology*.
-  
-  Je travaille sous la direction de **Mathieu d'Aquin** (LORIA, Université de Lorraine, CNRS) et de **Gaël Guibon** (LIPN, Université Sorbonne Paris Nord).
-  
-  Pour plus d’informations sur mes travaux de recherche et mes publications, vous pouvez consulter mon [site académique](https://b-gendron.github.io/).  
-  
-<h2>Participer à l'étude</h2>
-  
-  Cette évaluation s’adresse aux personnes qui souhaitent contribuer à des recherches sur les systèmes conversationnels et sur le contrôle des modèles de langage. Il n’est pas nécessaire d’avoir une expertise particulière en intelligence artificielle. Les consignes d’annotation fournissent les informations nécessaires pour réaliser l’évaluation.
-  
-  Avant de commencer, merci de consulter le guide de l'annotateur :
-  
-  * [Guide de l'annotateur — Français (PDF)](../files/annotator-guide-fr.pdf)
-  
-  Si vous souhaitez participer à l’expérience, si vous avez des questions concernant l’évaluation ou si vous souhaitez simplement obtenir davantage d’informations sur le projet, vous pouvez me contacter :
-  
-  **Barbara Gendron**  
-  Doctorante, LORIA / Université de Lorraine  
-  [Me contacter](mailto:barbara dot gendron at loria dot fr)
+<div class="phase phase3"><strong>Phase 3 — Discussion technique</strong><span class="phase-turns">3 tours</span></div>
+
+<div class="phase phase4"><strong>Phase 4 — Court débat</strong><span class="phase-turns">2 tours</span></div>
+
+<div class="phase phase5"><strong>Phase 5 — Conclusion et prise de congé</strong><span class="phase-turns">2 tours</span></div>
+
+À chaque étape, le modèle doit respecter des contraintes de niveau de langue, de polarité, de charge émotionnelle et de cohérence avec l'étape en cours.
+
+<h3>Participer</h3>
+
+Pour chaque contexte, vous verrez deux réponses possibles et choisirez celle qui correspond le mieux. Vous pouvez aussi signaler des incohérences — l'agent resté bloqué dans une étape précédente, qui se contredit, ou qui oublie une information donnée plus tôt. Aucune expertise en IA n'est nécessaire, il suffit de lire le guide d'abord :
+
+* [Guide d'annotation — Français (PDF)](/files/annotator-guide-fr.pdf)
+* [Annotator guide — English (PDF)](/files/annotator-guide-en.pdf)
+
+Des questions, envie de participer ? [Contactez-moi](mailto:YOUR_EMAIL@example.com).
 
 </div>
 
