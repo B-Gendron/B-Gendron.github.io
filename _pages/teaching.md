@@ -5,48 +5,44 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## Institut des Sciences du Digital, Management et Cognition (IDMC)
+<details markdown="1">
+<summary style="cursor: pointer;"><h2 style="display: inline;">Institut des Sciences du Digital, Management et Cognition (IDMC)</h2><br>
+<em>11 courses · XX h CM · XX h TD</em></summary>
 
 <!-- Month – Month 2026 (TODO) -->  
-**Internship Supervision**  
+**Symbolic Knowledge Discovery** 🇬🇧  
 _2026/2027_  
-_Course directed by Laurent Frottier_  
-Academic supervision of students during their internship.  
+Lecturer in charge of lectures and tutorials for Master 2 NLP students.  
 
 <!-- Month – Month 2026 (TODO) -->  
-**Symbolic Knowledge Discovery**  
-_2026/2027_  
-Lecturer in charge of lectures and tutorials for Master 2 NLP students. Taught in English.  
-
-<!-- Month – Month 2026 (TODO) -->  
-**Ontologies**  
+**Ontologies** 🇬🇧  
 _2026/2027_  
 _Course directed by Mathieu d'Aquin_  
-Teaching assistant for Master 2 NLP students. Tutorial sessions on ontologies and knowledge representation. Taught in English.  
+Teaching assistant for Master 2 NLP students. Tutorial sessions on ontologies and knowledge representation.  
 
 <!-- Month – Month 2026 (TODO) -->  
-**Symbolic AI**  
+**Symbolic AI** 🇬🇧  
 _2026/2027_  
 _Course directed by Mathieu d'Aquin_  
-Teaching assistant for Master 1 Cognitive Science and NLP students. Tutorial sessions on symbolic approaches to artificial intelligence. Taught in English.  
+Teaching assistant for Master 1 Cognitive Science and NLP students. Tutorial sessions on symbolic approaches to artificial intelligence.  
 
 <!-- Month – Month 2026 (TODO) -->  
-**Data Storage and Retrieval**  
+**Data Storage and Retrieval** 🇬🇧  
 _2026/2027_  
 _Course directed by Maxime Amblard_  
-Teaching assistant for Master 1 NLP students. Tutorial sessions on data storage and retrieval. Taught in English.  
+Teaching assistant for Master 1 NLP students. Tutorial sessions on data storage and retrieval.  
 
 <!-- Month – Month 2026 (TODO) -->  
-**Data Analysis**  
+**Data Analysis** 🇬🇧  
 _2026/2027_  
 _Course directed by Maxime Amblard_  
-Teaching assistant for Master 1 NLP students. Tutorial sessions on data analysis. Taught in English.  
+Teaching assistant for Master 1 NLP students. Tutorial sessions on data analysis.  
 
 <!-- Month – Month 2026 (TODO) -->  
-**Generative AI**  
+**Generative AI** 🇬🇧  
 _2026/2027_  
 _Course directed by François Buet_  
-Teaching assistant for Master 1 NLP students. Tutorial sessions on generative AI. Taught in English.  
+Teaching assistant for Master 1 NLP students. Tutorial sessions on generative AI.  
 
 <!-- Month – Month 2026 (TODO) -->  
 **AI Design (Conception d'IA)**  
@@ -78,9 +74,11 @@ _2026/2027_
 _Course directed by Hendry Chame_  
 Teaching assistant for Bachelor 1 students. Tutorial sessions introducing web technologies.  
 
----
+</details>
 
-## École Nationale Supérieure des Mines de Nancy
+<details markdown="1">
+<summary style="cursor: pointer;"><h2 style="display: inline;">École Nationale Supérieure des Mines de Nancy</h2><br>
+<em>4 courses · XX h CM · XX h TD</em></summary>
 
 <!-- November 2023 – January 2024, November 2024 – January 2025, November 2025 – January 2026 -->  
 **Introduction to Machine Learning**  
@@ -106,12 +104,16 @@ _2023/2024_
 _Course directed by Parisa Rastin and Guénaël Cabanes_  
 Teaching assistant for Master 1 students in the _Industrial Engineering and Applied Mathematics_ track. Practical sessions introducing neural network implementation with Keras: MLP classifiers, CNNs, RNNs, LSTMs, and Transformers.  
 
----
+</details>
 
-## IUT Charlemagne
+<details markdown="1">
+<summary style="cursor: pointer;"><h2 style="display: inline;">IUT Charlemagne</h2><br>
+<em>1 course · XX h CM · XX h TD</em></summary>
 
 <!-- September 2025 -->  
 **Development of Web Interfaces**  
 _2025/2026_  
 _Course directed by Philippe Dosch_  
 Lecturer in charge of lectures and practical sessions. Introduction to web development using HTML and CSS to build static websites.
+
+</details>
