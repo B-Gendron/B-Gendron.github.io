@@ -7,6 +7,8 @@ author_profile: true
 
 ## 2026
 
+- Barbara Gendron, Stefani Tsaneva, Marta Sabou. [OntoLLMJudge: A Framework for Neurosymbolic Evaluation of LLM Generations](https://B-Gendron.github.io/publications/publications-8/). In The 4th Workshop on Evaluation of Language Models in Knowledge Engineering @ ISWC 2026, Bari (Italy), October 2026. *Accepted, proceedings to appear.*
+
 - Barbara Gendron, Gaël Guibon, Mathieu d'Aquin. [Conversational Control with Ontologies for Large Language Models: A Lightweight Framework for Constrained Generation](https://B-Gendron.github.io/publications/publications-7/). In Knowledge Graphs and Large Language Models Workshop @ LREC 2026, Palma de Mallorca (Spain), May 2026.
 
 ## 2025
