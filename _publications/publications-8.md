@@ -32,7 +32,7 @@ In The 4th Workshop on Evaluation of Language Models in Knowledge Engineering (E
 <td>
     <nobr>
 <form style="float: left; width=150px; margin-right: 10px" action="https://research.wu.ac.at/en/publications/ontollmjudge-a-framework-for-neurosymbolic-evaluation-of-llm-gene/" method="get" target="_blank"><button type="submit">View on website</button></form>
-<form style="float: left; width=150px; margin-right: 10px" action="#" method="get" onsubmit="return false;"><button type="button" disabled style="cursor: not-allowed; opacity: 0.6;">PDF (pending)</button></form> 
+<form style="float: left; width=150px; margin-right: 10px" action="https://B-Gendron.github.io/files/OntoLLMJudge_ELMKE_CR.pdf" method="get" target="_blank"><button type="submit">PDF</button></form> 
 <form style="float: none; width=150px; margin-right: 10px" action="https://B-Gendron.github.io/files/ref_ontollmjudge.txt" method="get" target="_blank"><button type="submit">Cite</button></form>
     </nobr>
 </td>
