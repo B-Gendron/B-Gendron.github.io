@@ -7,7 +7,7 @@ author_profile: true
 
 <details markdown="1">
 <summary style="cursor: pointer;"><h2 style="display: inline;">Institut des Sciences du Digital, Management et Cognition (IDMC)</h2><br>
-<em>11 courses · XX h CM · XX h TD</em></summary>
+<em>11 courses · 18h CM · 149h TD</em></summary>
 
 <!-- Month – Month 2026 (TODO) -->  
 **Symbolic Knowledge Discovery** 🇬🇧  
@@ -68,7 +68,7 @@ Teaching assistant for Bachelor 1 students. Tutorial sessions introducing web te
 
 <details markdown="1">
 <summary style="cursor: pointer;"><h2 style="display: inline;">École Nationale Supérieure des Mines de Nancy</h2><br>
-<em>4 courses · XX h CM · XX h TD</em></summary>
+<em>4 courses · 151h TD</em></summary>
 
 <!-- November 2023 – January 2024, November 2024 – January 2025, November 2025 – January 2026 -->  
 **Introduction to Machine Learning**  
@@ -94,7 +94,7 @@ Teaching assistant for Master 1 students in the _Industrial Engineering and Appl
 
 <details markdown="1">
 <summary style="cursor: pointer;"><h2 style="display: inline;">IUT Charlemagne</h2><br>
-<em>1 course · XX h CM · XX h TD</em></summary>
+<em>1 course · 9h CM · 15h TD</em></summary>
 
 <!-- September 2025 -->  
 **Development of Web Interfaces**  
