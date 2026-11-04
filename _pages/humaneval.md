@@ -32,8 +32,8 @@ author_profile: true
 .he-p5 { background: #9f7aea; }
 .he-phase-block { margin: 0.8em 0 1em; }
 .he-phase-block .he-phases { margin-bottom: 0; }
-.he-footnote { font-size: 0.8em; color: #777; margin: 0.3em 0 1em; }
-.he-hint { font-size: 0.8em; font-style: italic; color: #777; margin: 0.5em 0 0; }
+.page__content .he-footnote { font-size: 0.75em; line-height: 1.4; color: #777; margin: 0.3em 0 1em; }
+.page__content .he-hint { font-size: 0.75em; font-style: italic; color: #777; margin: 0.5em 0 0; }
 .he-panel { margin: 0.7em 0 0; padding: 0.6em 1em; border-left: 4px solid #ccc; background: #fafafa; border-radius: 0 6px 6px 0; }
 .he-panel[hidden] { display: none; }
 .he-panel p { margin: 0 0 0.4em; }
