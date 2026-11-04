@@ -32,6 +32,7 @@ author_profile: true
 .he-p5 { background: #9f7aea; }
 .he-phase-block { margin: 0.8em 0 1em; }
 .he-phase-block .he-phases { margin-bottom: 0; }
+.he-footnote { font-size: 0.8em; color: #777; margin: 0.3em 0 1em; }
 .he-hint { font-size: 0.8em; font-style: italic; color: #777; margin: 0.5em 0 0; }
 .he-panel { margin: 0.7em 0 0; padding: 0.6em 1em; border-left: 4px solid #ccc; background: #fafafa; border-radius: 0 6px 6px 0; }
 .he-panel[hidden] { display: none; }
@@ -132,9 +133,11 @@ Each turn asks for one to three of the characteristics below, and you only judge
 
 | Characteristic | Possible values | Description |
 |---|---|---|
-| Language level | A1, A2, B1, B2, C1, C2 | How sophisticated the English is. A1 and A2 mean very simple words and short sentences, B1 and B2 are everyday language, C1 and C2 are rich vocabulary and complex sentences. |
+| Language level | A1, A2, B1, B2, C1, C2 | How sophisticated the English is, from basic (A1) to proficient (C2).<sup><a href="#he-cefr-en">1</a></sup><br>A1: familiar everyday expressions and very basic phrases.<br>A2: simple sentences about everyday topics such as family, shopping or work.<br>B1: clear standard language on familiar matters, able to describe experiences and give brief reasons and opinions.<br>B2: clear, detailed text on a wide range of subjects, including abstract and technical ones, with viewpoints explained.<br>C1: fluent, flexible and well-structured language on complex subjects, with implicit meaning.<br>C2: virtually everything expressed with ease, very fluently and precisely, with fine shades of meaning. |
 | Polarity | Positive, Negative, Neutral | The overall sentiment of the text, as in sentiment analysis: does the message sound positive, negative, or neither? |
 | Emotional load | Loaded, Non loaded | Whether the text shows noticeable emotion (Loaded) or none (Non loaded). |
+
+<p class="he-footnote" id="he-cefr-en"><sup>1</sup> Level descriptions summarised from the <a href="https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions">Common European Framework of Reference for Languages (CEFR)</a>, Council of Europe.</p>
 
 *Neutral* and *Non loaded* describe the absence of sentiment or emotion, so the flatter, more factual reply is the one to pick.
 
@@ -245,9 +248,11 @@ Chaque tour demande une à trois des caractéristiques ci-dessous, et vous ne ju
 
 | Caractéristique | Valeurs possibles | Description |
 |---|---|---|
-| Niveau de langue | A1, A2, B1, B2, C1, C2 | La sophistication de l'anglais. A1 et A2 correspondent à des mots très simples et des phrases courtes, B1 et B2 au langage courant, C1 et C2 à un vocabulaire riche et des phrases complexes. |
+| Niveau de langue | A1, A2, B1, B2, C1, C2 | La sophistication de l'anglais, de basique (A1) à avancé (C2).<sup><a href="#he-cefr-fr">1</a></sup><br>A1 : expressions quotidiennes familières et phrases très basiques.<br>A2 : phrases simples sur des sujets du quotidien comme la famille, les achats ou le travail.<br>B1 : langage standard clair sur des sujets familiers, capable de décrire des expériences et de donner brièvement des raisons et des opinions.<br>B2 : texte clair et détaillé sur une grande variété de sujets, y compris abstraits et techniques, avec des points de vue expliqués.<br>C1 : langage fluide, souple et bien structuré sur des sujets complexes, avec du sens implicite.<br>C2 : tout ou presque exprimé avec aisance, très couramment et précisément, avec des nuances fines. |
 | Polarité | Positive, Negative, Neutral | Le sentiment global du texte, comme en analyse de sentiments : le message paraît-il positif, négatif, ou ni l'un ni l'autre ? |
 | Charge émotionnelle | Loaded, Non loaded | Indique si le texte montre une émotion perceptible (Loaded) ou aucune (Non loaded). |
+
+<p class="he-footnote" id="he-cefr-fr"><sup>1</sup> Descriptions des niveaux résumées à partir du <a href="https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions">Cadre européen commun de référence pour les langues (CECR)</a>, Conseil de l'Europe (site en anglais).</p>
 
 *Neutral* et *Non loaded* décrivent l'absence de sentiment ou d'émotion : il faut donc choisir la réponse la plus sobre et la plus factuelle.
 
