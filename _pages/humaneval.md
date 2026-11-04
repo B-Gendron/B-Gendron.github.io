@@ -18,14 +18,6 @@ author_profile: true
 }
 .lang-btn.active { background: #333; color: #fff; border-color: #333; }
 
-.he-summary {
-  border-left: 4px solid #667eea;
-  background: #f3f4fc;
-  padding: 0.8em 1.1em;
-  margin: 1em 0 1.5em;
-  border-radius: 0 6px 6px 0;
-}
-.he-summary ul { margin: 0.3em 0 0; }
 .he-phases { display: flex; flex-wrap: wrap; gap: 0.4em; margin: 0.8em 0 1em; }
 .he-phase { color: #fff; padding: 0.35em 0.8em; border-radius: 999px; font-size: 0.85em; white-space: nowrap; }
 .he-p1 { background: #667eea; }
@@ -44,43 +36,36 @@ author_profile: true
 
 <div id="content-en" class="lang-content" markdown="1">
 
-This page is the participant guide for a human evaluation study of the conversational agent built during my PhD at LORIA, *Controlled Conversational Models through Conversation-Dedicated Ontology*, supervised by **Mathieu d'Aquin** (LORIA, CNRS) and **Gaël Guibon** (LIPN, Université Sorbonne Paris Nord). No AI background is needed.
+Chatbots can be told how to talk: in simple or sophisticated English, in an upbeat or a critical tone, calmly or with some emotion. What we don't really know is whether they do it. This study looks at exactly that. You chat with a recruiter agent in a mock job interview, and each time it answers, you tell us which of two possible replies better shows the style the agent was asked to have.
 
-<div class="he-summary" markdown="1">
-**The experiment in short**
-
-* You play **a candidate in a mock job interview**. The other side is **a recruiter agent** (a chatbot).
-* You send **12 messages**. There are no right or wrong answers: **the agent is being evaluated, not you.**
-* After each message, the agent proposes **two replies**. You pick the one that **shows more clearly the requested style**, and the conversation continues with it.
-* Anonymous, voluntary, and you can stop at any time by closing the page.
-</div>
+You send 12 messages in total. You are not being tested here, the agent is, so there are no right or wrong answers. Everything is anonymous and voluntary, and you can stop at any time by closing the page.
 
 <div class="he-toc">
+<a href="#he-before">Before you start</a>
 <a href="#he-steps">How a turn works</a>
-<a href="#he-criteria">What to judge</a>
-<a href="#he-stuck">Stuck?</a>
-<a href="#he-flag">Flag a problem</a>
+<a href="#he-criteria">What to look for</a>
+<a href="#he-stuck">If you're stuck</a>
+<a href="#he-flag">Flagging a problem</a>
 <a href="#he-know">Good to know</a>
 <a href="#he-contact">Take part</a>
+<a href="#he-about">About the research</a>
 </div>
 
 ## Before you start {#he-before}
 
-1. Read the information screen and tick the consent box.
-2. Optionally fill in a short **"About you"** form (age range, English level, interview experience...). You can skip it. The agent never sees it.
-3. Click start and wait a moment while the interview is prepared.
+Read the information screen and tick the consent box. A short "About you" form comes next (age range, English level, interview experience...). You can skip it, and the agent never sees your answers. Then click start and give the page a moment to prepare the interview.
 
-Only **one person can take part at a time**. If the page says someone else is taking the experiment, come back in a few minutes.
+Only one person can take part at a time. If the page tells you someone else is already on it, come back in a few minutes.
 
 ## How a turn works {#he-steps}
 
-1. **Write your message** and send it. Answer as in a real interview, in a few sentences.
-2. **Wait** for the agent (a few seconds to a few minutes). Don't close the page; if you reload it, your conversation is kept.
-3. **Read the requested style** shown above the two replies, e.g. *"The agent response is expected to be Positive, Non loaded, B1."*
-4. **Read both replies.** Left or right is random.
-5. **Click the reply that shows this style more clearly**, then **Confirm choice**.
+1. Write your message and send it. Answer the way you would in a real interview, in a few sentences.
+2. Wait for the agent, which can take anywhere from a few seconds to a few minutes. If you reload the page, your conversation is kept.
+3. Above the two replies, a sentence tells you which style they should have, for example *"The agent response is expected to be Positive, Non loaded, B1."*
+4. Read both replies. Which one is on the left or the right is random.
+5. Click the one that shows this style more clearly, then click **Confirm choice**. The conversation goes on with the reply you picked.
 
-The agent leads the interview through five phases, always shown at the top of the chat. You don't have to follow them, just answer naturally.
+The agent leads the interview through five phases, and the current one is always displayed at the top of the chat. You don't need to follow them, just answer naturally.
 
 <div class="he-phases">
 <span class="he-phase he-p1">1 Greetings</span>
@@ -90,91 +75,78 @@ The agent leads the interview through five phases, always shown at the top of th
 <span class="he-phase he-p5">5 Send-off</span>
 </div>
 
-## What to judge {#he-criteria}
+## What to look for {#he-criteria}
 
-The question is **not** "which reply is nicer or better written?" but **"which one shows the requested style more clearly?"** Each turn shows one to three of these characteristics. Only judge the ones displayed.
+Each turn asks for one to three of the characteristics below, and you only judge the ones displayed. The question to keep in mind is which reply shows the requested style more clearly, whatever you would personally prefer. A friendly, well-written reply can still miss the target.
 
 | Characteristic | Values | In plain words |
 |---|---|---|
-| **Language level** | A1-A2 / B1-B2 / C1-C2 | How sophisticated the English is. **A1-A2**: very simple words and short sentences. **B1-B2**: everyday language. **C1-C2**: rich vocabulary, complex sentences. |
-| **Polarity** | Positive / Negative / Neutral | Attitude of the reply: encouraging, critical, or neither. |
-| **Emotional load** | Loaded / Non loaded | **Loaded**: expresses or insists on feelings. **Non loaded**: calm and factual. |
+| Language level | A1-A2 / B1-B2 / C1-C2 | How sophisticated the English is. A1-A2 means very simple words and short sentences, B1-B2 is everyday language, C1-C2 is rich vocabulary and complex sentences. |
+| Polarity | Positive / Negative / Neutral | The attitude of the reply: encouraging, critical, or neither. |
+| Emotional load | Loaded / Non loaded | Loaded replies express or insist on feelings. Non loaded ones stay calm and factual. |
 
-Tips:
+*Neutral* and *Non loaded* describe the absence of an attitude or an emotion, so the flatter, more factual reply is the one to pick. For a basic level (A1-A2), pick the simpler English.
 
-* Judge what is **requested**, not what you like. A pleasant reply can still miss the target.
-* *Neutral* and *Non loaded* mean the **absence** of attitude or emotion: pick the plainer, more factual reply.
-* For a basic level (A1-A2), the **simpler** English wins.
+## If you're stuck {#he-stuck}
 
-## Stuck? {#he-stuck}
+When you really can't tell the two replies apart, tick **I can't decide** and confirm. One of them is then picked at random to continue the conversation, and a short note tells you so. It counts as a valid answer. If the two replies are identical, there is nothing to choose and a note says so.
 
-* **Can't tell the replies apart** (equally good or equally bad): tick **"I can't decide"** and confirm. One reply is picked at random to continue, and a note tells you so. This is a valid answer.
-* **Identical replies**: nothing to choose, a note says *"No choice to make"*.
-* **Don't know what to write?** In the right panel, **Pick a persona** gives you a random character to play (adapt it freely). Before your first message, **"Need help to get started?"** offers opening lines. The agent never sees these aids.
+If you don't know what to write, the right panel has a **Pick a persona** button that gives you a random character to play. Adapt it as much as you like. Before your first message, a **Need help to get started?** link also offers a few opening lines. The agent never sees any of this.
 
-## Flag a problem (optional) {#he-flag}
+## Flagging a problem {#he-flag}
 
-If the last agent message seems wrong, click **Flag Inconsistency** in the right panel. It doesn't interrupt the interview.
-
-* **Phase-level**: the agent stays in the previous phase or jumps to one that doesn't fit.
-* **Context-level**: it forgets or contradicts something said earlier.
-* **Nonsensical**: the text doesn't make sense.
-* **Other**: describe it in a few words.
+If the last message from the agent looks off, click **Flag Inconsistency** in the right panel. It doesn't interrupt the interview. You can say that the agent is stuck in the previous phase or jumped to a phase that doesn't fit (phase-level), that it forgot or contradicted something said earlier (context-level), that the text makes no sense, or describe something else in a few words.
 
 ## Good to know {#he-know}
 
-* **Don't write personal data** (name, address, employer...). Invent details if you like.
-* After **30 minutes without any action**, the conversation is closed.
-* Waiting is normal: the agent builds two replies for every message.
-* After the 12th choice, you can leave an optional comment, then close the page.
-* **What is recorded**: your messages, choices, response times, flags, comment and optional "About you" answers. No name or email is asked.
-* The purpose of the comparison is explained at the end of the experiment, so as not to influence your choices.
+Please don't write personal data such as your name, address or employer. Invent details if you want to.
+
+The agent builds two replies for every message, so waiting is normal. Try not to leave the page idle for too long: after 30 minutes without any action, the conversation is closed.
+
+After the 12th choice, you can leave a comment if you wish, and then close the page. We record your messages, your choices, how long you take, the problems you flag, your comment and the optional "About you" answers. We don't ask for any name or email address. What the comparison is about is explained at the end of the experiment, so that it doesn't influence your choices.
 
 ## Take part {#he-contact}
 
-Want to take part, or have a question? [Get in touch](mailto:barbara.gendron@loria.fr).
+If you'd like to take part, or if you have a question, [get in touch](mailto:barbara.gendron@loria.fr).
+
+## About the research {#he-about}
+
+This study is part of my PhD at LORIA, *Controlled Conversational Models through Conversation-Dedicated Ontology*, supervised by Mathieu d'Aquin (LORIA, CNRS) and Gaël Guibon (LIPN, Université Sorbonne Paris Nord). The thesis explores how to guide a language model with a conversation strategy built from formal concepts and rules, so that its behaviour becomes more predictable and better suited to its use case. The job interview is the prototype setting for that work.
 
 </div>
 
 <div id="content-fr" class="lang-content" markdown="1" style="display:none;">
 
-Cette page est le guide du participant pour une étude d'évaluation humaine de l'agent conversationnel développé pendant ma thèse au LORIA, *Controlled Conversational Models through Conversation-Dedicated Ontology*, encadrée par **Mathieu d'Aquin** (LORIA, CNRS) et **Gaël Guibon** (LIPN, Université Sorbonne Paris Nord). Aucune connaissance en IA n'est nécessaire.
+On peut demander à un chatbot de parler d'une certaine manière : dans un anglais simple ou soutenu, sur un ton enthousiaste ou critique, calmement ou avec de l'émotion. Ce qu'on sait moins, c'est s'il le fait vraiment. C'est ce que cette étude cherche à savoir. Vous discutez avec un agent recruteur lors d'un faux entretien d'embauche, et à chaque réponse, vous nous dites laquelle de deux réponses possibles montre le mieux le style que l'agent devait avoir.
 
-<div class="he-summary" markdown="1">
-**L'expérience en bref**
-
-* Vous jouez **un candidat lors d'un faux entretien d'embauche**. En face, **un agent recruteur** (un chatbot).
-* Vous envoyez **12 messages**. Il n'y a ni bonne ni mauvaise réponse : **c'est l'agent qui est évalué, pas vous.**
-* Après chaque message, l'agent propose **deux réponses**. Vous choisissez celle qui **montre le plus clairement le style demandé**, et la conversation continue avec elle.
-* Anonyme, volontaire, et vous pouvez arrêter à tout moment en fermant la page.
-</div>
+Vous envoyez 12 messages au total. Ce n'est pas vous qui êtes évalué mais l'agent, donc il n'y a ni bonne ni mauvaise réponse. Tout est anonyme et volontaire, et vous pouvez arrêter à tout moment en fermant la page.
 
 <div class="he-toc">
+<a href="#he-before-fr">Avant de commencer</a>
 <a href="#he-steps-fr">Déroulé d'un tour</a>
-<a href="#he-criteria-fr">Quoi juger</a>
-<a href="#he-stuck-fr">Bloqué ?</a>
+<a href="#he-criteria-fr">Quoi observer</a>
+<a href="#he-stuck-fr">En cas de blocage</a>
 <a href="#he-flag-fr">Signaler un problème</a>
 <a href="#he-know-fr">À savoir</a>
 <a href="#he-contact-fr">Participer</a>
+<a href="#he-about-fr">À propos de la recherche</a>
 </div>
 
 ## Avant de commencer {#he-before-fr}
 
-1. Lisez l'écran d'information et cochez la case de consentement.
-2. Remplissez si vous le souhaitez un court formulaire **« À propos de vous »** (tranche d'âge, niveau d'anglais, expérience des entretiens...). Il est facultatif, et l'agent ne le voit jamais.
-3. Cliquez sur démarrer et patientez le temps que l'entretien soit préparé.
+Lisez l'écran d'information et cochez la case de consentement. Un court formulaire « About you » suit (tranche d'âge, niveau d'anglais, expérience des entretiens...). Vous pouvez le passer, et l'agent ne voit jamais vos réponses. Cliquez ensuite sur démarrer et laissez à la page un instant pour préparer l'entretien.
 
-**Une seule personne à la fois** peut participer. Si la page indique qu'une autre personne passe l'expérience, revenez dans quelques minutes.
+Une seule personne à la fois peut participer. Si la page indique que quelqu'un d'autre est en cours d'expérience, revenez dans quelques minutes.
 
 ## Déroulé d'un tour {#he-steps-fr}
 
-1. **Écrivez votre message** et envoyez-le. Répondez comme lors d'un vrai entretien, en quelques phrases.
-2. **Patientez** (de quelques secondes à quelques minutes). Ne fermez pas la page ; si vous la rechargez, votre conversation est conservée.
-3. **Lisez le style demandé**, affiché au-dessus des deux réponses, par exemple *« The agent response is expected to be Positive, Non loaded, B1. »*
-4. **Lisez les deux réponses.** Gauche ou droite est aléatoire.
-5. **Cliquez sur la réponse qui montre ce style le plus clairement**, puis sur **Confirm choice**.
+1. Écrivez votre message et envoyez-le. Répondez comme dans un vrai entretien, en quelques phrases.
+2. Patientez le temps que l'agent réponde, de quelques secondes à quelques minutes. Si vous rechargez la page, votre conversation est conservée.
+3. Au-dessus des deux réponses, une phrase indique le style qu'elles doivent avoir, par exemple *« The agent response is expected to be Positive, Non loaded, B1. »*
+4. Lisez les deux réponses. Leur position à gauche ou à droite est aléatoire.
+5. Cliquez sur celle qui montre ce style le plus clairement, puis sur **Confirm choice**. La conversation continue avec la réponse choisie.
 
-L'agent mène l'entretien en cinq phases, toujours affichées en haut du chat. Inutile de les suivre : répondez naturellement.
+L'agent mène l'entretien en cinq phases, et la phase en cours est toujours affichée en haut du chat. Inutile de les suivre, répondez naturellement.
 
 <div class="he-phases">
 <span class="he-phase he-p1">1 Accueil</span>
@@ -184,49 +156,43 @@ L'agent mène l'entretien en cinq phases, toujours affichées en haut du chat. I
 <span class="he-phase he-p5">5 Conclusion</span>
 </div>
 
-## Quoi juger {#he-criteria-fr}
+## Quoi observer {#he-criteria-fr}
 
-La question n'est **pas** « quelle réponse est la plus agréable ou la mieux écrite ? » mais **« laquelle montre le plus clairement le style demandé ? »** Chaque tour affiche une à trois de ces caractéristiques. Ne jugez que celles affichées.
+Chaque tour demande une à trois des caractéristiques ci-dessous, et vous ne jugez que celles affichées. La question à garder en tête est de savoir quelle réponse montre le plus clairement le style demandé, quelle que soit votre préférence personnelle. Une réponse aimable et bien écrite peut très bien passer à côté de la cible.
 
 | Caractéristique | Valeurs | En clair |
 |---|---|---|
-| **Niveau de langue** | A1-A2 / B1-B2 / C1-C2 | Sophistication de l'anglais. **A1-A2** : mots très simples, phrases courtes. **B1-B2** : langage courant. **C1-C2** : vocabulaire riche, phrases complexes. |
-| **Polarité** | Positive / Negative / Neutral | Attitude de la réponse : encourageante, critique, ou ni l'un ni l'autre. |
-| **Charge émotionnelle** | Loaded / Non loaded | **Loaded** : exprime ou insiste sur des émotions. **Non loaded** : calme et factuelle. |
+| Niveau de langue | A1-A2 / B1-B2 / C1-C2 | La sophistication de l'anglais. A1-A2 correspond à des mots très simples et des phrases courtes, B1-B2 au langage courant, C1-C2 à un vocabulaire riche et des phrases complexes. |
+| Polarité | Positive / Negative / Neutral | L'attitude de la réponse : encourageante, critique, ou ni l'une ni l'autre. |
+| Charge émotionnelle | Loaded / Non loaded | Les réponses « loaded » expriment des émotions ou y insistent. Les « non loaded » restent calmes et factuelles. |
 
-Conseils :
+*Neutral* et *Non loaded* décrivent l'absence d'attitude ou d'émotion : il faut donc choisir la réponse la plus sobre et la plus factuelle. Pour un niveau de base (A1-A2), choisissez l'anglais le plus simple.
 
-* Jugez ce qui est **demandé**, pas ce que vous préférez. Une réponse agréable peut passer à côté de la cible.
-* *Neutral* et *Non loaded* signifient l'**absence** d'attitude ou d'émotion : choisissez la réponse la plus sobre et factuelle.
-* Pour un niveau de base (A1-A2), l'anglais le **plus simple** l'emporte.
+## En cas de blocage {#he-stuck-fr}
 
-## Bloqué ? {#he-stuck-fr}
+Si vous n'arrivez vraiment pas à départager les deux réponses, cochez **I can't decide** et confirmez. L'une d'elles est alors tirée au hasard pour continuer la conversation, et une courte note vous le signale. C'est une réponse valide. Si les deux réponses sont identiques, il n'y a rien à choisir et une note vous l'indique.
 
-* **Impossible de départager** (aussi bonnes ou aussi mauvaises) : cochez **« I can't decide »** et confirmez. Une réponse est tirée au hasard pour continuer, et une note vous le signale. C'est une réponse valide.
-* **Réponses identiques** : rien à choisir, une note indique *« No choice to make »*.
-* **Pas d'inspiration ?** Dans le panneau de droite, **Pick a persona** vous donne un personnage tiré au hasard (adaptez-le librement). Avant votre premier message, **« Need help to get started? »** propose des phrases d'ouverture. L'agent ne voit jamais ces aides.
+Si vous ne savez pas quoi écrire, le panneau de droite propose un bouton **Pick a persona** qui vous donne un personnage tiré au hasard à incarner. Adaptez-le comme vous voulez. Avant votre premier message, un lien **Need help to get started?** propose aussi quelques phrases d'ouverture. L'agent ne voit rien de tout cela.
 
-## Signaler un problème (facultatif) {#he-flag-fr}
+## Signaler un problème {#he-flag-fr}
 
-Si le dernier message de l'agent vous semble anormal, cliquez sur **Flag Inconsistency** dans le panneau de droite. Cela n'interrompt pas l'entretien.
-
-* **Phase-level** : l'agent reste dans la phase précédente ou saute vers une phase inadaptée.
-* **Context-level** : il oublie ou contredit un élément dit plus tôt.
-* **Nonsensical** : le texte n'a pas de sens.
-* **Other** : décrivez-le en quelques mots.
+Si le dernier message de l'agent vous paraît anormal, cliquez sur **Flag Inconsistency** dans le panneau de droite. Cela n'interrompt pas l'entretien. Vous pouvez indiquer que l'agent reste bloqué dans la phase précédente ou saute vers une phase inadaptée (phase-level), qu'il oublie ou contredit quelque chose dit plus tôt (context-level), que le texte n'a pas de sens, ou décrire autre chose en quelques mots.
 
 ## À savoir {#he-know-fr}
 
-* **N'écrivez aucune donnée personnelle** (nom, adresse, employeur...). Inventez des détails si vous voulez.
-* Après **30 minutes sans action**, la conversation est fermée.
-* L'attente est normale : l'agent construit deux réponses pour chaque message.
-* Après le 12e choix, vous pouvez laisser un commentaire facultatif, puis fermer la page.
-* **Ce qui est enregistré** : vos messages, choix, temps de réponse, signalements, commentaire et réponses facultatives « À propos de vous ». Ni nom ni email ne sont demandés.
-* L'objectif de la comparaison est expliqué à la fin de l'expérience, pour ne pas influencer vos choix.
+Merci de ne pas écrire de données personnelles comme votre nom, votre adresse ou votre employeur. Inventez des détails si vous le souhaitez.
+
+L'agent construit deux réponses pour chaque message, donc l'attente est normale. Évitez simplement de laisser la page inactive trop longtemps : après 30 minutes sans action, la conversation est fermée.
+
+Après le 12e choix, vous pouvez laisser un commentaire si vous le souhaitez, puis fermer la page. Nous enregistrons vos messages, vos choix, votre temps de réponse, les problèmes signalés, votre commentaire et les réponses facultatives à « About you ». Aucun nom ni adresse email n'est demandé. L'objet de la comparaison est expliqué à la fin de l'expérience, pour ne pas influencer vos choix.
 
 ## Participer {#he-contact-fr}
 
-Envie de participer, ou une question ? [Contactez-moi](mailto:barbara.gendron@loria.fr).
+Si vous souhaitez participer, ou si vous avez une question, [contactez-moi](mailto:barbara.gendron@loria.fr).
+
+## À propos de la recherche {#he-about-fr}
+
+Cette étude s'inscrit dans ma thèse au LORIA, *Controlled Conversational Models through Conversation-Dedicated Ontology*, encadrée par Mathieu d'Aquin (LORIA, CNRS) et Gaël Guibon (LIPN, Université Sorbonne Paris Nord). La thèse explore comment guider un modèle de langage avec une stratégie conversationnelle construite à partir de concepts et de règles formalisés, afin que son comportement soit plus prévisible et mieux adapté à son cas d'usage. L'entretien d'embauche est le cadre du prototype développé dans ce travail.
 
 </div>
 
