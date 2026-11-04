@@ -32,11 +32,13 @@ author_profile: true
 .he-p5 { background: #9f7aea; }
 .he-phase-block { margin: 0.8em 0 1em; }
 .he-phase-block .he-phases { margin-bottom: 0; }
-.he-hint { font-size: 0.85em; color: #777; margin: 0.5em 0 0; }
+.he-hint { font-size: 0.8em; font-style: italic; color: #777; margin: 0.5em 0 0; }
 .he-panel { margin: 0.7em 0 0; padding: 0.6em 1em; border-left: 4px solid #ccc; background: #fafafa; border-radius: 0 6px 6px 0; }
 .he-panel[hidden] { display: none; }
 .he-panel p { margin: 0 0 0.4em; }
 .he-panel p:last-child { margin-bottom: 0; }
+.he-panel ul { margin: 0 0 0.4em; padding-left: 1.2em; }
+.he-panel li { margin-bottom: 0.2em; }
 .he-panel-p1 { border-left-color: #667eea; }
 .he-panel-p2 { border-left-color: #48bb78; }
 .he-panel-p3 { border-left-color: #f6ad55; }
@@ -92,26 +94,35 @@ The agent leads the interview through five phases, and the current one is always
 <button type="button" class="he-phase he-p4" aria-expanded="false" aria-controls="he-en-ph4">4 Short debate</button>
 <button type="button" class="he-phase he-p5" aria-expanded="false" aria-controls="he-en-ph5">5 Send-off</button>
 </div>
-<p class="he-hint">Click a phase to see what to expect and what you could write.</p>
+<p class="he-hint">Click a phase for more details.</p>
 <div class="he-panel he-panel-p1" id="he-en-ph1" hidden>
 <p>The agent welcomes you and makes some small talk to put you at ease. Answer as you would at the start of a real interview.</p>
-<p><em>Example: "Hi, thanks for having me! I'm doing well, a bit nervous but happy to be here."</em></p>
+<p>Typical messages:</p>
+<ul>
+<li><em>"Hi, thanks for having me!"</em></li>
+<li><em>"I'm doing well, a bit nervous but happy to be here."</em></li>
+<li><em>"Am I at the right place for the interview?"</em></li>
+</ul>
 </div>
 <div class="he-panel he-panel-p2" id="he-en-ph2" hidden>
 <p>The agent asks about your studies and your professional experience. You can talk about real or made-up ones.</p>
-<p><em>Example: "I did a master's in marketing, then I spent two years in a small agency running social media campaigns."</em></p>
+<p>Typical message: <em>"I did a master's in marketing, then I spent two years in a small agency running social media campaigns."</em></p>
 </div>
 <div class="he-panel he-panel-p3" id="he-en-ph3" hidden>
 <p>The agent asks a question about your skills and how you would handle a work situation. A few sentences are enough.</p>
-<p><em>Example: "I usually start by listing priorities with the team, then I plan the work week by week and check progress regularly."</em></p>
+<p>Typical messages:</p>
+<ul>
+<li><em>"I usually start by listing priorities with the team, then I plan the work week by week and check progress regularly."</em></li>
+<li><em>"In my last project, I trained a classifier on imbalanced data and used cross-validation to avoid overfitting."</em></li>
+</ul>
 </div>
 <div class="he-panel he-panel-p4" id="he-en-ph4" hidden>
-<p>The agent defends a point of view and you are free to agree, disagree or nuance. Say what you really think.</p>
-<p><em>Example: "I see your point, but I think working in the office helps newcomers learn faster."</em></p>
+<p>The agent defends a point of view and you are free to agree, disagree or nuance. It doesn't matter whether what you say matches what you actually think.</p>
+<p>Typical message: <em>"I see your point, but I think working in the office helps newcomers learn faster."</em></p>
 </div>
 <div class="he-panel he-panel-p5" id="he-en-ph5" hidden>
 <p>The agent sums up the interview and wraps up the conversation. A polite closing message is all it takes.</p>
-<p><em>Example: "Thank you for your time, I enjoyed our discussion and I hope to hear from you soon."</em></p>
+<p>Typical message: <em>"Thank you for your time, I enjoyed our discussion and I hope to hear from you soon."</em></p>
 </div>
 </div>
 
@@ -119,13 +130,13 @@ The agent leads the interview through five phases, and the current one is always
 
 Each turn asks for one to three of the characteristics below, and you only judge the ones displayed. The question to keep in mind is which reply shows the requested style more clearly, whatever you would personally prefer. A friendly, well-written reply can still miss the target.
 
-| Characteristic | Values | In plain words |
+| Characteristic | Possible values | Description |
 |---|---|---|
-| Language level | A1-A2 / B1-B2 / C1-C2 | How sophisticated the English is. A1-A2 means very simple words and short sentences, B1-B2 is everyday language, C1-C2 is rich vocabulary and complex sentences. |
-| Polarity | Positive / Negative / Neutral | The attitude of the reply: encouraging, critical, or neither. |
-| Emotional load | Loaded / Non loaded | Loaded replies express or insist on feelings. Non loaded ones stay calm and factual. |
+| Language level | A1, A2, B1, B2, C1, C2 | How sophisticated the English is. A1 and A2 mean very simple words and short sentences, B1 and B2 are everyday language, C1 and C2 are rich vocabulary and complex sentences. |
+| Polarity | Positive, Negative, Neutral | The overall sentiment of the text, as in sentiment analysis: does the message sound positive, negative, or neither? |
+| Emotional load | Loaded, Non loaded | Whether the text shows noticeable emotion (Loaded) or none (Non loaded). |
 
-*Neutral* and *Non loaded* describe the absence of an attitude or an emotion, so the flatter, more factual reply is the one to pick. For a basic level (A1-A2), pick the simpler English.
+*Neutral* and *Non loaded* describe the absence of sentiment or emotion, so the flatter, more factual reply is the one to pick.
 
 ## If you're stuck {#he-stuck}
 
@@ -196,26 +207,35 @@ L'agent mène l'entretien en cinq phases, et la phase en cours est toujours affi
 <button type="button" class="he-phase he-p4" aria-expanded="false" aria-controls="he-fr-ph4">4 Court débat</button>
 <button type="button" class="he-phase he-p5" aria-expanded="false" aria-controls="he-fr-ph5">5 Conclusion</button>
 </div>
-<p class="he-hint">Cliquez sur une phase pour voir à quoi vous attendre et ce que vous pourriez écrire (en anglais).</p>
+<p class="he-hint">Cliquez sur une phase pour plus de détails.</p>
 <div class="he-panel he-panel-p1" id="he-fr-ph1" hidden>
 <p>L'agent vous accueille et fait un peu de conversation pour vous mettre à l'aise. Répondez comme au début d'un vrai entretien.</p>
-<p><em>Exemple : "Hi, thanks for having me! I'm doing well, a bit nervous but happy to be here."</em></p>
+<p>Messages typiques (à écrire en anglais) :</p>
+<ul>
+<li><em>"Hi, thanks for having me!"</em></li>
+<li><em>"I'm doing well, a bit nervous but happy to be here."</em></li>
+<li><em>"Am I at the right place for the interview?"</em></li>
+</ul>
 </div>
 <div class="he-panel he-panel-p2" id="he-fr-ph2" hidden>
 <p>L'agent vous interroge sur vos études et votre expérience professionnelle. Vous pouvez parler de parcours réels ou inventés.</p>
-<p><em>Exemple : "I did a master's in marketing, then I spent two years in a small agency running social media campaigns."</em></p>
+<p>Message typique (en anglais) : <em>"I did a master's in marketing, then I spent two years in a small agency running social media campaigns."</em></p>
 </div>
 <div class="he-panel he-panel-p3" id="he-fr-ph3" hidden>
 <p>L'agent pose une question sur vos compétences et sur la façon dont vous géreriez une situation de travail. Quelques phrases suffisent.</p>
-<p><em>Exemple : "I usually start by listing priorities with the team, then I plan the work week by week and check progress regularly."</em></p>
+<p>Messages typiques (à écrire en anglais) :</p>
+<ul>
+<li><em>"I usually start by listing priorities with the team, then I plan the work week by week and check progress regularly."</em></li>
+<li><em>"In my last project, I trained a classifier on imbalanced data and used cross-validation to avoid overfitting."</em></li>
+</ul>
 </div>
 <div class="he-panel he-panel-p4" id="he-fr-ph4" hidden>
-<p>L'agent défend un point de vue et vous pouvez être d'accord, en désaccord ou nuancer. Dites ce que vous pensez vraiment.</p>
-<p><em>Exemple : "I see your point, but I think working in the office helps newcomers learn faster."</em></p>
+<p>L'agent défend un point de vue et vous pouvez être d'accord, en désaccord ou nuancer. Peu importe que vos propos correspondent ou non à ce que vous pensez vraiment.</p>
+<p>Message typique (en anglais) : <em>"I see your point, but I think working in the office helps newcomers learn faster."</em></p>
 </div>
 <div class="he-panel he-panel-p5" id="he-fr-ph5" hidden>
 <p>L'agent résume l'entretien et conclut la conversation. Un message de clôture poli suffit.</p>
-<p><em>Exemple : "Thank you for your time, I enjoyed our discussion and I hope to hear from you soon."</em></p>
+<p>Message typique (en anglais) : <em>"Thank you for your time, I enjoyed our discussion and I hope to hear from you soon."</em></p>
 </div>
 </div>
 
@@ -223,13 +243,13 @@ L'agent mène l'entretien en cinq phases, et la phase en cours est toujours affi
 
 Chaque tour demande une à trois des caractéristiques ci-dessous, et vous ne jugez que celles affichées. La question à garder en tête est de savoir quelle réponse montre le plus clairement le style demandé, quelle que soit votre préférence personnelle. Une réponse aimable et bien écrite peut très bien passer à côté de la cible.
 
-| Caractéristique | Valeurs | En clair |
+| Caractéristique | Valeurs possibles | Description |
 |---|---|---|
-| Niveau de langue | A1-A2 / B1-B2 / C1-C2 | La sophistication de l'anglais. A1-A2 correspond à des mots très simples et des phrases courtes, B1-B2 au langage courant, C1-C2 à un vocabulaire riche et des phrases complexes. |
-| Polarité | Positive / Negative / Neutral | L'attitude de la réponse : encourageante, critique, ou ni l'une ni l'autre. |
-| Charge émotionnelle | Loaded / Non loaded | Les réponses « loaded » expriment des émotions ou y insistent. Les « non loaded » restent calmes et factuelles. |
+| Niveau de langue | A1, A2, B1, B2, C1, C2 | La sophistication de l'anglais. A1 et A2 correspondent à des mots très simples et des phrases courtes, B1 et B2 au langage courant, C1 et C2 à un vocabulaire riche et des phrases complexes. |
+| Polarité | Positive, Negative, Neutral | Le sentiment global du texte, comme en analyse de sentiments : le message paraît-il positif, négatif, ou ni l'un ni l'autre ? |
+| Charge émotionnelle | Loaded, Non loaded | Indique si le texte montre une émotion perceptible (Loaded) ou aucune (Non loaded). |
 
-*Neutral* et *Non loaded* décrivent l'absence d'attitude ou d'émotion : il faut donc choisir la réponse la plus sobre et la plus factuelle. Pour un niveau de base (A1-A2), choisissez l'anglais le plus simple.
+*Neutral* et *Non loaded* décrivent l'absence de sentiment ou d'émotion : il faut donc choisir la réponse la plus sobre et la plus factuelle.
 
 ## En cas de blocage {#he-stuck-fr}
 
