@@ -19,12 +19,29 @@ author_profile: true
 .lang-btn.active { background: #333; color: #fff; border-color: #333; }
 
 .he-phases { display: flex; flex-wrap: wrap; gap: 0.4em; margin: 0.8em 0 1em; }
-.he-phase { color: #fff; padding: 0.35em 0.8em; border-radius: 999px; font-size: 0.85em; white-space: nowrap; }
+.he-phase {
+  color: #fff; padding: 0.35em 0.8em; border-radius: 999px; border: 2px solid transparent;
+  font-size: 0.85em; white-space: nowrap; cursor: pointer; font-family: inherit;
+}
+.he-phase:hover { filter: brightness(1.08); }
+.he-phase[aria-expanded="true"] { border-color: #333; }
 .he-p1 { background: #667eea; }
 .he-p2 { background: #48bb78; }
 .he-p3 { background: #f6ad55; }
 .he-p4 { background: #ed64a6; }
 .he-p5 { background: #9f7aea; }
+.he-phase-block { margin: 0.8em 0 1em; }
+.he-phase-block .he-phases { margin-bottom: 0; }
+.he-hint { font-size: 0.85em; color: #777; margin: 0.5em 0 0; }
+.he-panel { margin: 0.7em 0 0; padding: 0.6em 1em; border-left: 4px solid #ccc; background: #fafafa; border-radius: 0 6px 6px 0; }
+.he-panel[hidden] { display: none; }
+.he-panel p { margin: 0 0 0.4em; }
+.he-panel p:last-child { margin-bottom: 0; }
+.he-panel-p1 { border-left-color: #667eea; }
+.he-panel-p2 { border-left-color: #48bb78; }
+.he-panel-p3 { border-left-color: #f6ad55; }
+.he-panel-p4 { border-left-color: #ed64a6; }
+.he-panel-p5 { border-left-color: #9f7aea; }
 .he-toc { font-size: 0.9em; margin-bottom: 1.5em; }
 .he-toc a { margin-right: 1em; white-space: nowrap; }
 </style>
@@ -67,12 +84,35 @@ Only one person can take part at a time. If the page tells you someone else is a
 
 The agent leads the interview through five phases, and the current one is always displayed at the top of the chat. You don't need to follow them, just answer naturally.
 
+<div class="he-phase-block">
 <div class="he-phases">
-<span class="he-phase he-p1">1 Greetings</span>
-<span class="he-phase he-p2">2 Background</span>
-<span class="he-phase he-p3">3 Technical point</span>
-<span class="he-phase he-p4">4 Short debate</span>
-<span class="he-phase he-p5">5 Send-off</span>
+<button type="button" class="he-phase he-p1" aria-expanded="false" aria-controls="he-en-ph1">1 Greetings</button>
+<button type="button" class="he-phase he-p2" aria-expanded="false" aria-controls="he-en-ph2">2 Background</button>
+<button type="button" class="he-phase he-p3" aria-expanded="false" aria-controls="he-en-ph3">3 Technical point</button>
+<button type="button" class="he-phase he-p4" aria-expanded="false" aria-controls="he-en-ph4">4 Short debate</button>
+<button type="button" class="he-phase he-p5" aria-expanded="false" aria-controls="he-en-ph5">5 Send-off</button>
+</div>
+<p class="he-hint">Click a phase to see what to expect and what you could write.</p>
+<div class="he-panel he-panel-p1" id="he-en-ph1" hidden>
+<p>The agent welcomes you and makes some small talk to put you at ease. Answer as you would at the start of a real interview.</p>
+<p><em>Example: "Hi, thanks for having me! I'm doing well, a bit nervous but happy to be here."</em></p>
+</div>
+<div class="he-panel he-panel-p2" id="he-en-ph2" hidden>
+<p>The agent asks about your studies and your professional experience. You can talk about real or made-up ones.</p>
+<p><em>Example: "I did a master's in marketing, then I spent two years in a small agency running social media campaigns."</em></p>
+</div>
+<div class="he-panel he-panel-p3" id="he-en-ph3" hidden>
+<p>The agent asks a question about your skills and how you would handle a work situation. A few sentences are enough.</p>
+<p><em>Example: "I usually start by listing priorities with the team, then I plan the work week by week and check progress regularly."</em></p>
+</div>
+<div class="he-panel he-panel-p4" id="he-en-ph4" hidden>
+<p>The agent defends a point of view and you are free to agree, disagree or nuance. Say what you really think.</p>
+<p><em>Example: "I see your point, but I think working in the office helps newcomers learn faster."</em></p>
+</div>
+<div class="he-panel he-panel-p5" id="he-en-ph5" hidden>
+<p>The agent sums up the interview and wraps up the conversation. A polite closing message is all it takes.</p>
+<p><em>Example: "Thank you for your time, I enjoyed our discussion and I hope to hear from you soon."</em></p>
+</div>
 </div>
 
 ## What to look for {#he-criteria}
@@ -148,12 +188,35 @@ Une seule personne à la fois peut participer. Si la page indique que quelqu'un 
 
 L'agent mène l'entretien en cinq phases, et la phase en cours est toujours affichée en haut du chat. Inutile de les suivre, répondez naturellement.
 
+<div class="he-phase-block">
 <div class="he-phases">
-<span class="he-phase he-p1">1 Accueil</span>
-<span class="he-phase he-p2">2 Parcours</span>
-<span class="he-phase he-p3">3 Point technique</span>
-<span class="he-phase he-p4">4 Court débat</span>
-<span class="he-phase he-p5">5 Conclusion</span>
+<button type="button" class="he-phase he-p1" aria-expanded="false" aria-controls="he-fr-ph1">1 Accueil</button>
+<button type="button" class="he-phase he-p2" aria-expanded="false" aria-controls="he-fr-ph2">2 Parcours</button>
+<button type="button" class="he-phase he-p3" aria-expanded="false" aria-controls="he-fr-ph3">3 Point technique</button>
+<button type="button" class="he-phase he-p4" aria-expanded="false" aria-controls="he-fr-ph4">4 Court débat</button>
+<button type="button" class="he-phase he-p5" aria-expanded="false" aria-controls="he-fr-ph5">5 Conclusion</button>
+</div>
+<p class="he-hint">Cliquez sur une phase pour voir à quoi vous attendre et ce que vous pourriez écrire (en anglais).</p>
+<div class="he-panel he-panel-p1" id="he-fr-ph1" hidden>
+<p>L'agent vous accueille et fait un peu de conversation pour vous mettre à l'aise. Répondez comme au début d'un vrai entretien.</p>
+<p><em>Exemple : "Hi, thanks for having me! I'm doing well, a bit nervous but happy to be here."</em></p>
+</div>
+<div class="he-panel he-panel-p2" id="he-fr-ph2" hidden>
+<p>L'agent vous interroge sur vos études et votre expérience professionnelle. Vous pouvez parler de parcours réels ou inventés.</p>
+<p><em>Exemple : "I did a master's in marketing, then I spent two years in a small agency running social media campaigns."</em></p>
+</div>
+<div class="he-panel he-panel-p3" id="he-fr-ph3" hidden>
+<p>L'agent pose une question sur vos compétences et sur la façon dont vous géreriez une situation de travail. Quelques phrases suffisent.</p>
+<p><em>Exemple : "I usually start by listing priorities with the team, then I plan the work week by week and check progress regularly."</em></p>
+</div>
+<div class="he-panel he-panel-p4" id="he-fr-ph4" hidden>
+<p>L'agent défend un point de vue et vous pouvez être d'accord, en désaccord ou nuancer. Dites ce que vous pensez vraiment.</p>
+<p><em>Exemple : "I see your point, but I think working in the office helps newcomers learn faster."</em></p>
+</div>
+<div class="he-panel he-panel-p5" id="he-fr-ph5" hidden>
+<p>L'agent résume l'entretien et conclut la conversation. Un message de clôture poli suffit.</p>
+<p><em>Exemple : "Thank you for your time, I enjoyed our discussion and I hope to hear from you soon."</em></p>
+</div>
 </div>
 
 ## Quoi observer {#he-criteria-fr}
@@ -197,6 +260,21 @@ Cette étude s'inscrit dans ma thèse au LORIA, *Controlled Conversational Model
 </div>
 
 <script>
+document.addEventListener('click', function (e) {
+  var btn = e.target.closest('.he-phase');
+  if (!btn) return;
+  var block = btn.closest('.he-phase-block');
+  var open = btn.getAttribute('aria-expanded') === 'true';
+  block.querySelectorAll('.he-phase').forEach(function (b) {
+    b.setAttribute('aria-expanded', 'false');
+    document.getElementById(b.getAttribute('aria-controls')).hidden = true;
+  });
+  if (!open) {
+    btn.setAttribute('aria-expanded', 'true');
+    document.getElementById(btn.getAttribute('aria-controls')).hidden = false;
+  }
+});
+
 function setLang(lang) {
   document.getElementById('content-en').style.display = (lang === 'en') ? 'block' : 'none';
   document.getElementById('content-fr').style.display = (lang === 'fr') ? 'block' : 'none';
