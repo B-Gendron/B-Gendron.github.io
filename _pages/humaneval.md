@@ -143,9 +143,15 @@ Each turn asks for one to three of the characteristics below, and you only judge
 
 ## If you're stuck {#he-stuck}
 
-When you really can't tell the two replies apart, tick **I can't decide** and confirm. One of them is then picked at random to continue the conversation, and a short note tells you so. It counts as a valid answer. If the two replies are identical, there is nothing to choose and a note says so.
+### During the conversation
 
-If you don't know what to write, the right panel has a **Pick a persona** button that gives you a random character to play. Adapt it as much as you like. Before your first message, a **Need help to get started?** link also offers a few opening lines. The agent never sees any of this.
+**Hard to get started?** In this experiment, you are the one who opens the conversation. If needed, click **Need help to get started?** to get a few opening lines. Select the one you like, edit it if you wish and send the message. Using one of the suggested lines has no influence on how the experiment goes.
+
+**Out of inspiration?** If you don't know what to write during the conversation, the right panel has a **Pick a persona** button that gives you a random character to play, with a desired job and a study and work background. If you don't like the persona you got, click the same button again to get another one. You are free to follow the mentioned characteristics or not, this option is only there in case you need inspiration. It has no influence on how the experiment goes.
+
+### When evaluating
+
+If you can't tell the two replies apart with regard to the mentioned characteristics, tick **I can't decide** and confirm. One of the replies will then be picked at random so the conversation can continue. If the two replies are exactly identical, the system detects it automatically and you have nothing to choose. Just answer the agent to carry on with the conversation.
 
 ## Flagging a problem {#he-flag}
 
@@ -258,9 +264,15 @@ Chaque tour demande une à trois des caractéristiques ci-dessous, et vous ne ju
 
 ## En cas de blocage {#he-stuck-fr}
 
-Si vous n'arrivez vraiment pas à départager les deux réponses, cochez **I can't decide** et confirmez. L'une d'elles est alors tirée au hasard pour continuer la conversation, et une courte note vous le signale. C'est une réponse valide. Si les deux réponses sont identiques, il n'y a rien à choisir et une note vous l'indique.
+### Au cours de la conversation
 
-Si vous ne savez pas quoi écrire, le panneau de droite propose un bouton **Pick a persona** qui vous donne un personnage tiré au hasard à incarner. Adaptez-le comme vous voulez. Avant votre premier message, un lien **Need help to get started?** propose aussi quelques phrases d'ouverture. L'agent ne voit rien de tout cela.
+**Difficile de démarrer ?** Dans cette expérience, c'est vous qui entamez la conversation. Si besoin, cliquez sur **Need help to get started?** pour que l'on vous propose quelques phrases d'ouverture. Sélectionnez celle qui vous convient, modifiez là si vous le souhaitez et envoyez le message. L'utilisation d'une des phrases proposées n'aura aucune influence sur le déroulé de l'expérience.
+
+**En panne d'inspiration ?** Si vous ne savez pas quoi écrire au cours de la conversation, le panneau de droite propose un bouton **Pick a persona** qui vous donne un personnage tiré au hasard à incarner, avec un métier souhaité, un parcours d'études et professionnels. Si le personnage tiré aléatoirement, vous pouvez en avoir un autre en cliquant à nouveau sur le même bouton. Vous pouvez tout à fait décider de suivre ou non les caractéristiques mentionnées, cette option est simplement là si vous avez besoin d'inspiration. Cela n'aura aucune influence sur le déroulé de l'expérience.
+
+### Au moment de l'évaluation
+
+Si vous n'arrivez pas à départager les deux réponses par rapport au respect des caractéristiques mentionnées, cochez **I can't decide** et confirmez. Une réponse sera alors tirée au hasard pour permettre de continuer la conversation. Dans le cas où les deux réponses sont parfaitement identiques, le système le détectera automatiquement. Dans ce cas vous n'aurez rien à choisir. Répondez simplement à l'agent pour poursuivre la conversation.
 
 ## Signaler un problème {#he-flag-fr}
 
