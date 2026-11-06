@@ -2,7 +2,7 @@
 layout: single
 title: "Human Evaluation"
 permalink: /humaneval/
-author_profile: true
+author_profile: false
 ---
 
 <style>
@@ -47,6 +47,39 @@ author_profile: true
 .he-panel-p5 { border-left-color: #9f7aea; }
 .he-toc { font-size: 0.9em; margin-bottom: 1.5em; }
 .he-toc a { margin-right: 1em; white-space: nowrap; }
+
+/* Page width: full-width guide, no sidebar */
+#main .page { float: none; width: 100%; margin: 0; padding: 0; }
+
+/* Screenshots */
+.page__content figure.he-fig { display: block; margin: 0; min-width: 0; }
+.page__content .he-fig img { display: block; width: 100%; height: auto; margin: 0; border: 1px solid #e3e6ea; border-radius: 8px; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06); }
+.page__content .he-fig figcaption { display: block; margin: 0.55em 0 0; padding: 0; font-family: inherit; font-size: 0.75em; line-height: 1.4; color: #666; }
+.page__content > .lang-content > .he-fig { margin: 1.4em 0 0.5em; }
+.he-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25em; margin: 1.2em 0 1.6em; }
+.page__content .he-row .he-fig img { aspect-ratio: 1.38; object-fit: cover; }
+.he-split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2em; align-items: start; margin: 1.2em 0 1.6em; }
+.he-split-slimfig { grid-template-columns: minmax(0, 2.4fr) minmax(0, 1fr); }
+.he-split-widefig { grid-template-columns: minmax(0, 1fr) minmax(0, 1.75fr); }
+.he-split-midfig { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); }
+.he-split-commentfig { grid-template-columns: minmax(0, 1.75fr) minmax(0, 1fr); }
+.he-split > div > :first-child { margin-top: 0; }
+.he-split > div > :last-child { margin-bottom: 0; }
+.page__content .he-split > div > .he-fig { margin-top: 1em; max-width: 600px; }
+.he-persona { display: flex; gap: 0.75em; align-items: stretch; }
+.he-persona > img { flex: 1.1 1 0; min-width: 0; }
+.he-persona-stack { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: space-between; gap: 0.75em; }
+.page__content img.he-crop-top { aspect-ratio: 1232 / 1402; object-fit: cover; object-position: bottom; }
+.page__content img.he-crop-bottom { aspect-ratio: 1152 / 1290; object-fit: cover; object-position: top; }
+.he-badged { position: relative; }
+.he-badge {
+  position: absolute; transform: translate(-50%, -50%); display: flex; align-items: center; justify-content: center;
+  width: 1.7em; height: 1.7em; border-radius: 50%; background: #333; color: #fff; font-size: 0.75em; font-weight: 700;
+  box-shadow: 0 0 0 2px #fff;
+}
+@media (max-width: 760px) {
+  .he-row, .he-split, .he-split-slimfig, .he-split-widefig, .he-split-midfig, .he-split-commentfig { grid-template-columns: minmax(0, 1fr); }
+}
 </style>
 
 <div class="lang-switcher">
@@ -71,13 +104,31 @@ You send 12 messages in total. You are not being tested here, the agent is, so t
 <a href="#he-about">About the research</a>
 </div>
 
+<figure class="he-fig">
+<img src="/images/he-ensemble.png" alt="The experiment screen, with the chat on the left and the progress and memo panel on the right" width="3248" height="1548" loading="lazy">
+<figcaption>The screen during a turn. On the left, the chat, with the current phase on top and the two replies to compare. On the right, your progress and a memo you can check at any time.</figcaption>
+</figure>
+
 ## Before you start {#he-before}
 
-Read the information screen and tick the consent box. A short "About you" form comes next (age range, English level, interview experience...). You can skip it, and the agent never sees your answers. Then click start and give the page a moment to prepare the interview.
+<div class="he-split he-split-slimfig" markdown="1">
+<div markdown="1">
+
+Read the information screen. A short "About you" form comes next (age range, English level, interview experience...). You can skip it, and the agent never sees your answers. Then tick the consent box, click **Start the interview** and give the page a moment to prepare the interview.
 
 Only one person can take part at a time. If the page tells you someone else is already on it, come back in a few minutes.
 
+</div>
+<figure class="he-fig">
+<img src="/images/he-questionnaire.png" alt="The optional About you form, followed by the consent box and the Start the interview button" width="1232" height="1534" loading="lazy" class="he-crop-top">
+<figcaption>Fill in only what you wish, tick the consent box, then click <strong>Start the interview</strong>.</figcaption>
+</figure>
+</div>
+
 ## How a turn works {#he-steps}
+
+<div class="he-split" markdown="1">
+<div markdown="1">
 
 1. Write your message and send it. Answer the way you would in a real interview, in a few sentences.
 2. Wait for the agent, which can take anywhere from a few seconds to a few minutes. If you reload the page, your conversation is kept.
@@ -85,7 +136,30 @@ Only one person can take part at a time. If the page tells you someone else is a
 4. Read both replies. Which one is on the left or the right is random.
 5. Click the one that shows this style more clearly, then click **Confirm choice**. The conversation goes on with the reply you picked.
 
+</div>
+<figure class="he-fig">
+<div class="he-badged">
+<img src="/images/he-choice.png" alt="A turn: the requested style above two replies, with the Confirm choice button below" width="2126" height="1544" loading="lazy">
+<span class="he-badge" style="left:13.5%;top:29.6%">3</span>
+<span class="he-badge" style="left:52.3%;top:50.3%">4</span>
+<span class="he-badge" style="left:34%;top:73.3%">5</span>
+</div>
+<figcaption>Steps 3 to 5 on screen: the requested style, the two replies, and the button to confirm.</figcaption>
+</figure>
+</div>
+
 The agent leads the interview through five phases, and the current one is always displayed at the top of the chat. You don't need to follow them, just answer naturally.
+
+<div class="he-row">
+<figure class="he-fig">
+<img src="/images/he-phase-change.png" alt="Chat in phase 2, in green, while the message is being processed" width="2120" height="1556" loading="lazy">
+<figcaption>Phase 2: the banner names the current phase and the colours follow it. Here, your message is being processed (step 2).</figcaption>
+</figure>
+<figure class="he-fig">
+<img src="/images/he-fairly-technical.png" alt="Chat in phase 3, in orange" width="2122" height="1546" loading="lazy">
+<figcaption>Later, in phase 3: the banner and the colours have changed. There is nothing for you to do.</figcaption>
+</figure>
+</div>
 
 <div class="he-phase-block">
 <div class="he-phases">
@@ -147,15 +221,67 @@ Each turn asks for one to three of the characteristics below, and you only judge
 
 **Hard to get started?** In this experiment, you are the one who opens the conversation. If needed, click **Need help to get started?** to get a few opening lines. Select the one you like, edit it if you wish and send the message. Using one of the suggested lines has no influence on how the experiment goes.
 
+<div class="he-row">
+<figure class="he-fig">
+<img src="/images/he-starters1.png" alt="Empty chat with the Need help to get started? link" width="2134" height="1570" loading="lazy">
+<figcaption>When the chat opens, click <strong>Need help to get started?</strong>, just under the instructions.</figcaption>
+</figure>
+<figure class="he-fig">
+<img src="/images/he-starters2.png" alt="List of six suggested opening lines" width="2136" height="1546" loading="lazy">
+<figcaption>Click a line: it goes into the message box, and you can edit it before sending.</figcaption>
+</figure>
+</div>
+
+<div class="he-split he-split-widefig" markdown="1">
+<div markdown="1">
+
 **Out of inspiration?** If you don't know what to write during the conversation, the right panel has a **Pick a persona** button that gives you a random character to play, with a desired job and a study and work background. If you don't like the persona you got, click the same button again to get another one. You are free to follow the mentioned characteristics or not, this option is only there in case you need inspiration. It has no influence on how the experiment goes.
+
+</div>
+<figure class="he-fig">
+<div class="he-persona">
+<img src="/images/he-persona-click.png" alt="The right panel with the Pick a persona button" width="1126" height="1554" loading="lazy">
+<div class="he-persona-stack">
+<img src="/images/he-persona1.png" alt="A persona card for Fatou, applying as an accountant" width="838" height="658" loading="lazy">
+<img src="/images/he-persona2.png" alt="A persona card for Paul, applying as a communication officer" width="816" height="558" loading="lazy">
+</div>
+</div>
+<figcaption>On the left, the right panel with the <strong>Pick a persona</strong> button. On the right, two personas you might get: the button then becomes <strong>Pick another persona</strong>.</figcaption>
+</figure>
+</div>
 
 ### When evaluating
 
+<div class="he-split" markdown="1">
+<div markdown="1">
+
 If you can't tell the two replies apart with regard to the mentioned characteristics, tick **I can't decide** and confirm. One of the replies will then be picked at random so the conversation can continue. If the two replies are exactly identical, the system detects it automatically and you have nothing to choose. Just answer the agent to carry on with the conversation.
+
+</div>
+<figure class="he-fig">
+<img src="/images/he-cant-decide.png" alt="A note above the agent's message saying that a reply was picked at random" width="1586" height="626" loading="lazy">
+<figcaption>After <strong>I can't decide</strong>, a note above the message tells you that the reply was picked at random.</figcaption>
+</figure>
+</div>
 
 ## Flagging a problem {#he-flag}
 
+<div class="he-split he-split-midfig" markdown="1">
+<div markdown="1">
+
 If the last message from the agent looks off, click **Flag Inconsistency** in the right panel. It doesn't interrupt the interview. You can say that the agent is stuck in the previous phase or jumped to a phase that doesn't fit (phase-level), that it forgot or contradicted something said earlier (context-level), that the text makes no sense, or describe something else in a few words.
+
+<figure class="he-fig">
+<img src="/images/he-flag-inconsistency.png" alt="The Flag Inconsistency button and the list of common inconsistencies" width="1052" height="698" loading="lazy">
+<figcaption>The button is in the right panel, along with a reminder of the most common problems.</figcaption>
+</figure>
+
+</div>
+<figure class="he-fig">
+<img src="/images/he-report-inconsistency.png" alt="The form to report an inconsistency, with four types to choose from" width="1152" height="1714" loading="lazy" class="he-crop-bottom">
+<figcaption>The form that opens: pick a type, or <strong>Other</strong> to describe the problem in your own words.</figcaption>
+</figure>
+</div>
 
 ## Good to know {#he-know}
 
@@ -163,7 +289,17 @@ Please don't write personal data such as your name, address or employer. Invent 
 
 The agent builds two replies for every message, so waiting is normal. Try not to leave the page idle for too long: after 30 minutes without any action, the conversation is closed.
 
+<div class="he-split he-split-commentfig" markdown="1">
+<div markdown="1">
+
 After the 12th choice, you can leave a comment if you wish, and then close the page. We record your messages, your choices, how long you take, the problems you flag, your comment and the optional "About you" answers. We don't ask for any name or email address. What the comparison is about is explained at the end of the experiment, so that it doesn't influence your choices.
+
+</div>
+<figure class="he-fig">
+<img src="/images/he-leave-comment.png" alt="The end-of-interview window with an optional feedback field" width="1894" height="1312" loading="lazy">
+<figcaption>The last screen: the comment is optional.</figcaption>
+</figure>
+</div>
 
 ## Take part {#he-contact}
 
@@ -192,13 +328,31 @@ Vous envoyez 12 messages au total. Ce n'est pas vous qui êtes évalué mais l'a
 <a href="#he-about-fr">À propos de la recherche</a>
 </div>
 
+<figure class="he-fig">
+<img src="/images/he-ensemble.png" alt="L'écran de l'expérience, avec le chat à gauche et le panneau de progression et de mémo à droite" width="3248" height="1548" loading="lazy">
+<figcaption>L'écran pendant un tour. À gauche, le chat, avec la phase en cours en haut et les deux réponses à comparer. À droite, votre progression et un mémo à consulter à tout moment.</figcaption>
+</figure>
+
 ## Avant de commencer {#he-before-fr}
 
-Lisez l'écran d'information et cochez la case de consentement. Un court formulaire « About you » suit (tranche d'âge, niveau d'anglais, expérience des entretiens...). Vous pouvez le passer, et l'agent ne voit jamais vos réponses. Cliquez ensuite sur démarrer et laissez à la page un instant pour préparer l'entretien.
+<div class="he-split he-split-slimfig" markdown="1">
+<div markdown="1">
+
+Lisez l'écran d'information. Un court formulaire « About you » suit (tranche d'âge, niveau d'anglais, expérience des entretiens...). Vous pouvez le passer, et l'agent ne voit jamais vos réponses. Cochez ensuite la case de consentement, cliquez sur **Start the interview** et laissez à la page un instant pour préparer l'entretien.
 
 Une seule personne à la fois peut participer. Si la page indique que quelqu'un d'autre est en cours d'expérience, revenez dans quelques minutes.
 
+</div>
+<figure class="he-fig">
+<img src="/images/he-questionnaire.png" alt="Le formulaire facultatif About you, suivi de la case de consentement et du bouton Start the interview" width="1232" height="1534" loading="lazy" class="he-crop-top">
+<figcaption>Remplissez uniquement ce que vous souhaitez, cochez la case de consentement, puis cliquez sur <strong>Start the interview</strong>.</figcaption>
+</figure>
+</div>
+
 ## Déroulé d'un tour {#he-steps-fr}
+
+<div class="he-split" markdown="1">
+<div markdown="1">
 
 1. Écrivez votre message et envoyez-le. Répondez comme dans un vrai entretien, en quelques phrases.
 2. Patientez le temps que l'agent réponde, de quelques secondes à quelques minutes. Si vous rechargez la page, votre conversation est conservée.
@@ -206,7 +360,30 @@ Une seule personne à la fois peut participer. Si la page indique que quelqu'un 
 4. Lisez les deux réponses. Leur position à gauche ou à droite est aléatoire.
 5. Cliquez sur celle qui montre ce style le plus clairement, puis sur **Confirm choice**. La conversation continue avec la réponse choisie.
 
+</div>
+<figure class="he-fig">
+<div class="he-badged">
+<img src="/images/he-choice.png" alt="Un tour : le style demandé au-dessus de deux réponses, avec le bouton Confirm choice en dessous" width="2126" height="1544" loading="lazy">
+<span class="he-badge" style="left:13.5%;top:29.6%">3</span>
+<span class="he-badge" style="left:52.3%;top:50.3%">4</span>
+<span class="he-badge" style="left:34%;top:73.3%">5</span>
+</div>
+<figcaption>Les étapes 3 à 5 à l'écran : le style demandé, les deux réponses et le bouton pour confirmer.</figcaption>
+</figure>
+</div>
+
 L'agent mène l'entretien en cinq phases, et la phase en cours est toujours affichée en haut du chat. Inutile de les suivre, répondez naturellement.
+
+<div class="he-row">
+<figure class="he-fig">
+<img src="/images/he-phase-change.png" alt="Le chat en phase 2, en vert, pendant le traitement du message" width="2120" height="1556" loading="lazy">
+<figcaption>Phase 2 : le bandeau indique la phase en cours et les couleurs suivent. Ici, votre message est en cours de traitement (étape 2).</figcaption>
+</figure>
+<figure class="he-fig">
+<img src="/images/he-fairly-technical.png" alt="Le chat en phase 3, en orange" width="2122" height="1546" loading="lazy">
+<figcaption>Plus tard, en phase 3 : le bandeau et les couleurs ont changé. Vous n'avez rien à faire.</figcaption>
+</figure>
+</div>
 
 <div class="he-phase-block">
 <div class="he-phases">
@@ -266,17 +443,69 @@ Chaque tour demande une à trois des caractéristiques ci-dessous, et vous ne ju
 
 ### Au cours de la conversation
 
-**Difficile de démarrer ?** Dans cette expérience, c'est vous qui entamez la conversation. Si besoin, cliquez sur **Need help to get started?** pour que l'on vous propose quelques phrases d'ouverture. Sélectionnez celle qui vous convient, modifiez là si vous le souhaitez et envoyez le message. L'utilisation d'une des phrases proposées n'aura aucune influence sur le déroulé de l'expérience.
+**Difficile de démarrer ?** Dans cette expérience, c'est vous qui entamez la conversation. Si besoin, cliquez sur **Need help to get started?** pour que l'on vous propose quelques phrases d'ouverture. Sélectionnez celle qui vous convient, modifiez-la si vous le souhaitez et envoyez le message. L'utilisation d'une des phrases proposées n'aura aucune influence sur le déroulé de l'expérience.
 
-**En panne d'inspiration ?** Si vous ne savez pas quoi écrire au cours de la conversation, le panneau de droite propose un bouton **Pick a persona** qui vous donne un personnage tiré au hasard à incarner, avec un métier souhaité, un parcours d'études et professionnels. Si le personnage tiré aléatoirement, vous pouvez en avoir un autre en cliquant à nouveau sur le même bouton. Vous pouvez tout à fait décider de suivre ou non les caractéristiques mentionnées, cette option est simplement là si vous avez besoin d'inspiration. Cela n'aura aucune influence sur le déroulé de l'expérience.
+<div class="he-row">
+<figure class="he-fig">
+<img src="/images/he-starters1.png" alt="Le chat vide avec le lien Need help to get started?" width="2134" height="1570" loading="lazy">
+<figcaption>À l'ouverture du chat, cliquez sur <strong>Need help to get started?</strong>, juste sous les consignes.</figcaption>
+</figure>
+<figure class="he-fig">
+<img src="/images/he-starters2.png" alt="La liste de six phrases d'ouverture proposées" width="2136" height="1546" loading="lazy">
+<figcaption>Cliquez sur une phrase : elle va dans la zone de message, et vous pouvez la modifier avant de l'envoyer.</figcaption>
+</figure>
+</div>
+
+<div class="he-split he-split-widefig" markdown="1">
+<div markdown="1">
+
+**En panne d'inspiration ?** Si vous ne savez pas quoi écrire au cours de la conversation, le panneau de droite propose un bouton **Pick a persona** qui vous donne un personnage tiré au hasard à incarner, avec un métier souhaité, un parcours d'études et un parcours professionnel. Si le personnage tiré aléatoirement ne vous convient pas, vous pouvez en avoir un autre en cliquant à nouveau sur le même bouton. Vous pouvez tout à fait décider de suivre ou non les caractéristiques mentionnées, cette option est simplement là si vous avez besoin d'inspiration. Cela n'aura aucune influence sur le déroulé de l'expérience.
+
+</div>
+<figure class="he-fig">
+<div class="he-persona">
+<img src="/images/he-persona-click.png" alt="Le panneau de droite avec le bouton Pick a persona" width="1126" height="1554" loading="lazy">
+<div class="he-persona-stack">
+<img src="/images/he-persona1.png" alt="La fiche de Fatou, candidate à un poste de comptable" width="838" height="658" loading="lazy">
+<img src="/images/he-persona2.png" alt="La fiche de Paul, candidat à un poste de chargé de communication" width="816" height="558" loading="lazy">
+</div>
+</div>
+<figcaption>À gauche, le panneau de droite avec le bouton <strong>Pick a persona</strong>. À droite, deux personnages que vous pourriez obtenir : le bouton devient alors <strong>Pick another persona</strong>.</figcaption>
+</figure>
+</div>
 
 ### Au moment de l'évaluation
 
+<div class="he-split" markdown="1">
+<div markdown="1">
+
 Si vous n'arrivez pas à départager les deux réponses par rapport au respect des caractéristiques mentionnées, cochez **I can't decide** et confirmez. Une réponse sera alors tirée au hasard pour permettre de continuer la conversation. Dans le cas où les deux réponses sont parfaitement identiques, le système le détectera automatiquement. Dans ce cas vous n'aurez rien à choisir. Répondez simplement à l'agent pour poursuivre la conversation.
+
+</div>
+<figure class="he-fig">
+<img src="/images/he-cant-decide.png" alt="Une note au-dessus du message de l'agent indiquant qu'une réponse a été tirée au hasard" width="1586" height="626" loading="lazy">
+<figcaption>Après <strong>I can't decide</strong>, une note au-dessus du message vous indique que la réponse a été tirée au hasard.</figcaption>
+</figure>
+</div>
 
 ## Signaler un problème {#he-flag-fr}
 
+<div class="he-split he-split-midfig" markdown="1">
+<div markdown="1">
+
 Si le dernier message de l'agent vous paraît anormal, cliquez sur **Flag Inconsistency** dans le panneau de droite. Cela n'interrompt pas l'entretien. Vous pouvez indiquer que l'agent reste bloqué dans la phase précédente ou saute vers une phase inadaptée (phase-level), qu'il oublie ou contredit quelque chose dit plus tôt (context-level), que le texte n'a pas de sens, ou décrire autre chose en quelques mots.
+
+<figure class="he-fig">
+<img src="/images/he-flag-inconsistency.png" alt="Le bouton Flag Inconsistency et la liste des incohérences courantes" width="1052" height="698" loading="lazy">
+<figcaption>Le bouton se trouve dans le panneau de droite, avec un rappel des problèmes les plus courants.</figcaption>
+</figure>
+
+</div>
+<figure class="he-fig">
+<img src="/images/he-report-inconsistency.png" alt="Le formulaire de signalement, avec quatre types au choix" width="1152" height="1714" loading="lazy" class="he-crop-bottom">
+<figcaption>Le formulaire qui s'ouvre : choisissez un type, ou <strong>Other</strong> pour décrire le problème avec vos mots.</figcaption>
+</figure>
+</div>
 
 ## À savoir {#he-know-fr}
 
@@ -284,7 +513,17 @@ Merci de ne pas écrire de données personnelles comme votre nom, votre adresse 
 
 L'agent construit deux réponses pour chaque message, donc l'attente est normale. Évitez simplement de laisser la page inactive trop longtemps : après 30 minutes sans action, la conversation est fermée.
 
+<div class="he-split he-split-commentfig" markdown="1">
+<div markdown="1">
+
 Après le 12e choix, vous pouvez laisser un commentaire si vous le souhaitez, puis fermer la page. Nous enregistrons vos messages, vos choix, votre temps de réponse, les problèmes signalés, votre commentaire et les réponses facultatives à « About you ». Aucun nom ni adresse email n'est demandé. L'objet de la comparaison est expliqué à la fin de l'expérience, pour ne pas influencer vos choix.
+
+</div>
+<figure class="he-fig">
+<img src="/images/he-leave-comment.png" alt="La fenêtre de fin d'entretien avec un champ de commentaire facultatif" width="1894" height="1312" loading="lazy">
+<figcaption>Le dernier écran : le commentaire est facultatif.</figcaption>
+</figure>
+</div>
 
 ## Participer {#he-contact-fr}
 
