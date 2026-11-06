@@ -18,11 +18,13 @@ author_profile: false
 }
 .lang-btn.active { background: #333; color: #fff; border-color: #333; }
 
-.he-phases { display: flex; flex-wrap: wrap; gap: 0.4em; margin: 0.8em 0 1em; }
+.he-phases { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0.5em; margin: 0; }
 .he-phase {
-  color: #fff; padding: 0.35em 0.8em; border-radius: 999px; border: 2px solid transparent;
-  font-size: 0.85em; white-space: nowrap; cursor: pointer; font-family: inherit;
+  color: #fff; padding: 0.6em 0.4em; border-radius: 8px; border: 2px solid transparent;
+  font-size: 0.85em; font-weight: 600; line-height: 1.25; cursor: pointer; font-family: inherit;
 }
+.he-phase::after { content: " \25BE"; }
+.he-phase[aria-expanded="true"]::after { content: " \25B4"; }
 .he-phase:hover { filter: brightness(1.08); }
 .he-phase[aria-expanded="true"] { border-color: #333; }
 .he-p1 { background: #667eea; }
@@ -30,11 +32,10 @@ author_profile: false
 .he-p3 { background: #f6ad55; }
 .he-p4 { background: #ed64a6; }
 .he-p5 { background: #9f7aea; }
-.he-phase-block { margin: 0.8em 0 1em; }
-.he-phase-block .he-phases { margin-bottom: 0; }
+.he-phase-block { margin: 1em 0 1.4em; padding: 0.9em 1em 1em; background: #f7f7fa; border: 1px solid #e3e6ea; border-radius: 8px; }
 .page__content .he-footnote { font-size: 0.75em; line-height: 1.4; color: #777; margin: 0.3em 0 1em; }
-.page__content .he-hint { font-size: 0.75em; font-style: italic; color: #777; margin: 0.5em 0 0; }
-.he-panel { margin: 0.7em 0 0; padding: 0.6em 1em; border-left: 4px solid #ccc; background: #fafafa; border-radius: 0 6px 6px 0; }
+.page__content .he-hint { font-size: 0.85em; font-weight: 600; color: #555; margin: 0 0 0.6em; }
+.he-panel { margin: 0.7em 0 0; padding: 0.6em 1em; border-left: 4px solid #ccc; background: #fff; border-radius: 0 6px 6px 0; }
 .he-panel[hidden] { display: none; }
 .he-panel p { margin: 0 0 0.4em; }
 .he-panel p:last-child { margin-bottom: 0; }
@@ -45,11 +46,29 @@ author_profile: false
 .he-panel-p3 { border-left-color: #f6ad55; }
 .he-panel-p4 { border-left-color: #ed64a6; }
 .he-panel-p5 { border-left-color: #9f7aea; }
-.he-toc { font-size: 0.9em; margin-bottom: 1.5em; }
-.he-toc a { margin-right: 1em; white-space: nowrap; }
 
 /* Page width: full-width guide, no sidebar */
 #main .page { float: none; width: 100%; margin: 0; padding: 0; }
+
+/* Table of contents on the left, guide on the right */
+.he-layout { display: grid; grid-template-columns: 190px minmax(0, 1fr); column-gap: 2.5em; align-items: start; }
+.he-body { grid-column: 2; min-width: 0; }
+.he-nav { grid-column: 1; grid-row: 1; position: sticky; top: 1.5em; max-height: calc(100vh - 3em); overflow-y: auto; font-size: 0.85em; }
+.he-nav[hidden] { display: none; }
+.page__content .he-nav-title { margin: 0 0 0.6em; font-size: 0.8em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #777; }
+.page__content .he-nav ul { list-style: none; margin: 0; padding: 0; border-left: 2px solid #e3e6ea; }
+.page__content .he-nav li { margin: 0; padding: 0; font-size: 1em; line-height: 1.3; }
+.page__content .he-nav a { display: block; margin-left: -2px; padding: 0.45em 0.7em; border-left: 2px solid transparent; border-radius: 0 6px 6px 0; color: #555; text-decoration: none; }
+.page__content .he-nav .he-nav-sub a { padding: 0.3em 0.7em 0.3em 1.5em; font-size: 0.92em; color: #777; }
+.page__content .he-nav a:hover { background: #f4f2fb; color: #333; }
+.page__content .he-nav .he-nav-parent > a { color: #333; font-weight: 600; }
+.page__content .he-nav a.is-active { border-left-color: #6a4fc0; background: #efebfb; color: #46308c; font-weight: 600; }
+@media (max-width: 900px) {
+  .he-layout { grid-template-columns: minmax(0, 1fr); }
+  .he-body { grid-column: 1; grid-row: 2; }
+  .he-nav { position: static; max-height: none; margin-bottom: 1.5em; padding: 0.9em 1em; background: #f7f7fa; border-radius: 8px; }
+  .he-phases { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
 
 /* Screenshots */
 .page__content figure.he-fig { display: block; margin: 0; min-width: 0; }
@@ -59,13 +78,12 @@ author_profile: false
 .he-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25em; margin: 1.2em 0 1.6em; }
 .page__content .he-row .he-fig img { aspect-ratio: 1.38; object-fit: cover; }
 .he-split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2em; align-items: start; margin: 1.2em 0 1.6em; }
-.he-split-slimfig { grid-template-columns: minmax(0, 2.4fr) minmax(0, 1fr); }
+.he-split-slimfig { grid-template-columns: minmax(0, 1.9fr) minmax(0, 1fr); }
 .he-split-widefig { grid-template-columns: minmax(0, 1fr) minmax(0, 1.75fr); }
-.he-split-midfig { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); }
-.he-split-commentfig { grid-template-columns: minmax(0, 1.75fr) minmax(0, 1fr); }
+.he-split-flag { grid-template-columns: minmax(0, 1fr) minmax(0, 340px); }
 .he-split > div > :first-child { margin-top: 0; }
 .he-split > div > :last-child { margin-bottom: 0; }
-.page__content .he-split > div > .he-fig { margin-top: 1em; max-width: 600px; }
+.page__content .he-split > div > .he-fig { margin-top: 1em; max-width: 380px; }
 .he-persona { display: flex; gap: 0.75em; align-items: stretch; }
 .he-persona > img { flex: 1.1 1 0; min-width: 0; }
 .he-persona-stack { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: space-between; gap: 0.75em; }
@@ -78,11 +96,48 @@ author_profile: false
   box-shadow: 0 0 0 2px #fff;
 }
 @media (max-width: 760px) {
-  .he-row, .he-split, .he-split-slimfig, .he-split-widefig, .he-split-midfig, .he-split-commentfig { grid-template-columns: minmax(0, 1fr); }
+  .he-row, .he-split, .he-split-slimfig, .he-split-widefig, .he-split-flag { grid-template-columns: minmax(0, 1fr); }
 }
 </style>
 
-<div class="lang-switcher">
+<div class="he-layout" markdown="1">
+<nav class="he-nav" id="he-nav-en" aria-label="Guide sections">
+<p class="he-nav-title">On this page</p>
+<ul>
+<li><a href="#he-top">Overview</a></li>
+<li><a href="#he-before">Before you start</a></li>
+<li><a href="#he-steps">How a turn works</a></li>
+<li class="he-nav-sub"><a href="#he-phases-en">The five phases</a></li>
+<li><a href="#he-criteria">What to look for</a></li>
+<li><a href="#he-stuck">If you're stuck</a></li>
+<li class="he-nav-sub"><a href="#he-stuck-chat">During the conversation</a></li>
+<li class="he-nav-sub"><a href="#he-stuck-eval">When evaluating</a></li>
+<li><a href="#he-flag">Flagging a problem</a></li>
+<li><a href="#he-know">Good to know</a></li>
+<li><a href="#he-contact">Take part</a></li>
+<li><a href="#he-about">About the research</a></li>
+</ul>
+</nav>
+<nav class="he-nav" id="he-nav-fr" aria-label="Sections du guide" hidden>
+<p class="he-nav-title">Sur cette page</p>
+<ul>
+<li><a href="#he-top">Aperçu</a></li>
+<li><a href="#he-before-fr">Avant de commencer</a></li>
+<li><a href="#he-steps-fr">Déroulé d'un tour</a></li>
+<li class="he-nav-sub"><a href="#he-phases-fr">Les cinq phases</a></li>
+<li><a href="#he-criteria-fr">Quoi observer</a></li>
+<li><a href="#he-stuck-fr">En cas de blocage</a></li>
+<li class="he-nav-sub"><a href="#he-stuck-chat-fr">Au cours de la conversation</a></li>
+<li class="he-nav-sub"><a href="#he-stuck-eval-fr">Au moment de l'évaluation</a></li>
+<li><a href="#he-flag-fr">Signaler un problème</a></li>
+<li><a href="#he-know-fr">À savoir</a></li>
+<li><a href="#he-contact-fr">Participer</a></li>
+<li><a href="#he-about-fr">À propos de la recherche</a></li>
+</ul>
+</nav>
+<div class="he-body" markdown="1">
+
+<div class="lang-switcher" id="he-top">
   <button id="btn-en" class="lang-btn active" onclick="setLang('en')">🇬🇧 English</button>
   <button id="btn-fr" class="lang-btn" onclick="setLang('fr')">🇫🇷 Français</button>
 </div>
@@ -92,17 +147,6 @@ author_profile: false
 Chatbots can be told how to talk: in simple or sophisticated English, in an upbeat or a critical tone, calmly or with some emotion. What we don't really know is whether they do it. This study looks at exactly that. You chat with a recruiter agent in a mock job interview, and each time it answers, you tell us which of two possible replies better shows the style the agent was asked to have.
 
 You send 12 messages in total. You are not being tested here, the agent is, so there are no right or wrong answers. Everything is anonymous and voluntary, and you can stop at any time by closing the page.
-
-<div class="he-toc">
-<a href="#he-before">Before you start</a>
-<a href="#he-steps">How a turn works</a>
-<a href="#he-criteria">What to look for</a>
-<a href="#he-stuck">If you're stuck</a>
-<a href="#he-flag">Flagging a problem</a>
-<a href="#he-know">Good to know</a>
-<a href="#he-contact">Take part</a>
-<a href="#he-about">About the research</a>
-</div>
 
 <figure class="he-fig">
 <img src="/images/he-ensemble.png" alt="The experiment screen, with the chat on the left and the progress and memo panel on the right" width="3248" height="1548" loading="lazy">
@@ -149,19 +193,10 @@ Only one person can take part at a time. If the page tells you someone else is a
 </div>
 
 The agent leads the interview through five phases, and the current one is always displayed at the top of the chat. You don't need to follow them, just answer naturally.
-
-<div class="he-row">
-<figure class="he-fig">
-<img src="/images/he-phase-change.png" alt="Chat in phase 2, in green, while the message is being processed" width="2120" height="1556" loading="lazy">
-<figcaption>Phase 2: the banner names the current phase and the colours follow it. Here, your message is being processed (step 2).</figcaption>
-</figure>
-<figure class="he-fig">
-<img src="/images/he-fairly-technical.png" alt="Chat in phase 3, in orange" width="2122" height="1546" loading="lazy">
-<figcaption>Later, in phase 3: the banner and the colours have changed. There is nothing for you to do.</figcaption>
-</figure>
-</div>
+{: #he-phases-en}
 
 <div class="he-phase-block">
+<p class="he-hint">Click a phase for more details.</p>
 <div class="he-phases">
 <button type="button" class="he-phase he-p1" aria-expanded="false" aria-controls="he-en-ph1">1 Greetings</button>
 <button type="button" class="he-phase he-p2" aria-expanded="false" aria-controls="he-en-ph2">2 Background</button>
@@ -169,7 +204,6 @@ The agent leads the interview through five phases, and the current one is always
 <button type="button" class="he-phase he-p4" aria-expanded="false" aria-controls="he-en-ph4">4 Short debate</button>
 <button type="button" class="he-phase he-p5" aria-expanded="false" aria-controls="he-en-ph5">5 Send-off</button>
 </div>
-<p class="he-hint">Click a phase for more details.</p>
 <div class="he-panel he-panel-p1" id="he-en-ph1" hidden>
 <p>The agent welcomes you and makes some small talk to put you at ease. Answer as you would at the start of a real interview.</p>
 <p>Typical messages:</p>
@@ -201,6 +235,17 @@ The agent leads the interview through five phases, and the current one is always
 </div>
 </div>
 
+<div class="he-row">
+<figure class="he-fig">
+<img src="/images/he-phase-change.png" alt="Chat in phase 2, in green, while the message is being processed" width="2120" height="1556" loading="lazy">
+<figcaption>Phase 2: the banner names the current phase and the colours follow it. Here, your message is being processed (step 2).</figcaption>
+</figure>
+<figure class="he-fig">
+<img src="/images/he-fairly-technical.png" alt="Chat in phase 3, in orange" width="2122" height="1546" loading="lazy">
+<figcaption>Later, in phase 3: the banner and the colours have changed. There is nothing for you to do.</figcaption>
+</figure>
+</div>
+
 ## What to look for {#he-criteria}
 
 Each turn asks for one to three of the characteristics below, and you only judge the ones displayed. The question to keep in mind is which reply shows the requested style more clearly, whatever you would personally prefer. A friendly, well-written reply can still miss the target.
@@ -217,7 +262,7 @@ Each turn asks for one to three of the characteristics below, and you only judge
 
 ## If you're stuck {#he-stuck}
 
-### During the conversation
+### During the conversation {#he-stuck-chat}
 
 **Hard to get started?** In this experiment, you are the one who opens the conversation. If needed, click **Need help to get started?** to get a few opening lines. Select the one you like, edit it if you wish and send the message. Using one of the suggested lines has no influence on how the experiment goes.
 
@@ -250,7 +295,7 @@ Each turn asks for one to three of the characteristics below, and you only judge
 </figure>
 </div>
 
-### When evaluating
+### When evaluating {#he-stuck-eval}
 
 <div class="he-split" markdown="1">
 <div markdown="1">
@@ -266,7 +311,7 @@ If you can't tell the two replies apart with regard to the mentioned characteris
 
 ## Flagging a problem {#he-flag}
 
-<div class="he-split he-split-midfig" markdown="1">
+<div class="he-split he-split-flag" markdown="1">
 <div markdown="1">
 
 If the last message from the agent looks off, click **Flag Inconsistency** in the right panel. It doesn't interrupt the interview. You can say that the agent is stuck in the previous phase or jumped to a phase that doesn't fit (phase-level), that it forgot or contradicted something said earlier (context-level), that the text makes no sense, or describe something else in a few words.
@@ -285,12 +330,12 @@ If the last message from the agent looks off, click **Flag Inconsistency** in th
 
 ## Good to know {#he-know}
 
+<div class="he-split" markdown="1">
+<div markdown="1">
+
 Please don't write personal data such as your name, address or employer. Invent details if you want to.
 
 The agent builds two replies for every message, so waiting is normal. Try not to leave the page idle for too long: after 30 minutes without any action, the conversation is closed.
-
-<div class="he-split he-split-commentfig" markdown="1">
-<div markdown="1">
 
 After the 12th choice, you can leave a comment if you wish, and then close the page. We record your messages, your choices, how long you take, the problems you flag, your comment and the optional "About you" answers. We don't ask for any name or email address. What the comparison is about is explained at the end of the experiment, so that it doesn't influence your choices.
 
@@ -316,17 +361,6 @@ This study is part of my PhD at LORIA, *Controlled Conversational Models through
 On peut demander à un chatbot de parler d'une certaine manière : dans un anglais simple ou soutenu, sur un ton enthousiaste ou critique, calmement ou avec de l'émotion. Ce qu'on sait moins, c'est s'il le fait vraiment. C'est ce que cette étude cherche à savoir. Vous discutez avec un agent recruteur lors d'un faux entretien d'embauche, et à chaque réponse, vous nous dites laquelle de deux réponses possibles montre le mieux le style que l'agent devait avoir.
 
 Vous envoyez 12 messages au total. Ce n'est pas vous qui êtes évalué mais l'agent, donc il n'y a ni bonne ni mauvaise réponse. Tout est anonyme et volontaire, et vous pouvez arrêter à tout moment en fermant la page.
-
-<div class="he-toc">
-<a href="#he-before-fr">Avant de commencer</a>
-<a href="#he-steps-fr">Déroulé d'un tour</a>
-<a href="#he-criteria-fr">Quoi observer</a>
-<a href="#he-stuck-fr">En cas de blocage</a>
-<a href="#he-flag-fr">Signaler un problème</a>
-<a href="#he-know-fr">À savoir</a>
-<a href="#he-contact-fr">Participer</a>
-<a href="#he-about-fr">À propos de la recherche</a>
-</div>
 
 <figure class="he-fig">
 <img src="/images/he-ensemble.png" alt="L'écran de l'expérience, avec le chat à gauche et le panneau de progression et de mémo à droite" width="3248" height="1548" loading="lazy">
@@ -373,19 +407,10 @@ Une seule personne à la fois peut participer. Si la page indique que quelqu'un 
 </div>
 
 L'agent mène l'entretien en cinq phases, et la phase en cours est toujours affichée en haut du chat. Inutile de les suivre, répondez naturellement.
-
-<div class="he-row">
-<figure class="he-fig">
-<img src="/images/he-phase-change.png" alt="Le chat en phase 2, en vert, pendant le traitement du message" width="2120" height="1556" loading="lazy">
-<figcaption>Phase 2 : le bandeau indique la phase en cours et les couleurs suivent. Ici, votre message est en cours de traitement (étape 2).</figcaption>
-</figure>
-<figure class="he-fig">
-<img src="/images/he-fairly-technical.png" alt="Le chat en phase 3, en orange" width="2122" height="1546" loading="lazy">
-<figcaption>Plus tard, en phase 3 : le bandeau et les couleurs ont changé. Vous n'avez rien à faire.</figcaption>
-</figure>
-</div>
+{: #he-phases-fr}
 
 <div class="he-phase-block">
+<p class="he-hint">Cliquez sur une phase pour plus de détails.</p>
 <div class="he-phases">
 <button type="button" class="he-phase he-p1" aria-expanded="false" aria-controls="he-fr-ph1">1 Accueil</button>
 <button type="button" class="he-phase he-p2" aria-expanded="false" aria-controls="he-fr-ph2">2 Parcours</button>
@@ -393,7 +418,6 @@ L'agent mène l'entretien en cinq phases, et la phase en cours est toujours affi
 <button type="button" class="he-phase he-p4" aria-expanded="false" aria-controls="he-fr-ph4">4 Court débat</button>
 <button type="button" class="he-phase he-p5" aria-expanded="false" aria-controls="he-fr-ph5">5 Conclusion</button>
 </div>
-<p class="he-hint">Cliquez sur une phase pour plus de détails.</p>
 <div class="he-panel he-panel-p1" id="he-fr-ph1" hidden>
 <p>L'agent vous accueille et fait un peu de conversation pour vous mettre à l'aise. Répondez comme au début d'un vrai entretien.</p>
 <p>Messages typiques (à écrire en anglais) :</p>
@@ -425,6 +449,17 @@ L'agent mène l'entretien en cinq phases, et la phase en cours est toujours affi
 </div>
 </div>
 
+<div class="he-row">
+<figure class="he-fig">
+<img src="/images/he-phase-change.png" alt="Le chat en phase 2, en vert, pendant le traitement du message" width="2120" height="1556" loading="lazy">
+<figcaption>Phase 2 : le bandeau indique la phase en cours et les couleurs suivent. Ici, votre message est en cours de traitement (étape 2).</figcaption>
+</figure>
+<figure class="he-fig">
+<img src="/images/he-fairly-technical.png" alt="Le chat en phase 3, en orange" width="2122" height="1546" loading="lazy">
+<figcaption>Plus tard, en phase 3 : le bandeau et les couleurs ont changé. Vous n'avez rien à faire.</figcaption>
+</figure>
+</div>
+
 ## Quoi observer {#he-criteria-fr}
 
 Chaque tour demande une à trois des caractéristiques ci-dessous, et vous ne jugez que celles affichées. La question à garder en tête est de savoir quelle réponse montre le plus clairement le style demandé, quelle que soit votre préférence personnelle. Une réponse aimable et bien écrite peut très bien passer à côté de la cible.
@@ -441,7 +476,7 @@ Chaque tour demande une à trois des caractéristiques ci-dessous, et vous ne ju
 
 ## En cas de blocage {#he-stuck-fr}
 
-### Au cours de la conversation
+### Au cours de la conversation {#he-stuck-chat-fr}
 
 **Difficile de démarrer ?** Dans cette expérience, c'est vous qui entamez la conversation. Si besoin, cliquez sur **Need help to get started?** pour que l'on vous propose quelques phrases d'ouverture. Sélectionnez celle qui vous convient, modifiez-la si vous le souhaitez et envoyez le message. L'utilisation d'une des phrases proposées n'aura aucune influence sur le déroulé de l'expérience.
 
@@ -474,7 +509,7 @@ Chaque tour demande une à trois des caractéristiques ci-dessous, et vous ne ju
 </figure>
 </div>
 
-### Au moment de l'évaluation
+### Au moment de l'évaluation {#he-stuck-eval-fr}
 
 <div class="he-split" markdown="1">
 <div markdown="1">
@@ -490,7 +525,7 @@ Si vous n'arrivez pas à départager les deux réponses par rapport au respect d
 
 ## Signaler un problème {#he-flag-fr}
 
-<div class="he-split he-split-midfig" markdown="1">
+<div class="he-split he-split-flag" markdown="1">
 <div markdown="1">
 
 Si le dernier message de l'agent vous paraît anormal, cliquez sur **Flag Inconsistency** dans le panneau de droite. Cela n'interrompt pas l'entretien. Vous pouvez indiquer que l'agent reste bloqué dans la phase précédente ou saute vers une phase inadaptée (phase-level), qu'il oublie ou contredit quelque chose dit plus tôt (context-level), que le texte n'a pas de sens, ou décrire autre chose en quelques mots.
@@ -509,12 +544,12 @@ Si le dernier message de l'agent vous paraît anormal, cliquez sur **Flag Incons
 
 ## À savoir {#he-know-fr}
 
+<div class="he-split" markdown="1">
+<div markdown="1">
+
 Merci de ne pas écrire de données personnelles comme votre nom, votre adresse ou votre employeur. Inventez des détails si vous le souhaitez.
 
 L'agent construit deux réponses pour chaque message, donc l'attente est normale. Évitez simplement de laisser la page inactive trop longtemps : après 30 minutes sans action, la conversation est fermée.
-
-<div class="he-split he-split-commentfig" markdown="1">
-<div markdown="1">
 
 Après le 12e choix, vous pouvez laisser un commentaire si vous le souhaitez, puis fermer la page. Nous enregistrons vos messages, vos choix, votre temps de réponse, les problèmes signalés, votre commentaire et les réponses facultatives à « About you ». Aucun nom ni adresse email n'est demandé. L'objet de la comparaison est expliqué à la fin de l'expérience, pour ne pas influencer vos choix.
 
@@ -533,6 +568,9 @@ Si vous souhaitez participer, ou si vous avez une question, [contactez-moi](mail
 
 Cette étude s'inscrit dans ma thèse au LORIA, *Controlled Conversational Models through Conversation-Dedicated Ontology*, encadrée par Mathieu d'Aquin (LORIA, CNRS) et Gaël Guibon (LIPN, Université Sorbonne Paris Nord). La thèse explore comment guider un modèle de langage avec une stratégie conversationnelle construite à partir de concepts et de règles formalisés, afin que son comportement soit plus prévisible et mieux adapté à son cas d'usage. L'entretien d'embauche est le cadre du prototype développé dans ce travail.
 
+</div>
+
+</div>
 </div>
 
 <script>
@@ -556,5 +594,39 @@ function setLang(lang) {
   document.getElementById('content-fr').style.display = (lang === 'fr') ? 'block' : 'none';
   document.getElementById('btn-en').classList.toggle('active', lang === 'en');
   document.getElementById('btn-fr').classList.toggle('active', lang === 'fr');
+  document.getElementById('he-nav-en').hidden = (lang !== 'en');
+  document.getElementById('he-nav-fr').hidden = (lang !== 'fr');
+  heUpdateNav();
 }
+
+// Highlight the section being read in the table of contents
+function heUpdateNav() {
+  var nav = document.querySelector('.he-nav:not([hidden])');
+  var links = Array.prototype.slice.call(nav.querySelectorAll('a'));
+  var active = links[0];
+  links.forEach(function (a) {
+    var target = document.querySelector(a.getAttribute('href'));
+    if (target && target.getBoundingClientRect().top <= 120) active = a;
+  });
+  if (window.innerHeight + window.pageYOffset >= document.documentElement.scrollHeight - 2) {
+    active = links[links.length - 1];
+  }
+  links.forEach(function (a) {
+    a.classList.toggle('is-active', a === active);
+    a.parentNode.classList.remove('he-nav-parent');
+  });
+  var li = active.parentNode;
+  if (li.classList.contains('he-nav-sub')) {
+    while (li.classList.contains('he-nav-sub')) li = li.previousElementSibling;
+    li.classList.add('he-nav-parent');
+  }
+}
+var heTicking = false;
+window.addEventListener('scroll', function () {
+  if (heTicking) return;
+  heTicking = true;
+  window.requestAnimationFrame(function () { heUpdateNav(); heTicking = false; });
+});
+window.addEventListener('resize', heUpdateNav);
+heUpdateNav();
 </script>
