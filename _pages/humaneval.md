@@ -84,6 +84,13 @@ author_profile: false
   .he-phases { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
+/* Context box at the top of the guide */
+.he-context { margin: 0 0 1.4em; padding: 1em 1.2em; background: #f7f7fa; border: 1px solid #e3e6ea; border-radius: 8px; }
+.page__content .he-context-kicker { margin: 0 0 0.15em; font-size: 0.72em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #777; }
+.page__content .he-context-title { margin: 0 0 0.5em; font-size: 1.05em; font-weight: 700; color: #333; }
+.page__content .he-context p { font-size: 0.92em; line-height: 1.5; }
+.page__content .he-context p:last-child { margin-bottom: 0; }
+
 /* Screenshots */
 .page__content figure.he-fig { display: block; margin: 0; min-width: 0; }
 .page__content .he-fig img { display: block; width: 100%; height: auto; margin: 0; border: 1px solid #e3e6ea; border-radius: 8px; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06); }
@@ -179,13 +186,20 @@ author_profile: false
 
 <div id="content-en" class="lang-content" markdown="1">
 
-Chatbots can be told how to talk: in simple or sophisticated English, in an upbeat or a critical tone, calmly or with some emotion. What we don't really know is whether they do it. This study looks at exactly that. You chat with a recruiter agent in a mock job interview, and each time it answers, you tell us which of two possible replies better shows the style the agent was asked to have.
+<div class="he-context">
+<p class="he-context-kicker">Context</p>
+<p class="he-context-title">Controlled or free LLM: which makes the better recruiter?</p>
+<p>This is a human evaluation experiment, carried out as part of my PhD thesis in computer science at LORIA (Nancy). Large language models (LLMs) are the technology behind chatbots such as ChatGPT. They can be asked to express themselves in a given style, but do they really do it? To find out, we compare two of them. The <em>controlled</em> one has been specifically trained to follow a requested style. The <em>free</em> one is a general-purpose model that is only given the same request in plain words.</p>
+<p>Here, both play the role of a recruiter. At each turn, one reply comes from each model, in random order, and you are not told which is which. Your choices tell us which one follows the requested style better.</p>
+</div>
+
+In practice, you chat with a recruiter agent in a mock job interview. Each time it answers, you see two possible replies and tell us which one better shows the requested *style*, that is, the way the agent was asked to express itself: simple or sophisticated English, an upbeat or a critical tone, calm or emotional. On screen, this style is described by one to three **characteristics** (see [What to look for](#he-criteria)).
 
 You send 12 messages in total. You are not being tested here, the agent is, so there are no right or wrong answers. Everything is anonymous and voluntary, and you can stop at any time by closing the page.
 
 <figure class="he-fig">
 <img src="/images/he-ensemble.png" alt="The experiment screen, with the chat on the left and the progress and memo panel on the right" width="3248" height="1548" loading="lazy">
-<figcaption>The screen during a turn. On the left, the chat, with the current phase on top and the two replies to compare. On the right, your progress and a memo you can check at any time.</figcaption>
+<figcaption>The screen during a turn. On the left, the chat, with the current phase on top and the two replies to compare. On the right, your progress and a memo you can check at any time, including a reminder of the characteristics.</figcaption>
 </figure>
 
 ## Before you start {#he-before}
@@ -211,7 +225,7 @@ Only one person can take part at a time. If the page tells you someone else is a
 
 1. Write your message and send it. Answer the way you would in a real interview, in a few sentences.
 2. Wait for the agent, which can take anywhere from a few seconds to a few minutes. If you reload the page, your conversation is kept.
-3. Above the two replies, a sentence tells you which style they should have, for example *"The agent response is expected to be Positive, Non loaded, B1."*
+3. Above the two replies, a sentence gives the requested style as a list of characteristics, for example *"The agent response is expected to be Positive, Non loaded, B1."*
 4. Read both replies. Which one is on the left or the right is random.
 5. Click the one that shows this style more clearly, then click **Confirm choice**. The conversation goes on with the reply you picked.
 
@@ -283,7 +297,7 @@ The agent leads the interview through five phases, and the current one is always
 
 ## What to look for {#he-criteria}
 
-Each turn asks for one to three of the characteristics below, and you only judge the ones displayed. The question to keep in mind is which reply shows the requested style more clearly, whatever you would personally prefer. A friendly, well-written reply can still miss the target.
+The requested style combines one to three of the characteristics below, the same ones listed under **Characteristics** in the memo on the right of the screen. You only judge the ones displayed for the current turn. The question to keep in mind is which reply shows the requested style more clearly, whatever you would personally prefer. A friendly, well-written reply can still miss the target.
 
 | Characteristic | Possible values | Description |
 |---|---|---|
@@ -315,7 +329,7 @@ Each turn asks for one to three of the characteristics below, and you only judge
 <div class="he-split he-split-widefig" markdown="1">
 <div markdown="1">
 
-**Out of inspiration?** If you don't know what to write during the conversation, the right panel has a **Pick a persona** button that gives you a random character to play, with a desired job and a study and work background. If you don't like the persona you got, click the same button again to get another one. You are free to follow the mentioned characteristics or not, this option is only there in case you need inspiration. It has no influence on how the experiment goes.
+**Out of inspiration?** If you don't know what to write during the conversation, the right panel has a **Pick a persona** button that gives you a random character to play, with a desired job and a study and work background. If you don't like the persona you got, click the same button again to get another one. You are free to follow the persona's details or not, this option is only there in case you need inspiration. It has no influence on how the experiment goes.
 
 </div>
 <figure class="he-fig">
@@ -335,7 +349,7 @@ Each turn asks for one to three of the characteristics below, and you only judge
 <div class="he-split" markdown="1">
 <div markdown="1">
 
-If you can't tell the two replies apart with regard to the mentioned characteristics, tick **I can't decide** and confirm. One of the replies will then be picked at random so the conversation can continue. If the two replies are exactly identical, the system detects it automatically and you have nothing to choose. Just answer the agent to carry on with the conversation.
+If you can't tell the two replies apart with regard to the requested style, tick **I can't decide** and confirm. One of the replies will then be picked at random so the conversation can continue. If the two replies are exactly identical, the system detects it automatically and you have nothing to choose. Just answer the agent to carry on with the conversation.
 
 </div>
 <figure class="he-fig">
@@ -393,13 +407,20 @@ This study is part of my PhD at LORIA, *Controlled Conversational Models through
 
 <div id="content-fr" class="lang-content" markdown="1" style="display:none;">
 
-On peut demander à un chatbot de parler d'une certaine manière : dans un anglais simple ou soutenu, sur un ton enthousiaste ou critique, calmement ou avec de l'émotion. Ce qu'on sait moins, c'est s'il le fait vraiment. C'est ce que cette étude cherche à savoir. Vous discutez avec un agent recruteur lors d'un faux entretien d'embauche, et à chaque réponse, vous nous dites laquelle de deux réponses possibles montre le mieux le style que l'agent devait avoir.
+<div class="he-context">
+<p class="he-context-kicker">Contexte</p>
+<p class="he-context-title">LLM contrôlé ou libre : qui sera le meilleur recruteur ?</p>
+<p>Il s'agit d'une expérience d'évaluation humaine, menée dans le cadre de ma thèse en informatique au LORIA (Nancy). Les grands modèles de langage (LLM, pour <em>Large Language Models</em>) sont la technologie derrière les chatbots comme ChatGPT. On peut leur demander de s'exprimer dans un certain style, mais le font-ils vraiment ? Pour le savoir, nous en comparons deux. Le modèle <em>contrôlé</em> a été entraîné spécifiquement pour respecter un style demandé. Le modèle <em>libre</em> est un modèle généraliste à qui l'on décrit simplement ce même style avec des mots.</p>
+<p>Ici, les deux jouent le rôle d'un recruteur. À chaque tour, une réponse vient de chaque modèle, dans un ordre aléatoire, et vous ne savez pas laquelle vient de quel modèle. Vos choix nous indiquent lequel respecte le mieux le style demandé.</p>
+</div>
+
+Concrètement, vous discutez avec un agent recruteur lors d'un faux entretien d'embauche. À chaque réponse de l'agent, deux propositions s'affichent et vous nous dites laquelle montre le mieux le *style* d'expression demandé : un anglais simple ou soutenu, un ton enthousiaste ou critique, calme ou chargé d'émotion. À l'écran, ce style est décrit par une à trois **caractéristiques** (*characteristics*, voir [Quoi observer](#he-criteria-fr)).
 
 Vous envoyez 12 messages au total. Ce n'est pas vous qui êtes évalué mais l'agent, donc il n'y a ni bonne ni mauvaise réponse. Tout est anonyme et volontaire, et vous pouvez arrêter à tout moment en fermant la page.
 
 <figure class="he-fig">
 <img src="/images/he-ensemble.png" alt="L'écran de l'expérience, avec le chat à gauche et le panneau de progression et de mémo à droite" width="3248" height="1548" loading="lazy">
-<figcaption>L'écran pendant un tour. À gauche, le chat, avec la phase en cours en haut et les deux réponses à comparer. À droite, votre progression et un mémo à consulter à tout moment.</figcaption>
+<figcaption>L'écran pendant un tour. À gauche, le chat, avec la phase en cours en haut et les deux réponses à comparer. À droite, votre progression et un mémo à consulter à tout moment, avec un rappel des caractéristiques.</figcaption>
 </figure>
 
 ## Avant de commencer {#he-before-fr}
@@ -425,7 +446,7 @@ Une seule personne à la fois peut participer. Si la page indique que quelqu'un 
 
 1. Écrivez votre message et envoyez-le. Répondez comme dans un vrai entretien, en quelques phrases.
 2. Patientez le temps que l'agent réponde, de quelques secondes à quelques minutes. Si vous rechargez la page, votre conversation est conservée.
-3. Au-dessus des deux réponses, une phrase indique le style qu'elles doivent avoir, par exemple *« The agent response is expected to be Positive, Non loaded, B1. »*
+3. Au-dessus des deux réponses, une phrase donne le style demandé sous forme de liste de caractéristiques, par exemple *« The agent response is expected to be Positive, Non loaded, B1. »*
 4. Lisez les deux réponses. Leur position à gauche ou à droite est aléatoire.
 5. Cliquez sur celle qui montre ce style le plus clairement, puis sur **Confirm choice**. La conversation continue avec la réponse choisie.
 
@@ -497,7 +518,7 @@ L'agent mène l'entretien en cinq phases, et la phase en cours est toujours affi
 
 ## Quoi observer {#he-criteria-fr}
 
-Chaque tour demande une à trois des caractéristiques ci-dessous, et vous ne jugez que celles affichées. La question à garder en tête est de savoir quelle réponse montre le plus clairement le style demandé, quelle que soit votre préférence personnelle. Une réponse aimable et bien écrite peut très bien passer à côté de la cible.
+Le style demandé combine une à trois des caractéristiques ci-dessous, les mêmes que celles listées sous **Characteristics** dans le mémo à droite de l'écran. Vous ne jugez que celles affichées pour le tour en cours. La question à garder en tête est de savoir quelle réponse montre le plus clairement le style demandé, quelle que soit votre préférence personnelle. Une réponse aimable et bien écrite peut très bien passer à côté de la cible.
 
 | Caractéristique | Valeurs possibles | Description |
 |---|---|---|
@@ -529,7 +550,7 @@ Chaque tour demande une à trois des caractéristiques ci-dessous, et vous ne ju
 <div class="he-split he-split-widefig" markdown="1">
 <div markdown="1">
 
-**En panne d'inspiration ?** Si vous ne savez pas quoi écrire au cours de la conversation, le panneau de droite propose un bouton **Pick a persona** qui vous donne un personnage tiré au hasard à incarner, avec un métier souhaité, un parcours d'études et un parcours professionnel. Si le personnage tiré aléatoirement ne vous convient pas, vous pouvez en avoir un autre en cliquant à nouveau sur le même bouton. Vous pouvez tout à fait décider de suivre ou non les caractéristiques mentionnées, cette option est simplement là si vous avez besoin d'inspiration. Cela n'aura aucune influence sur le déroulé de l'expérience.
+**En panne d'inspiration ?** Si vous ne savez pas quoi écrire au cours de la conversation, le panneau de droite propose un bouton **Pick a persona** qui vous donne un personnage tiré au hasard à incarner, avec un métier souhaité, un parcours d'études et un parcours professionnel. Si le personnage tiré aléatoirement ne vous convient pas, vous pouvez en avoir un autre en cliquant à nouveau sur le même bouton. Vous pouvez tout à fait décider de suivre ou non le profil proposé, cette option est simplement là si vous avez besoin d'inspiration. Cela n'aura aucune influence sur le déroulé de l'expérience.
 
 </div>
 <figure class="he-fig">
@@ -549,7 +570,7 @@ Chaque tour demande une à trois des caractéristiques ci-dessous, et vous ne ju
 <div class="he-split" markdown="1">
 <div markdown="1">
 
-Si vous n'arrivez pas à départager les deux réponses par rapport au respect des caractéristiques mentionnées, cochez **I can't decide** et confirmez. Une réponse sera alors tirée au hasard pour permettre de continuer la conversation. Dans le cas où les deux réponses sont parfaitement identiques, le système le détectera automatiquement. Dans ce cas vous n'aurez rien à choisir. Répondez simplement à l'agent pour poursuivre la conversation.
+Si vous n'arrivez pas à départager les deux réponses par rapport au respect du style demandé, cochez **I can't decide** et confirmez. Une réponse sera alors tirée au hasard pour permettre de continuer la conversation. Dans le cas où les deux réponses sont parfaitement identiques, le système le détectera automatiquement. Dans ce cas vous n'aurez rien à choisir. Répondez simplement à l'agent pour poursuivre la conversation.
 
 </div>
 <figure class="he-fig">
