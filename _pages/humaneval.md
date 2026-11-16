@@ -52,8 +52,9 @@ author_profile: false
 
 /* Table of contents on the left, guide on the right */
 .he-layout { display: grid; grid-template-columns: 190px minmax(0, 1fr); column-gap: 2.5em; align-items: start; }
-.he-body { grid-column: 2; min-width: 0; }
-.he-nav { grid-column: 1; grid-row: 1; position: sticky; top: 1.5em; max-height: calc(100vh - 3em); overflow-y: auto; font-size: 0.85em; }
+.he-head { grid-column: 2; grid-row: 1; min-width: 0; }
+.he-body { grid-column: 2; grid-row: 2; min-width: 0; }
+.he-nav { grid-column: 1; grid-row: 1 / span 2; position: sticky; top: 1.5em; max-height: calc(100vh - 3em); overflow-y: auto; font-size: 0.85em; }
 .he-nav[hidden] { display: none; }
 .page__content .he-nav-title { margin: 0 0 0.6em; font-size: 0.8em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #777; }
 .page__content .he-nav ul { list-style: none; margin: 0; padding: 0; border-left: 2px solid #e3e6ea; }
@@ -63,10 +64,23 @@ author_profile: false
 .page__content .he-nav a:hover { background: #f4f2fb; color: #333; }
 .page__content .he-nav .he-nav-parent > a { color: #333; font-weight: 600; }
 .page__content .he-nav a.is-active { border-left-color: #6a4fc0; background: #efebfb; color: #46308c; font-weight: 600; }
+/* Quick sign-up box for people arriving from the flyer */
+.he-cta { display: flex; align-items: center; gap: 1.2em 2em; flex-wrap: wrap; margin: 0 0 1.6em; padding: 1em 1.2em; background: #efebfb; border-left: 4px solid #6a4fc0; border-radius: 0 8px 8px 0; }
+.he-cta[hidden] { display: none; }
+.he-cta-text { flex: 1 1 22em; min-width: 0; }
+.page__content .he-cta-title { margin: 0 0 0.2em; font-size: 1.05em; font-weight: 700; color: #46308c; }
+.page__content .he-cta-text p { margin: 0; font-size: 0.9em; line-height: 1.45; }
+.he-cta-action { flex: 0 0 auto; text-align: center; }
+.page__content a.he-cta-btn { display: inline-block; padding: 0.65em 1.4em; border-radius: 8px; background: #6a4fc0; color: #fff; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.page__content a.he-cta-btn:hover { background: #573fa6; color: #fff; }
+.page__content .he-cta-addr { margin: 0.45em 0 0; font-size: 0.75em; color: #666; }
 @media (max-width: 900px) {
   .he-layout { grid-template-columns: minmax(0, 1fr); }
-  .he-body { grid-column: 1; grid-row: 2; }
-  .he-nav { position: static; max-height: none; margin-bottom: 1.5em; padding: 0.9em 1em; background: #f7f7fa; border-radius: 8px; }
+  .he-cta-action { flex-basis: 100%; }
+  .page__content a.he-cta-btn { display: block; }
+  .he-head { grid-column: 1; grid-row: 1; }
+  .he-body { grid-column: 1; grid-row: 3; }
+  .he-nav { grid-column: 1; grid-row: 2; position: static; max-height: none; margin-bottom: 1.5em; padding: 0.9em 1em; background: #f7f7fa; border-radius: 8px; }
   .he-phases { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
@@ -135,12 +149,33 @@ author_profile: false
 <li><a href="#he-about-fr">À propos de la recherche</a></li>
 </ul>
 </nav>
-<div class="he-body" markdown="1">
-
+<div class="he-head">
 <div class="lang-switcher" id="he-top">
   <button id="btn-en" class="lang-btn active" onclick="setLang('en')">🇬🇧 English</button>
   <button id="btn-fr" class="lang-btn" onclick="setLang('fr')">🇫🇷 Français</button>
 </div>
+<div class="he-cta" id="he-cta-en">
+<div class="he-cta-text">
+<p class="he-cta-title">Want to take part?</p>
+<p>No need to read everything now: send me an email and I'll get back to you. You can read this guide later, before you start.</p>
+</div>
+<div class="he-cta-action">
+<a class="he-cta-btn" href="mailto:barbara.gendron@loria.fr?subject=Taking%20part%20in%20the%20human%20evaluation&amp;body=Hello%2C%0D%0A%0D%0AI%20would%20like%20to%20take%20part%20in%20the%20human%20evaluation.%0D%0A%0D%0A">I want to take part</a>
+<p class="he-cta-addr">or write to <a href="mailto:barbara.gendron@loria.fr">barbara.gendron@loria.fr</a></p>
+</div>
+</div>
+<div class="he-cta" id="he-cta-fr" hidden>
+<div class="he-cta-text">
+<p class="he-cta-title">Envie de participer ?</p>
+<p>Pas besoin de tout lire maintenant : envoyez-moi un e-mail et je reviendrai vers vous. Vous pourrez lire ce guide plus tard, avant de commencer.</p>
+</div>
+<div class="he-cta-action">
+<a class="he-cta-btn" href="mailto:barbara.gendron@loria.fr?subject=Participation%20%C3%A0%20l%27%C3%A9valuation%20humaine&amp;body=Bonjour%2C%0D%0A%0D%0AJe%20souhaite%20participer%20%C3%A0%20l%27%C3%A9valuation%20humaine.%0D%0A%0D%0A">Je veux participer</a>
+<p class="he-cta-addr">ou écrivez à <a href="mailto:barbara.gendron@loria.fr">barbara.gendron@loria.fr</a></p>
+</div>
+</div>
+</div>
+<div class="he-body" markdown="1">
 
 <div id="content-en" class="lang-content" markdown="1">
 
@@ -348,7 +383,7 @@ After the 12th choice, you can leave a comment if you wish, and then close the p
 
 ## Take part {#he-contact}
 
-If you'd like to take part, or if you have a question, [get in touch](mailto:barbara.gendron@loria.fr).
+If you'd like to take part, or if you have a question, <a href="mailto:barbara.gendron@loria.fr?subject=Taking%20part%20in%20the%20human%20evaluation&amp;body=Hello%2C%0D%0A%0D%0AI%20would%20like%20to%20take%20part%20in%20the%20human%20evaluation.%0D%0A%0D%0A">get in touch</a>.
 
 ## About the research {#he-about}
 
@@ -562,7 +597,7 @@ Après le 12e choix, vous pouvez laisser un commentaire si vous le souhaitez, pu
 
 ## Participer {#he-contact-fr}
 
-Si vous souhaitez participer, ou si vous avez une question, [contactez-moi](mailto:barbara.gendron@loria.fr).
+Si vous souhaitez participer, ou si vous avez une question, <a href="mailto:barbara.gendron@loria.fr?subject=Participation%20%C3%A0%20l%27%C3%A9valuation%20humaine&amp;body=Bonjour%2C%0D%0A%0D%0AJe%20souhaite%20participer%20%C3%A0%20l%27%C3%A9valuation%20humaine.%0D%0A%0D%0A">contactez-moi</a>.
 
 ## À propos de la recherche {#he-about-fr}
 
@@ -596,6 +631,8 @@ function setLang(lang) {
   document.getElementById('btn-fr').classList.toggle('active', lang === 'fr');
   document.getElementById('he-nav-en').hidden = (lang !== 'en');
   document.getElementById('he-nav-fr').hidden = (lang !== 'fr');
+  document.getElementById('he-cta-en').hidden = (lang !== 'en');
+  document.getElementById('he-cta-fr').hidden = (lang !== 'fr');
   heUpdateNav();
 }
 
