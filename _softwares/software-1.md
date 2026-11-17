@@ -3,6 +3,10 @@ layout: archive
 title: "ZSS: Zotero Similarity Selection"
 excerpt: "A semantic similarity tool for filtering large Zotero libraries using sentence embeddings."
 image: ../images/zss-logo-2.png
+logo: /images/zss-logo-2.png
+meta: "Python · Zotero"
+github: https://github.com/B-Gendron/zotero-similarity-selection
+order: 2
 collection: softwares
 ---
 
