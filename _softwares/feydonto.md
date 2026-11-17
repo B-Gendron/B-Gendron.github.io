@@ -1,41 +1,22 @@
 ---
-layout: single
+layout: software
 title: "FEYDOnto: An Aesthetic Ontology Visualizer"
 excerpt: "An ontology viewer for making figures you can put in papers and demos: choose exactly which classes, properties and individuals to draw, then export a clean SVG or PNG."
 logo: /images/feydonto-logo.png
 meta: "Web app · JavaScript · RDF/XML, OWL, Turtle, N-Triples"
 github: https://github.com/B-Gendron/feydonto
 order: 1
-author_profile: true
+author_profile: false
 collection: softwares
 ---
 
 <style>
-.fo-head { display: flex; align-items: center; gap: 1.5em; margin: 0 0 1.5em; }
-.fo-head img { width: 110px; height: auto; flex: 0 0 auto; }
-.fo-head p { margin: 0 0 0.6em; }
-.fo-links { display: flex; flex-wrap: wrap; gap: 0.5em; }
-.page__content .fo-links a {
-  display: inline-block; padding: 0.35em 0.9em; border-radius: 6px;
-  background: #333; color: #fff; font-size: 0.85em; text-decoration: none;
-}
-.page__content .fo-links a:hover { background: #000; }
 .fo-colors { display: inline-block; width: 0.8em; height: 0.8em; border-radius: 2px; vertical-align: -0.05em; margin-right: 0.3em; }
-@media (max-width: 600px) { .fo-head { flex-direction: column; align-items: flex-start; } }
 </style>
 
-{% include toc %}
+FEYDOnto is an ontology viewer built for **figures**. You open an ontology, tick exactly the classes, properties and individuals you want to show, adjust the layout and style, and export a clean SVG or PNG ready for a paper, a poster or a slide.
 
-<div class="fo-head">
-  <img src="{{ '/images/feydonto-logo.png' | relative_url }}" alt="FEYDOnto logo">
-  <div>
-    <p>FEYDOnto is an ontology viewer built for <strong>figures</strong>. You open an ontology, tick exactly the classes, properties and individuals you want to show, adjust the layout and style, and export a clean SVG or PNG ready for a paper, a poster or a slide.</p>
-    <p>The name stands for <strong>F</strong>igures <strong>E</strong>xactly as <strong>Y</strong>ou <strong>D</strong>esign them, from <strong>O</strong>ntologies. It is also the name of a very good cat.</p>
-    <div class="fo-links">
-      <a href="https://github.com/B-Gendron/feydonto" target="_blank" rel="noopener">View on GitHub</a>
-    </div>
-  </div>
-</div>
+The name stands for **F**igures **E**xactly as **Y**ou **D**esign them, from **O**ntologies. It is also the name of a very good cat.
 
 ## What it is for
 

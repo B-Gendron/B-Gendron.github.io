@@ -1,0 +1,73 @@
+---
+layout: default
+---
+{% comment %}
+  Software guide: full width, no author profile, table of contents on the left.
+  The table of contents is built from the page's level-2 headings (## ...).
+{% endcomment %}
+
+<div id="main" role="main">
+  <article class="page sw-page" itemscope itemtype="http://schema.org/SoftwareApplication">
+    <div class="sw-layout">
+
+      <nav class="sw-nav" aria-label="Page sections">
+        <a class="sw-back" href="{{ '/software/' | relative_url }}">← All software</a>
+        <p class="sw-nav-title">On this page</p>
+        <ul>
+          {% assign sections = content | split: '<h2 id="' %}
+          {% for section in sections offset: 1 %}
+            {% assign sec_id = section | split: '"' | first %}
+            {% assign sec_title = section | split: '</h2>' | first | remove_first: sec_id | remove_first: '">' | strip_html %}
+            <li><a href="#{{ sec_id }}">{{ sec_title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+
+      <div class="sw-main">
+        <header class="sw-header">
+          {% if page.logo %}<img class="sw-header-logo" src="{{ page.logo | relative_url }}" alt="">{% endif %}
+          <div>
+            <h1 class="page__title" itemprop="name">{{ page.title }}</h1>
+            {% if page.meta %}<p class="sw-meta">{{ page.meta }}</p>{% endif %}
+            <div class="sw-links">
+              {% if page.github %}<a class="sw-primary" href="{{ page.github }}" target="_blank" rel="noopener">View on GitHub</a>{% endif %}
+              {% if page.demo %}<a href="{{ page.demo }}" target="_blank" rel="noopener">Try it online</a>{% endif %}
+            </div>
+          </div>
+        </header>
+
+        <section class="page__content sw-content" itemprop="text">
+          {{ content }}
+        </section>
+      </div>
+
+    </div>
+  </article>
+</div>
+
+<script>
+// Highlight the section being read in the table of contents
+(function () {
+  var links = Array.prototype.slice.call(document.querySelectorAll('.sw-nav ul a'));
+  if (!links.length) return;
+  function update() {
+    var active = links[0];
+    links.forEach(function (a) {
+      var target = document.getElementById(a.getAttribute('href').slice(1));
+      if (target && target.getBoundingClientRect().top <= 120) active = a;
+    });
+    if (window.innerHeight + window.pageYOffset >= document.documentElement.scrollHeight - 2) {
+      active = links[links.length - 1];
+    }
+    links.forEach(function (a) { a.classList.toggle('is-active', a === active); });
+  }
+  var ticking = false;
+  window.addEventListener('scroll', function () {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(function () { update(); ticking = false; });
+  });
+  window.addEventListener('resize', update);
+  update();
+})();
+</script>
